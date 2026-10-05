@@ -1,0 +1,1012 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 400,
+  "height": 275,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "config": {
+    "background": "#fbfaf6",
+    "font": "Source Sans 3",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Source Sans 3",
+      "titleFont": "Source Sans 3",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": 500,
+      "titleColor": "#233c32",
+      "labelColor": "#52645b",
+      "domain": false,
+      "tickColor": "#cfcfc1",
+      "gridColor": "#e5e5dc",
+      "gridOpacity": 0.75,
+      "titlePadding": 12,
+      "labelPadding": 7
+    },
+    "legend": {
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": 500,
+      "orient": "bottom",
+      "labelColor": "#233c32",
+      "titleColor": "#233c32",
+      "padding": 5,
+      "offset": 12
+    },
+    "title": {
+      "fontSize": 14,
+      "anchor": "start",
+      "fontWeight": 500,
+      "color": "#233c32"
+    }
+  },
+  "description": "177 graphical count units from CtG16A.1, of which 45 represent strong languages. No language identity is assigned to a square.",
+  "data": {
+    "values": [
+      {
+        "column": 0,
+        "row": 0,
+        "status": "Strong"
+      },
+      {
+        "column": 1,
+        "row": 0,
+        "status": "Strong"
+      },
+      {
+        "column": 2,
+        "row": 0,
+        "status": "Strong"
+      },
+      {
+        "column": 3,
+        "row": 0,
+        "status": "Strong"
+      },
+      {
+        "column": 4,
+        "row": 0,
+        "status": "Strong"
+      },
+      {
+        "column": 5,
+        "row": 0,
+        "status": "Strong"
+      },
+      {
+        "column": 6,
+        "row": 0,
+        "status": "Strong"
+      },
+      {
+        "column": 7,
+        "row": 0,
+        "status": "Strong"
+      },
+      {
+        "column": 8,
+        "row": 0,
+        "status": "Strong"
+      },
+      {
+        "column": 9,
+        "row": 0,
+        "status": "Strong"
+      },
+      {
+        "column": 10,
+        "row": 0,
+        "status": "Strong"
+      },
+      {
+        "column": 11,
+        "row": 0,
+        "status": "Strong"
+      },
+      {
+        "column": 12,
+        "row": 0,
+        "status": "Strong"
+      },
+      {
+        "column": 13,
+        "row": 0,
+        "status": "Strong"
+      },
+      {
+        "column": 14,
+        "row": 0,
+        "status": "Strong"
+      },
+      {
+        "column": 0,
+        "row": 1,
+        "status": "Strong"
+      },
+      {
+        "column": 1,
+        "row": 1,
+        "status": "Strong"
+      },
+      {
+        "column": 2,
+        "row": 1,
+        "status": "Strong"
+      },
+      {
+        "column": 3,
+        "row": 1,
+        "status": "Strong"
+      },
+      {
+        "column": 4,
+        "row": 1,
+        "status": "Strong"
+      },
+      {
+        "column": 5,
+        "row": 1,
+        "status": "Strong"
+      },
+      {
+        "column": 6,
+        "row": 1,
+        "status": "Strong"
+      },
+      {
+        "column": 7,
+        "row": 1,
+        "status": "Strong"
+      },
+      {
+        "column": 8,
+        "row": 1,
+        "status": "Strong"
+      },
+      {
+        "column": 9,
+        "row": 1,
+        "status": "Strong"
+      },
+      {
+        "column": 10,
+        "row": 1,
+        "status": "Strong"
+      },
+      {
+        "column": 11,
+        "row": 1,
+        "status": "Strong"
+      },
+      {
+        "column": 12,
+        "row": 1,
+        "status": "Strong"
+      },
+      {
+        "column": 13,
+        "row": 1,
+        "status": "Strong"
+      },
+      {
+        "column": 14,
+        "row": 1,
+        "status": "Strong"
+      },
+      {
+        "column": 0,
+        "row": 2,
+        "status": "Strong"
+      },
+      {
+        "column": 1,
+        "row": 2,
+        "status": "Strong"
+      },
+      {
+        "column": 2,
+        "row": 2,
+        "status": "Strong"
+      },
+      {
+        "column": 3,
+        "row": 2,
+        "status": "Strong"
+      },
+      {
+        "column": 4,
+        "row": 2,
+        "status": "Strong"
+      },
+      {
+        "column": 5,
+        "row": 2,
+        "status": "Strong"
+      },
+      {
+        "column": 6,
+        "row": 2,
+        "status": "Strong"
+      },
+      {
+        "column": 7,
+        "row": 2,
+        "status": "Strong"
+      },
+      {
+        "column": 8,
+        "row": 2,
+        "status": "Strong"
+      },
+      {
+        "column": 9,
+        "row": 2,
+        "status": "Strong"
+      },
+      {
+        "column": 10,
+        "row": 2,
+        "status": "Strong"
+      },
+      {
+        "column": 11,
+        "row": 2,
+        "status": "Strong"
+      },
+      {
+        "column": 12,
+        "row": 2,
+        "status": "Strong"
+      },
+      {
+        "column": 13,
+        "row": 2,
+        "status": "Strong"
+      },
+      {
+        "column": 14,
+        "row": 2,
+        "status": "Strong"
+      },
+      {
+        "column": 0,
+        "row": 3,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 1,
+        "row": 3,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 2,
+        "row": 3,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 3,
+        "row": 3,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 4,
+        "row": 3,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 5,
+        "row": 3,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 6,
+        "row": 3,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 7,
+        "row": 3,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 8,
+        "row": 3,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 9,
+        "row": 3,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 10,
+        "row": 3,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 11,
+        "row": 3,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 12,
+        "row": 3,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 13,
+        "row": 3,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 14,
+        "row": 3,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 0,
+        "row": 4,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 1,
+        "row": 4,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 2,
+        "row": 4,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 3,
+        "row": 4,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 4,
+        "row": 4,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 5,
+        "row": 4,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 6,
+        "row": 4,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 7,
+        "row": 4,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 8,
+        "row": 4,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 9,
+        "row": 4,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 10,
+        "row": 4,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 11,
+        "row": 4,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 12,
+        "row": 4,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 13,
+        "row": 4,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 14,
+        "row": 4,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 0,
+        "row": 5,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 1,
+        "row": 5,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 2,
+        "row": 5,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 3,
+        "row": 5,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 4,
+        "row": 5,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 5,
+        "row": 5,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 6,
+        "row": 5,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 7,
+        "row": 5,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 8,
+        "row": 5,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 9,
+        "row": 5,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 10,
+        "row": 5,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 11,
+        "row": 5,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 12,
+        "row": 5,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 13,
+        "row": 5,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 14,
+        "row": 5,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 0,
+        "row": 6,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 1,
+        "row": 6,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 2,
+        "row": 6,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 3,
+        "row": 6,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 4,
+        "row": 6,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 5,
+        "row": 6,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 6,
+        "row": 6,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 7,
+        "row": 6,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 8,
+        "row": 6,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 9,
+        "row": 6,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 10,
+        "row": 6,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 11,
+        "row": 6,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 12,
+        "row": 6,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 13,
+        "row": 6,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 14,
+        "row": 6,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 0,
+        "row": 7,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 1,
+        "row": 7,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 2,
+        "row": 7,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 3,
+        "row": 7,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 4,
+        "row": 7,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 5,
+        "row": 7,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 6,
+        "row": 7,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 7,
+        "row": 7,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 8,
+        "row": 7,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 9,
+        "row": 7,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 10,
+        "row": 7,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 11,
+        "row": 7,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 12,
+        "row": 7,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 13,
+        "row": 7,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 14,
+        "row": 7,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 0,
+        "row": 8,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 1,
+        "row": 8,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 2,
+        "row": 8,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 3,
+        "row": 8,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 4,
+        "row": 8,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 5,
+        "row": 8,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 6,
+        "row": 8,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 7,
+        "row": 8,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 8,
+        "row": 8,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 9,
+        "row": 8,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 10,
+        "row": 8,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 11,
+        "row": 8,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 12,
+        "row": 8,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 13,
+        "row": 8,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 14,
+        "row": 8,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 0,
+        "row": 9,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 1,
+        "row": 9,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 2,
+        "row": 9,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 3,
+        "row": 9,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 4,
+        "row": 9,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 5,
+        "row": 9,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 6,
+        "row": 9,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 7,
+        "row": 9,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 8,
+        "row": 9,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 9,
+        "row": 9,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 10,
+        "row": 9,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 11,
+        "row": 9,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 12,
+        "row": 9,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 13,
+        "row": 9,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 14,
+        "row": 9,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 0,
+        "row": 10,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 1,
+        "row": 10,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 2,
+        "row": 10,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 3,
+        "row": 10,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 4,
+        "row": 10,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 5,
+        "row": 10,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 6,
+        "row": 10,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 7,
+        "row": 10,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 8,
+        "row": 10,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 9,
+        "row": 10,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 10,
+        "row": 10,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 11,
+        "row": 10,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 12,
+        "row": 10,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 13,
+        "row": 10,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 14,
+        "row": 10,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 0,
+        "row": 11,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 1,
+        "row": 11,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 2,
+        "row": 11,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 3,
+        "row": 11,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 4,
+        "row": 11,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 5,
+        "row": 11,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 6,
+        "row": 11,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 7,
+        "row": 11,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 8,
+        "row": 11,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 9,
+        "row": 11,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 10,
+        "row": 11,
+        "status": "Not categorised as strong"
+      },
+      {
+        "column": 11,
+        "row": 11,
+        "status": "Not categorised as strong"
+      }
+    ]
+  },
+  "mark": {
+    "type": "point",
+    "shape": "square",
+    "filled": true,
+    "size": 240,
+    "stroke": "#fbfaf6",
+    "strokeWidth": 1
+  },
+  "encoding": {
+    "x": {
+      "field": "column",
+      "type": "ordinal",
+      "sort": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "axis": null
+    },
+    "y": {
+      "field": "row",
+      "type": "ordinal",
+      "sort": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "axis": null
+    },
+    "color": {
+      "field": "status",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Strong",
+          "Not categorised as strong"
+        ],
+        "range": [
+          "#236652",
+          "#dcded2"
+        ]
+      },
+      "legend": {
+        "title": "One square = one language count unit"
+      }
+    },
+    "tooltip": [
+      {
+        "field": "status",
+        "type": "nominal",
+        "title": "NILS4 count group"
+      }
+    ]
+  }
+}

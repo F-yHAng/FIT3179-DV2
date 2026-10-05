@@ -1,0 +1,90 @@
+[
+  {
+    "year": 2021,
+    "state_code": "1",
+    "state": "New South Wales",
+    "short": "NSW",
+    "users": 5196,
+    "population": 278043,
+    "percent": 1.9,
+    "lon": 147.0143361767789,
+    "lat": -32.175840712240365
+  },
+  {
+    "year": 2021,
+    "state_code": "2",
+    "state": "Victoria",
+    "short": "VIC",
+    "users": 1010,
+    "population": 65646,
+    "percent": 1.5,
+    "lon": 143.3790825195312,
+    "lat": -36.984385253906254
+  },
+  {
+    "year": 2021,
+    "state_code": "3",
+    "state": "Queensland",
+    "short": "QLD",
+    "users": 19018,
+    "population": 237303,
+    "percent": 8,
+    "lon": 144.45579296875,
+    "lat": -22.807074218749996
+  },
+  {
+    "year": 2021,
+    "state_code": "4",
+    "state": "South Australia",
+    "short": "SA",
+    "users": 4305,
+    "population": 42562,
+    "percent": 10.1,
+    "lon": 135.95678124999998,
+    "lat": -29.895593749999993
+  },
+  {
+    "year": 2021,
+    "state_code": "5",
+    "state": "Western Australia",
+    "short": "WA",
+    "users": 11213,
+    "population": 88693,
+    "percent": 12.6,
+    "lon": 122.30710156250001,
+    "lat": -25.7635546875
+  },
+  {
+    "year": 2021,
+    "state_code": "6",
+    "state": "Tasmania",
+    "short": "TAS",
+    "users": 178,
+    "population": 30186,
+    "percent": 0.6,
+    "lon": 146.5706162109375,
+    "lat": -42.053069335937494
+  },
+  {
+    "year": 2021,
+    "state_code": "7",
+    "state": "Northern Territory",
+    "short": "NT",
+    "users": 35782,
+    "population": 61115,
+    "percent": 58.5,
+    "lon": 133.36918969957588,
+    "lat": -19.478875862965403
+  },
+  {
+    "year": 2021,
+    "state_code": "8",
+    "state": "Australian Capital Territory",
+    "short": "ACT",
+    "users": 258,
+    "population": 8949,
+    "percent": 2.9,
+    "lon": 148.97972265625,
+    "lat": -35.46680859375001
+  }
+]

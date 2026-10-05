@@ -1,0 +1,260 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "ABS classification groups and named categories with positive 2021 home use. A classification hierarchy, not a genealogical tree.",
+  "width": 600,
+  "height": 425,
+  "padding": 2,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "background": "#fbfaf6",
+  "signals": [
+    {
+      "name": "hover",
+      "value": null,
+      "on": [
+        {
+          "events": "@leaf_rects:pointerover",
+          "update": "datum.id"
+        },
+        {
+          "events": "@leaf_rects:pointerout",
+          "update": "null"
+        }
+      ]
+    }
+  ],
+  "data": [
+    {
+      "name": "tree",
+      "url": "language-tree.json",
+      "transform": [
+        {
+          "type": "stratify",
+          "key": "id",
+          "parentKey": "parent"
+        },
+        {
+          "type": "treemap",
+          "field": "value",
+          "sort": {
+            "field": "value",
+            "order": "descending"
+          },
+          "method": "squarify",
+          "paddingInner": 3,
+          "paddingOuter": 3,
+          "paddingTop": 21,
+          "size": [
+            {
+              "signal": "width"
+            },
+            {
+              "signal": "height"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "leaves",
+      "source": "tree",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum.depth === 2"
+        }
+      ]
+    },
+    {
+      "name": "groups",
+      "source": "tree",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum.depth === 1"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "colour",
+      "type": "ordinal",
+      "domain": [
+        "Arnhem & Daly",
+        "Yolngu Matha",
+        "Cape York",
+        "Torres Strait",
+        "Northern Desert Fringe",
+        "Arandic",
+        "Western Desert",
+        "Kimberley",
+        "Other ABS categories"
+      ],
+      "range": [
+        "#236652",
+        "#80593d",
+        "#405f8b",
+        "#4f7354",
+        "#805d79",
+        "#7f682e",
+        "#416367",
+        "#88574f",
+        "#5d623f"
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "name": "leaf_rects",
+      "type": "rect",
+      "from": {
+        "data": "leaves"
+      },
+      "encode": {
+        "enter": {
+          "fill": {
+            "scale": "colour",
+            "field": "group"
+          },
+          "tooltip": {
+            "signal": "{'Named category':datum.name, 'ABS group':datum.group,'Indigenous home users (2021)':format(datum.value, ',')}"
+          }
+        },
+        "update": {
+          "x": {
+            "field": "x0"
+          },
+          "y": {
+            "field": "y0"
+          },
+          "x2": {
+            "field": "x1"
+          },
+          "y2": {
+            "field": "y1"
+          },
+          "stroke": {
+            "signal": "hover === datum.id ? '#102e22' : '#fbfaf6'"
+          },
+          "strokeWidth": {
+            "signal": "hover === datum.id ? 2 : 0.5"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "groups"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "field": "x0",
+            "offset": 4
+          },
+          "y": {
+            "field": "y0",
+            "offset": 13
+          },
+          "text": {
+            "field": "label"
+          },
+          "limit": {
+            "signal": "datum.x1-datum.x0-7"
+          },
+          "font": {
+            "value": "Source Sans 3"
+          },
+          "fontSize": {
+            "value": 12
+          },
+          "fontWeight": {
+            "value": 600
+          },
+          "fill": {
+            "value": "#233c32"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "leaves"
+      },
+      "encode": {
+        "enter": {
+          "align": {
+            "value": "center"
+          },
+          "baseline": {
+            "value": "middle"
+          },
+          "fill": {
+            "value": "white"
+          },
+          "font": {
+            "value": "Source Sans 3"
+          },
+          "fontSize": {
+            "value": 12
+          },
+          "limit": {
+            "signal": "datum.x1-datum.x0-8"
+          }
+        },
+        "update": {
+          "x": {
+            "signal": "(datum.x0+datum.x1)/2"
+          },
+          "y": {
+            "signal": "(datum.y0+datum.y1)/2-7"
+          },
+          "text": {
+            "signal": "datum.x1-datum.x0 > 76 && datum.y1-datum.y0 > 34 ? datum.label : ''"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "leaves"
+      },
+      "encode": {
+        "enter": {
+          "align": {
+            "value": "center"
+          },
+          "baseline": {
+            "value": "middle"
+          },
+          "fill": {
+            "value": "white"
+          },
+          "font": {
+            "value": "Source Sans 3"
+          },
+          "fontSize": {
+            "value": 11
+          }
+        },
+        "update": {
+          "x": {
+            "signal": "(datum.x0+datum.x1)/2"
+          },
+          "y": {
+            "signal": "(datum.y0+datum.y1)/2+8"
+          },
+          "text": {
+            "signal": "datum.x1-datum.x0 > 76 && datum.y1-datum.y0 > 34 ? format(datum.value, ',') : ''"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 600,
+  "height": 350,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "config": {
+    "background": "#fbfaf6",
+    "font": "Source Sans 3",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Source Sans 3",
+      "titleFont": "Source Sans 3",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": 500,
+      "titleColor": "#233c32",
+      "labelColor": "#52645b",
+      "domain": false,
+      "tickColor": "#cfcfc1",
+      "gridColor": "#e5e5dc",
+      "gridOpacity": 0.75,
+      "titlePadding": 12,
+      "labelPadding": 7
+    },
+    "legend": {
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": 500,
+      "orient": "bottom",
+      "labelColor": "#233c32",
+      "titleColor": "#233c32",
+      "padding": 5,
+      "offset": 12
+    },
+    "title": {
+      "fontSize": 14,
+      "anchor": "start",
+      "fontWeight": 500,
+      "color": "#233c32"
+    }
+  },
+  "description": "2006–2021 changes in Census home-use share. Leader lines move labels only; actual points retain true percentages.",
+  "data": {
+    "url": "slope.json"
+  },
+  "encoding": {
+    "x": {
+      "field": "end",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          -0.34,
+          1.34
+        ]
+      },
+      "axis": {
+        "title": null,
+        "values": [
+          0,
+          1
+        ],
+        "labelExpr": "datum.value === 0 ? '2006' : '2021'",
+        "grid": false,
+        "labelFontWeight": 600
+      }
+    },
+    "y": {
+      "field": "percent",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          0,
+          65
+        ]
+      },
+      "axis": {
+        "title": "Indigenous residents (%)",
+        "values": [
+          0,
+          20,
+          40,
+          60
+        ]
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "detail": {
+          "field": "state",
+          "type": "nominal"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.short === 'NT' || datum.short === 'NSW'",
+            "value": "#236652"
+          },
+          "value": "#9daca0"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 65
+      },
+      "encoding": {
+        "color": {
+          "condition": {
+            "test": "datum.short === 'NT' || datum.short === 'NSW'",
+            "value": "#236652"
+          },
+          "value": "#9daca0"
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "State / territory"
+          },
+          {
+            "field": "year",
+            "type": "quantitative",
+            "title": "Census",
+            "format": "d"
+          },
+          {
+            "field": "percent",
+            "type": "quantitative",
+            "title": "Indigenous residents (%)",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "calculate": "datum.end === 0 ? -.075 : 1.075",
+          "as": "label_x"
+        }
+      ],
+      "mark": {
+        "type": "rule",
+        "color": "#a8b3a8",
+        "strokeWidth": 0.7
+      },
+      "encoding": {
+        "x2": {
+          "field": "label_x"
+        },
+        "y2": {
+          "field": "label_percent"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.end === 0"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -8,
+        "fontSize": 12,
+        "color": "#233c32"
+      },
+      "encoding": {
+        "x": {
+          "datum": -0.075
+        },
+        "y": {
+          "field": "label_percent",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.end === 1"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8,
+        "fontSize": 12,
+        "color": "#233c32"
+      },
+      "encoding": {
+        "x": {
+          "datum": 1.075
+        },
+        "y": {
+          "field": "label_percent",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
+    }
+  ]
+}

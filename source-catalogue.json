@@ -1,0 +1,116 @@
+[
+  {
+    "id": "ABS_LANGUAGE_2021",
+    "creator": "Australian Bureau of Statistics",
+    "landing_url": "https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/2021",
+    "reference_period": "Census 1991–2021",
+    "release_date": "2022-10-25",
+    "retrieved_date": "2026-10-05",
+    "licence": "CC BY 4.0, subject to ABS exceptions",
+    "licence_url": "https://www.abs.gov.au/website-privacy-copyright-and-disclaimer",
+    "raw_files": [
+      {
+        "file": "abs_Language_speakers.xlsx",
+        "url": "https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/2021/Language%20speakers.xlsx",
+        "bytes": 162679,
+        "sha256": "fecc34d83c93a25a7f74966972fcdf15adddd288dd8771d30737f6ede25a846c"
+      },
+      {
+        "file": "abs_Language_speakers_by_State_Territory_and_Indigenous_location.xlsx",
+        "url": "https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/2021/Language%20speakers%20by%20State%20Territory%20and%20Indigenous%20location.xlsx",
+        "bytes": 1968345,
+        "sha256": "4dfb299b02c0198bd666f423e347c20455365d5a72d3cf759f39a2ed17dfad67"
+      },
+      {
+        "file": "abs_Language_learning.xlsx",
+        "url": "https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/2021/Language%20learning.xlsx",
+        "bytes": 79943,
+        "sha256": "50012cfb2ca4648193292cbdcd26e497fe267d1e8cf79c672c9a4bb8ebea14c0"
+      }
+    ]
+  },
+  {
+    "id": "PC_CTG16_2026",
+    "publisher": "Productivity Commission",
+    "creators_by_table": {
+      "CtG16A.1": "AIATSIS National Indigenous Languages Survey / Report",
+      "SE16d.2–SE16d.3": "ABS NATSIHS 2022–23",
+      "SE16e.1–SE16e.2": "Federal department SmartyGrants"
+    },
+    "landing_url": "https://www.pc.gov.au/closing-the-gap-data/dashboard/outcome-area/culture-and-languages/",
+    "release_date": "2026-07-29",
+    "reference_period": "NILS4 2025–26; NATSIHS 2022–23; centres to June 2025",
+    "retrieved_date": "2026-10-05",
+    "licence": "PC material CC BY 4.0; third-party exceptions must retain original attribution",
+    "licence_url": "https://www.pc.gov.au/copyright/",
+    "raw_files": [
+      {
+        "file": "pc_ctg16_2026.csv",
+        "url": "https://assets.pc.gov.au/2026-07/ctg-202607-ctg16-culture-language-dataset.csv?VersionId=wKfOVVsy6nvQrvNvoPTzySjlxT5BoPcb",
+        "bytes": 190986,
+        "sha256": "c47b91eefc180bdd4e1fc52a1ec898c2cbaf1ffcace06724fd7a1bb6f2adebbd"
+      },
+      {
+        "file": "pc_ctg16_2026.xlsx",
+        "url": "https://assets.pc.gov.au/2026-07/ctg-202607-ctg16-culture-language-data-tables.xlsx?VersionId=5AMEmsuNVvjYwT4ks1REM5OJdZduXqQ5",
+        "bytes": 66548,
+        "sha256": "ab8cf00fa7e2ccea72d65e4c782aa3e28e7a45031b5a8fd15ff6b7397034a419"
+      }
+    ]
+  },
+  {
+    "id": "ABS_STATES_2021",
+    "creator": "Australian Bureau of Statistics",
+    "landing_url": "https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs/edition-3-july-2021-june-2026/access-and-downloads/digital-boundary-files",
+    "reference_period": "ASGS Edition 3, 2021 states/territories",
+    "retrieved_date": "2026-10-05",
+    "licence": "CC BY 4.0, subject to ABS exceptions",
+    "licence_url": "https://www.abs.gov.au/website-privacy-copyright-and-disclaimer",
+    "transform": "Mapshaper filter code<9, weighted 1% simplification keep-shapes, clean, GeoJSON precision 0.001; inner anchors",
+    "raw_files": [
+      {
+        "file": "STE_2021_AUST_SHP_GDA2020.zip",
+        "url": "https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs/edition-3-july-2021-june-2026/access-and-downloads/digital-boundary-files/STE_2021_AUST_SHP_GDA2020.zip",
+        "bytes": 21559880,
+        "sha256": "d9b7f735de6085b37414faf011f796dda3c7f768c55e9dce01f96e790f399a21"
+      }
+    ]
+  },
+  {
+    "id": "ILA_SPATIAL_LOCATIONS",
+    "creator": "Department of Infrastructure, Transport, Regional Development, Communications, Sport and the Arts",
+    "landing_url": "https://www.arts.gov.au/funding-and-support/indigenous-languages-and-arts-program",
+    "layer_url": "https://spatial.infrastructure.gov.au/server/rest/services/Hosted/Indigenous_Languages_Centres/FeatureServer/15",
+    "retrieved_date": "2026-10-05",
+    "layer_edit_date": "2024-11-18",
+    "licence": "CC BY 4.0; indicative, may be incomplete or outdated",
+    "licence_evidence": "ila_portal_item.json: licenseInfo",
+    "licence_url": "https://spatial.infrastructure.gov.au/portal/sharing/rest/content/items/e0fc8c04802648c79db2f8072c3708a2?f=pjson",
+    "raw_files": [
+      {
+        "file": "ila_centres.geojson",
+        "url": "https://spatial.infrastructure.gov.au/server/rest/services/Hosted/Indigenous_Languages_Centres/FeatureServer/15/query?where=1%3D1&outFields=language_centre_name,website,latitude,longitude,objectid&returnGeometry=true&outSR=4326&f=geojson",
+        "bytes": 69495,
+        "sha256": "13a082b264cad186cb1cf719f029b8be2f9545d3d8f7e745b3a4b3ae9129048a"
+      },
+      {
+        "file": "ila_centres_layer.json",
+        "url": "https://spatial.infrastructure.gov.au/server/rest/services/Hosted/Indigenous_Languages_Centres/FeatureServer/15?f=pjson",
+        "bytes": 38313,
+        "sha256": "060d264317efe021e07ded45f240347742246f0fff915f5018aae053abcbb3ca"
+      },
+      {
+        "file": "ila_centres_service.json",
+        "url": "https://spatial.infrastructure.gov.au/server/rest/services/Hosted/Indigenous_Languages_Centres/FeatureServer?f=pjson",
+        "bytes": 2145,
+        "sha256": "8fd04909b0696f6d252b94f5df495e132d7b6cbc6da797ed2173a81bd7399b71"
+      },
+      {
+        "file": "ila_portal_item.json",
+        "url": "https://spatial.infrastructure.gov.au/portal/sharing/rest/content/items/e0fc8c04802648c79db2f8072c3708a2?f=pjson",
+        "bytes": 10019,
+        "sha256": "9bc62dba169d490f5d8f26d95f49132bbdd00a2d2d4914ad90e1138275a93e2d"
+      }
+    ]
+  }
+]

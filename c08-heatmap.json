@@ -1,0 +1,178 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 600,
+  "height": 390,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "config": {
+    "background": "#fbfaf6",
+    "font": "Source Sans 3",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Source Sans 3",
+      "titleFont": "Source Sans 3",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": 500,
+      "titleColor": "#233c32",
+      "labelColor": "#52645b",
+      "domain": false,
+      "tickColor": "#cfcfc1",
+      "gridColor": "#e5e5dc",
+      "gridOpacity": 0.75,
+      "titlePadding": 12,
+      "labelPadding": 7
+    },
+    "legend": {
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": 500,
+      "orient": "bottom",
+      "labelColor": "#233c32",
+      "titleColor": "#233c32",
+      "padding": 5,
+      "offset": 12
+    },
+    "title": {
+      "fontSize": 14,
+      "anchor": "start",
+      "fontWeight": 500,
+      "color": "#233c32"
+    }
+  },
+  "padding": {
+    "left": 18,
+    "right": 5,
+    "top": 5,
+    "bottom": 5
+  },
+  "description": "Age composition of the 12 largest named categories in Census 2021. Denominator: sum of five age cells within each category.",
+  "data": {
+    "url": "heatmap.json"
+  },
+  "encoding": {
+    "x": {
+      "field": "age",
+      "type": "ordinal",
+      "sort": [
+        "0–14",
+        "15–24",
+        "25–44",
+        "45–64",
+        "65+"
+      ],
+      "axis": {
+        "orient": "top",
+        "title": null,
+        "labelAngle": 0
+      }
+    },
+    "y": {
+      "field": "label",
+      "type": "ordinal",
+      "sort": [
+        "Yumplatok",
+        "Kriol",
+        "Djambarrpuyngu",
+        "Pitjantjatjara",
+        "Warlpiri",
+        "Murrinh Patha",
+        "Tiwi",
+        "Alyawarr",
+        "Anindilyakwa",
+        "Kunwinjku",
+        "Wiradjuri",
+        "Nyungar"
+      ],
+      "axis": {
+        "title": null,
+        "labelLimit": 110,
+        "ticks": false,
+        "labelFontSize": 12
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rect",
+        "stroke": "#fbfaf6",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "color": {
+          "field": "percent",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              50
+            ],
+            "range": [
+              "#ebefdf",
+              "#236652"
+            ]
+          },
+          "legend": {
+            "title": "Within-category share (%)",
+            "gradientLength": 220
+          }
+        },
+        "tooltip": [
+          {
+            "field": "name",
+            "type": "nominal",
+            "title": "Named category"
+          },
+          {
+            "field": "age",
+            "type": "nominal",
+            "title": "Age"
+          },
+          {
+            "field": "users",
+            "type": "quantitative",
+            "title": "Age-cell home users",
+            "format": ",.0f"
+          },
+          {
+            "field": "age_sum",
+            "type": "quantitative",
+            "title": "Sum of age cells",
+            "format": ",.0f"
+          },
+          {
+            "field": "percent",
+            "type": "quantitative",
+            "title": "Share of age cells (%)",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 12
+      },
+      "encoding": {
+        "text": {
+          "field": "percent",
+          "type": "quantitative",
+          "format": ".0f"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.percent > 34",
+            "value": "white"
+          },
+          "value": "#233c32"
+        }
+      }
+    }
+  ]
+}

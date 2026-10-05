@@ -1,0 +1,279 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 600,
+  "autosize": {
+    "type": "pad"
+  },
+  "config": {
+    "background": "#fbfaf6",
+    "font": "Source Sans 3",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Source Sans 3",
+      "titleFont": "Source Sans 3",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": 500,
+      "titleColor": "#233c32",
+      "labelColor": "#52645b",
+      "domain": false,
+      "tickColor": "#cfcfc1",
+      "gridColor": "#e5e5dc",
+      "gridOpacity": 0.75,
+      "titlePadding": 12,
+      "labelPadding": 7
+    },
+    "legend": {
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": 500,
+      "orient": "bottom",
+      "labelColor": "#233c32",
+      "titleColor": "#233c32",
+      "padding": 5,
+      "offset": 12
+    },
+    "title": {
+      "fontSize": 14,
+      "anchor": "start",
+      "fontWeight": 500,
+      "color": "#233c32"
+    }
+  },
+  "description": "Census home-use count and population share, 1991–2021. Two panels with separate units; one chart.",
+  "data": {
+    "url": "national.json"
+  },
+  "vconcat": [
+    {
+      "width": 600,
+      "height": 155,
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              1990,
+              2024
+            ]
+          },
+          "axis": {
+            "title": null,
+            "values": [
+              1991,
+              1996,
+              2001,
+              2006,
+              2011,
+              2016,
+              2021
+            ],
+            "format": "d",
+            "grid": false,
+            "labelAngle": 0
+          }
+        },
+        "y": {
+          "field": "users",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              85000
+            ]
+          },
+          "axis": {
+            "title": "Recorded home users",
+            "tickCount": 4
+          }
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "line",
+            "color": "#236652",
+            "strokeWidth": 2.5
+          }
+        },
+        {
+          "mark": {
+            "type": "point",
+            "filled": true,
+            "color": "#236652",
+            "size": 55
+          },
+          "encoding": {
+            "tooltip": [
+              {
+                "field": "year",
+                "type": "quantitative",
+                "title": "Census",
+                "format": "d"
+              },
+              {
+                "field": "users",
+                "type": "quantitative",
+                "title": "Indigenous home users",
+                "format": ",.0f"
+              },
+              {
+                "field": "percent",
+                "type": "quantitative",
+                "title": "Indigenous residents (%)",
+                "format": ".1f"
+              },
+              {
+                "field": "population",
+                "type": "quantitative",
+                "title": "Indigenous residents",
+                "format": ",.0f"
+              }
+            ]
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "datum.year === 1991 || datum.year === 2021"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "dy": -13,
+            "fontSize": 13,
+            "fontWeight": 600,
+            "color": "#236652"
+          },
+          "encoding": {
+            "text": {
+              "field": "users",
+              "type": "quantitative",
+              "format": ",.0f"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "width": 600,
+      "height": 155,
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              1990,
+              2024
+            ]
+          },
+          "axis": {
+            "title": null,
+            "values": [
+              1991,
+              1996,
+              2001,
+              2006,
+              2011,
+              2016,
+              2021
+            ],
+            "format": "d",
+            "grid": false,
+            "labelAngle": 0
+          }
+        },
+        "y": {
+          "field": "percent",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              20
+            ]
+          },
+          "axis": {
+            "title": "Share of Indigenous residents (%)",
+            "tickCount": 4
+          }
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "line",
+            "color": "#ae503d",
+            "strokeWidth": 2.5
+          }
+        },
+        {
+          "mark": {
+            "type": "point",
+            "filled": true,
+            "color": "#ae503d",
+            "size": 55
+          },
+          "encoding": {
+            "tooltip": [
+              {
+                "field": "year",
+                "type": "quantitative",
+                "title": "Census",
+                "format": "d"
+              },
+              {
+                "field": "users",
+                "type": "quantitative",
+                "title": "Indigenous home users",
+                "format": ",.0f"
+              },
+              {
+                "field": "percent",
+                "type": "quantitative",
+                "title": "Indigenous residents (%)",
+                "format": ".1f"
+              },
+              {
+                "field": "population",
+                "type": "quantitative",
+                "title": "Indigenous residents",
+                "format": ",.0f"
+              }
+            ]
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "datum.year === 1991 || datum.year === 2021"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "dy": -13,
+            "fontSize": 13,
+            "fontWeight": 600,
+            "color": "#ae503d"
+          },
+          "encoding": {
+            "text": {
+              "field": "percent",
+              "type": "quantitative",
+              "format": ".1f"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "spacing": 28,
+  "resolve": {
+    "scale": {
+      "y": "independent"
+    }
+  }
+}

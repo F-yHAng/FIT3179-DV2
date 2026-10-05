@@ -1,0 +1,122 @@
+[
+  {
+    "year": 2006,
+    "age": "0–14",
+    "users": 16958,
+    "percent": 32.6
+  },
+  {
+    "year": 2006,
+    "age": "15–24",
+    "users": 10123,
+    "percent": 19.5
+  },
+  {
+    "year": 2006,
+    "age": "25–44",
+    "users": 15287,
+    "percent": 29.4
+  },
+  {
+    "year": 2006,
+    "age": "45–64",
+    "users": 7369,
+    "percent": 14.2
+  },
+  {
+    "year": 2006,
+    "age": "65+",
+    "users": 2251,
+    "percent": 4.3
+  },
+  {
+    "year": 2011,
+    "age": "0–14",
+    "users": 19090,
+    "percent": 31.5
+  },
+  {
+    "year": 2011,
+    "age": "15–24",
+    "users": 11505,
+    "percent": 19
+  },
+  {
+    "year": 2011,
+    "age": "25–44",
+    "users": 17885,
+    "percent": 29.5
+  },
+  {
+    "year": 2011,
+    "age": "45–64",
+    "users": 9504,
+    "percent": 15.7
+  },
+  {
+    "year": 2011,
+    "age": "65+",
+    "users": 2569,
+    "percent": 4.2
+  },
+  {
+    "year": 2016,
+    "age": "0–14",
+    "users": 18720,
+    "percent": 29.4
+  },
+  {
+    "year": 2016,
+    "age": "15–24",
+    "users": 11651,
+    "percent": 18.3
+  },
+  {
+    "year": 2016,
+    "age": "25–44",
+    "users": 18740,
+    "percent": 29.4
+  },
+  {
+    "year": 2016,
+    "age": "45–64",
+    "users": 11699,
+    "percent": 18.4
+  },
+  {
+    "year": 2016,
+    "age": "65+",
+    "users": 2934,
+    "percent": 4.6
+  },
+  {
+    "year": 2021,
+    "age": "0–14",
+    "users": 21592,
+    "percent": 28
+  },
+  {
+    "year": 2021,
+    "age": "15–24",
+    "users": 13936,
+    "percent": 18.1
+  },
+  {
+    "year": 2021,
+    "age": "25–44",
+    "users": 22972,
+    "percent": 29.8
+  },
+  {
+    "year": 2021,
+    "age": "45–64",
+    "users": 14595,
+    "percent": 19
+  },
+  {
+    "year": 2021,
+    "age": "65+",
+    "users": 3883,
+    "percent": 5
+  }
+]

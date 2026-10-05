@@ -1,0 +1,20 @@
+[
+  {
+    "file": "vega.min.js",
+    "url": "https://cdn.jsdelivr.net/npm/vega@5.30.0/build/vega.min.js",
+    "bytes": 514536,
+    "sha256": "e432c751a6363f4a61da62920cc7d7ebd13cf09d82949f8f486248f8071dc3ce"
+  },
+  {
+    "file": "vega-lite.min.js",
+    "url": "https://cdn.jsdelivr.net/npm/vega-lite@5.20.1/build/vega-lite.min.js",
+    "bytes": 250179,
+    "sha256": "cfaa9b39c9dc6ba8749d81dde236cb9d89938978df400640adaf934a790cfae7"
+  },
+  {
+    "file": "vega-embed.min.js",
+    "url": "https://cdn.jsdelivr.net/npm/vega-embed@6.26.0/build/vega-embed.min.js",
+    "bytes": 58532,
+    "sha256": "072c054f2a6310725e038c38a71e00052705e31835632462c9717a23a384e895"
+  }
+]

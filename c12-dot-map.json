@@ -1,0 +1,327 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 600,
+  "height": 430,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "config": {
+    "background": "#fbfaf6",
+    "font": "Source Sans 3",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Source Sans 3",
+      "titleFont": "Source Sans 3",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": 500,
+      "titleColor": "#233c32",
+      "labelColor": "#52645b",
+      "domain": false,
+      "tickColor": "#cfcfc1",
+      "gridColor": "#e5e5dc",
+      "gridOpacity": 0.75,
+      "titlePadding": 12,
+      "labelPadding": 7
+    },
+    "legend": {
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": 500,
+      "orient": "bottom",
+      "labelColor": "#233c32",
+      "titleColor": "#233c32",
+      "padding": 5,
+      "offset": 12
+    },
+    "title": {
+      "fontSize": 14,
+      "anchor": "start",
+      "fontWeight": 500,
+      "color": "#233c32"
+    }
+  },
+  "projection": {
+    "type": "conicEqualArea",
+    "parallels": [
+      -18,
+      -36
+    ],
+    "rotate": [
+      -134,
+      0,
+      0
+    ],
+    "center": [
+      0,
+      -28
+    ]
+  },
+  "description": "Fixed-size dots for 245 recorded service locations linked to 25 centre labels. Geometry snapshot last edited 18 November 2024, retrieved 5 October 2026.",
+  "params": [
+    {
+      "name": "centre_pick",
+      "value": "All centres",
+      "bind": {
+        "input": "select",
+        "name": "Highlight a centre: ",
+        "options": [
+          "All centres",
+          "Aboriginal Resource and Development Centre (ARDS Aboriginal Corporation)",
+          "Batchelor Institute of Indigenous Tertiary Education - Centre for Australian Languages and Linguistics (CALL)",
+          "Bininj Kunwok Regional Language & Culture Centre Ltd",
+          "Cape York Institute - Pama Language Centre",
+          "Ceduna Aboriginal Corporation – Far West Language Centre",
+          "Gidarjil Development Corporation",
+          "Goldfields Aboriginal Language Centre",
+          "Irra Wangga Language Centre - Bundiyarra Aboriginal Community Aboriginal Corporation",
+          "Kimberly Language Resource Centre (Aboriginal Corporation)",
+          "Mirima Council Aboriginal Corporation - Mirima Dawang Woorlab-gerring Language and Culture Centre",
+          "Miromaa Aboriginal Language and Technology Centre",
+          "Muurrbay Aboriginal Language & Culture Co-operative Ltd.",
+          "Ngukurr Language Centre Aboriginal Corporation (NgLC)",
+          "Noongar Language Centre",
+          "North QLD Regional Aboriginal Corporation Languages Centre",
+          "Nyamba Buru Yawuru Ltd",
+          "Papula Apparr-Kari Aboriginal Corporation",
+          "Regional Enterprise Development Institute (REDI.E)",
+          "South East QLD Indigenous Language Centre/Indigenous Strategy Developments Pty. Ltd",
+          "Tasmanian Aboriginal Centre Ltd",
+          "The University of Adelaide - Mobile Language Team",
+          "Torres Strait Regional Authority - Torres Strait Languages Association",
+          "Victorian Aboriginal Corporation for Languages",
+          "Wangka Maya Aboriginal Language Centre",
+          "Wiradjuri Condobolin Corporation"
+        ],
+        "labels": [
+          "All centres",
+          "Aboriginal Resource and Development Centre (ARDS Aboriginal C…",
+          "Batchelor Institute of Indigenous Tertiary Education - Centre…",
+          "Bininj Kunwok Regional Language & Culture Centre Ltd",
+          "Cape York Institute - Pama Language Centre",
+          "Ceduna Aboriginal Corporation – Far West Language Centre",
+          "Gidarjil Development Corporation",
+          "Goldfields Aboriginal Language Centre",
+          "Irra Wangga Language Centre - Bundiyarra Aboriginal Community…",
+          "Kimberly Language Resource Centre (Aboriginal Corporation)",
+          "Mirima Council Aboriginal Corporation - Mirima Dawang Woorlab…",
+          "Miromaa Aboriginal Language and Technology Centre",
+          "Muurrbay Aboriginal Language & Culture Co-operative Ltd.",
+          "Ngukurr Language Centre Aboriginal Corporation (NgLC)",
+          "Noongar Language Centre",
+          "North QLD Regional Aboriginal Corporation Languages Centre",
+          "Nyamba Buru Yawuru Ltd",
+          "Papula Apparr-Kari Aboriginal Corporation",
+          "Regional Enterprise Development Institute (REDI.E)",
+          "South East QLD Indigenous Language Centre/Indigenous Strategy…",
+          "Tasmanian Aboriginal Centre Ltd",
+          "The University of Adelaide - Mobile Language Team",
+          "Torres Strait Regional Authority - Torres Strait Languages As…",
+          "Victorian Aboriginal Corporation for Languages",
+          "Wangka Maya Aboriginal Language Centre",
+          "Wiradjuri Condobolin Corporation"
+        ]
+      }
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "url": "states.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "states_2021"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#e7e7da",
+        "stroke": "#fbfaf6",
+        "strokeWidth": 1.2
+      }
+    },
+    {
+      "data": {
+        "url": "locations.json"
+      },
+      "mark": {
+        "type": "circle",
+        "size": 32,
+        "stroke": "#fbfaf6",
+        "strokeWidth": 0.5
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "color": {
+          "value": "#236652"
+        },
+        "opacity": {
+          "condition": {
+            "test": "centre_pick === 'All centres' || datum.centre === centre_pick",
+            "value": 0.85
+          },
+          "value": 0.1
+        },
+        "tooltip": [
+          {
+            "field": "centre",
+            "type": "nominal",
+            "title": "Centre associated with this recorded location"
+          },
+          {
+            "field": "id",
+            "type": "quantitative",
+            "title": "Source location ID",
+            "format": "d"
+          },
+          {
+            "field": "website",
+            "type": "nominal",
+            "title": "Published centre website"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "year": 2021,
+            "state_code": "1",
+            "state": "New South Wales",
+            "short": "NSW",
+            "users": 5196,
+            "population": 278043,
+            "percent": 1.9,
+            "lon": 147.0143361767789,
+            "lat": -32.175840712240365,
+            "label_lon": 147.0143361767789,
+            "label_lat": -32.175840712240365
+          },
+          {
+            "year": 2021,
+            "state_code": "2",
+            "state": "Victoria",
+            "short": "VIC",
+            "users": 1010,
+            "population": 65646,
+            "percent": 1.5,
+            "lon": 143.3790825195312,
+            "lat": -36.984385253906254,
+            "label_lon": 143.3790825195312,
+            "label_lat": -36.984385253906254
+          },
+          {
+            "year": 2021,
+            "state_code": "3",
+            "state": "Queensland",
+            "short": "QLD",
+            "users": 19018,
+            "population": 237303,
+            "percent": 8,
+            "lon": 144.45579296875,
+            "lat": -22.807074218749996,
+            "label_lon": 144.45579296875,
+            "label_lat": -22.807074218749996
+          },
+          {
+            "year": 2021,
+            "state_code": "4",
+            "state": "South Australia",
+            "short": "SA",
+            "users": 4305,
+            "population": 42562,
+            "percent": 10.1,
+            "lon": 135.95678124999998,
+            "lat": -29.895593749999993,
+            "label_lon": 135.95678124999998,
+            "label_lat": -29.895593749999993
+          },
+          {
+            "year": 2021,
+            "state_code": "5",
+            "state": "Western Australia",
+            "short": "WA",
+            "users": 11213,
+            "population": 88693,
+            "percent": 12.6,
+            "lon": 122.30710156250001,
+            "lat": -25.7635546875,
+            "label_lon": 122.30710156250001,
+            "label_lat": -25.7635546875
+          },
+          {
+            "year": 2021,
+            "state_code": "6",
+            "state": "Tasmania",
+            "short": "TAS",
+            "users": 178,
+            "population": 30186,
+            "percent": 0.6,
+            "lon": 146.5706162109375,
+            "lat": -42.053069335937494,
+            "label_lon": 146.5706162109375,
+            "label_lat": -42.053069335937494
+          },
+          {
+            "year": 2021,
+            "state_code": "7",
+            "state": "Northern Territory",
+            "short": "NT",
+            "users": 35782,
+            "population": 61115,
+            "percent": 58.5,
+            "lon": 133.36918969957588,
+            "lat": -19.478875862965403,
+            "label_lon": 133.36918969957588,
+            "label_lat": -19.478875862965403
+          },
+          {
+            "year": 2021,
+            "state_code": "8",
+            "state": "Australian Capital Territory",
+            "short": "ACT",
+            "users": 258,
+            "population": 8949,
+            "percent": 2.9,
+            "lon": 148.97972265625,
+            "lat": -35.46680859375001,
+            "label_lon": 151.47972265625,
+            "label_lat": -36.46680859375001
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "fontWeight": 600,
+        "color": "#52645b",
+        "dy": -9
+      },
+      "encoding": {
+        "longitude": {
+          "field": "label_lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "label_lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "short",
+          "type": "nominal"
+        }
+      }
+    }
+  ]
+}

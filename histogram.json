@@ -1,0 +1,82 @@
+[
+  {
+    "lower": 0,
+    "upper": 500,
+    "categories": 134
+  },
+  {
+    "lower": 500,
+    "upper": 1000,
+    "categories": 8
+  },
+  {
+    "lower": 1000,
+    "upper": 1500,
+    "categories": 8
+  },
+  {
+    "lower": 1500,
+    "upper": 2000,
+    "categories": 2
+  },
+  {
+    "lower": 2000,
+    "upper": 2500,
+    "categories": 2
+  },
+  {
+    "lower": 2500,
+    "upper": 3000,
+    "categories": 1
+  },
+  {
+    "lower": 3000,
+    "upper": 3500,
+    "categories": 1
+  },
+  {
+    "lower": 3500,
+    "upper": 4000,
+    "categories": 1
+  },
+  {
+    "lower": 4000,
+    "upper": 4500,
+    "categories": 0
+  },
+  {
+    "lower": 4500,
+    "upper": 5000,
+    "categories": 0
+  },
+  {
+    "lower": 5000,
+    "upper": 5500,
+    "categories": 0
+  },
+  {
+    "lower": 5500,
+    "upper": 6000,
+    "categories": 0
+  },
+  {
+    "lower": 6000,
+    "upper": 6500,
+    "categories": 0
+  },
+  {
+    "lower": 6500,
+    "upper": 7000,
+    "categories": 0
+  },
+  {
+    "lower": 7000,
+    "upper": 7500,
+    "categories": 1
+  },
+  {
+    "lower": 7500,
+    "upper": 8000,
+    "categories": 1
+  }
+]

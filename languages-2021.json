@@ -1,0 +1,2563 @@
+[
+  {
+    "name": "Anindilyakwa",
+    "label": "Anindilyakwa",
+    "group": "Arnhem & Daly",
+    "users": 1510,
+    "ages": [
+      314,
+      367,
+      512,
+      272,
+      43
+    ]
+  },
+  {
+    "name": "Maung",
+    "label": "Maung",
+    "group": "Arnhem & Daly",
+    "users": 360,
+    "ages": [
+      98,
+      90,
+      105,
+      46,
+      13
+    ]
+  },
+  {
+    "name": "Ngan'gikurunggurr",
+    "label": "Ngan'gikurunggurr",
+    "group": "Arnhem & Daly",
+    "users": 100,
+    "ages": [
+      21,
+      10,
+      36,
+      24,
+      11
+    ]
+  },
+  {
+    "name": "Nunggubuyu",
+    "label": "Nunggubuyu",
+    "group": "Arnhem & Daly",
+    "users": 283,
+    "ages": [
+      43,
+      56,
+      80,
+      76,
+      29
+    ]
+  },
+  {
+    "name": "Rembarrnga",
+    "label": "Rembarrnga",
+    "group": "Arnhem & Daly",
+    "users": 51,
+    "ages": [
+      12,
+      11,
+      25,
+      8,
+      4
+    ]
+  },
+  {
+    "name": "Tiwi",
+    "label": "Tiwi",
+    "group": "Arnhem & Daly",
+    "users": 2053,
+    "ages": [
+      506,
+      381,
+      652,
+      447,
+      71
+    ]
+  },
+  {
+    "name": "Alawa",
+    "label": "Alawa",
+    "group": "Arnhem & Daly",
+    "users": 5,
+    "ages": [
+      0,
+      0,
+      0,
+      3,
+      0
+    ]
+  },
+  {
+    "name": "Dalabon",
+    "label": "Dalabon",
+    "group": "Arnhem & Daly",
+    "users": 28,
+    "ages": [
+      8,
+      6,
+      12,
+      7,
+      4
+    ]
+  },
+  {
+    "name": "Gudanji",
+    "label": "Gudanji",
+    "group": "Arnhem & Daly",
+    "users": 19,
+    "ages": [
+      3,
+      0,
+      4,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Iwaidja",
+    "label": "Iwaidja",
+    "group": "Arnhem & Daly",
+    "users": 154,
+    "ages": [
+      43,
+      26,
+      41,
+      32,
+      9
+    ]
+  },
+  {
+    "name": "Jaminjung",
+    "label": "Jaminjung",
+    "group": "Arnhem & Daly",
+    "users": 6,
+    "ages": [
+      0,
+      0,
+      0,
+      4,
+      0
+    ]
+  },
+  {
+    "name": "Jawoyn",
+    "label": "Jawoyn",
+    "group": "Arnhem & Daly",
+    "users": 13,
+    "ages": [
+      4,
+      0,
+      6,
+      4,
+      5
+    ]
+  },
+  {
+    "name": "Jingulu",
+    "label": "Jingulu",
+    "group": "Arnhem & Daly",
+    "users": 40,
+    "ages": [
+      12,
+      7,
+      6,
+      5,
+      8
+    ]
+  },
+  {
+    "name": "Kunbarlang",
+    "label": "Kunbarlang",
+    "group": "Arnhem & Daly",
+    "users": 5,
+    "ages": [
+      0,
+      0,
+      0,
+      5,
+      0
+    ]
+  },
+  {
+    "name": "Larrakiya",
+    "label": "Larrakiya",
+    "group": "Arnhem & Daly",
+    "users": 41,
+    "ages": [
+      10,
+      7,
+      10,
+      14,
+      0
+    ]
+  },
+  {
+    "name": "Malak Malak",
+    "label": "Malak Malak",
+    "group": "Arnhem & Daly",
+    "users": 4,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      4
+    ]
+  },
+  {
+    "name": "Mangarrayi",
+    "label": "Mangarrayi",
+    "group": "Arnhem & Daly",
+    "users": 10,
+    "ages": [
+      0,
+      0,
+      3,
+      3,
+      0
+    ]
+  },
+  {
+    "name": "Maringarr",
+    "label": "Maringarr",
+    "group": "Arnhem & Daly",
+    "users": 8,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "name": "Marra",
+    "label": "Marra",
+    "group": "Arnhem & Daly",
+    "users": 29,
+    "ages": [
+      15,
+      3,
+      10,
+      3,
+      0
+    ]
+  },
+  {
+    "name": "Marrithiyel",
+    "label": "Marrithiyel",
+    "group": "Arnhem & Daly",
+    "users": 13,
+    "ages": [
+      7,
+      0,
+      0,
+      8,
+      0
+    ]
+  },
+  {
+    "name": "Matngala",
+    "label": "Matngala",
+    "group": "Arnhem & Daly",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Murrinh Patha",
+    "label": "Murrinh Patha",
+    "group": "Arnhem & Daly",
+    "users": 2063,
+    "ages": [
+      601,
+      452,
+      647,
+      287,
+      68
+    ]
+  },
+  {
+    "name": "Na-kara",
+    "label": "Na-kara",
+    "group": "Arnhem & Daly",
+    "users": 48,
+    "ages": [
+      0,
+      3,
+      15,
+      16,
+      7
+    ]
+  },
+  {
+    "name": "Ndjebbana (Gunavidji)",
+    "label": "Ndjebbana (Gunavidji)",
+    "group": "Arnhem & Daly",
+    "users": 367,
+    "ages": [
+      94,
+      88,
+      122,
+      51,
+      11
+    ]
+  },
+  {
+    "name": "Ngalakgan",
+    "label": "Ngalakgan",
+    "group": "Arnhem & Daly",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Ngaliwurru",
+    "label": "Ngaliwurru",
+    "group": "Arnhem & Daly",
+    "users": 90,
+    "ages": [
+      25,
+      19,
+      22,
+      16,
+      3
+    ]
+  },
+  {
+    "name": "Nungali",
+    "label": "Nungali",
+    "group": "Arnhem & Daly",
+    "users": 8,
+    "ages": [
+      4,
+      0,
+      5,
+      3,
+      0
+    ]
+  },
+  {
+    "name": "Wambaya",
+    "label": "Wambaya",
+    "group": "Arnhem & Daly",
+    "users": 25,
+    "ages": [
+      3,
+      0,
+      6,
+      11,
+      0
+    ]
+  },
+  {
+    "name": "Wardaman",
+    "label": "Wardaman",
+    "group": "Arnhem & Daly",
+    "users": 15,
+    "ages": [
+      0,
+      3,
+      9,
+      7,
+      0
+    ]
+  },
+  {
+    "name": "Amurdak",
+    "label": "Amurdak",
+    "group": "Arnhem & Daly",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Garrwa",
+    "label": "Garrwa",
+    "group": "Arnhem & Daly",
+    "users": 139,
+    "ages": [
+      27,
+      17,
+      38,
+      41,
+      10
+    ]
+  },
+  {
+    "name": "Kuwema",
+    "label": "Kuwema",
+    "group": "Arnhem & Daly",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Marramaninyshi",
+    "label": "Marramaninyshi",
+    "group": "Arnhem & Daly",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Ngandi",
+    "label": "Ngandi",
+    "group": "Arnhem & Daly",
+    "users": 6,
+    "ages": [
+      4,
+      0,
+      0,
+      5,
+      0
+    ]
+  },
+  {
+    "name": "Waanyi",
+    "label": "Waanyi",
+    "group": "Arnhem & Daly",
+    "users": 26,
+    "ages": [
+      8,
+      3,
+      5,
+      10,
+      0
+    ]
+  },
+  {
+    "name": "Wagiman",
+    "label": "Wagiman",
+    "group": "Arnhem & Daly",
+    "users": 29,
+    "ages": [
+      7,
+      9,
+      5,
+      4,
+      0
+    ]
+  },
+  {
+    "name": "Yanyuwa",
+    "label": "Yanyuwa",
+    "group": "Arnhem & Daly",
+    "users": 43,
+    "ages": [
+      8,
+      9,
+      12,
+      19,
+      3
+    ]
+  },
+  {
+    "name": "Marridan (Maridan)",
+    "label": "Marridan (Maridan)",
+    "group": "Arnhem & Daly",
+    "users": 5,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Gundjeihmi",
+    "label": "Gundjeihmi",
+    "group": "Arnhem & Daly",
+    "users": 12,
+    "ages": [
+      0,
+      3,
+      6,
+      5,
+      0
+    ]
+  },
+  {
+    "name": "Kune",
+    "label": "Kune",
+    "group": "Arnhem & Daly",
+    "users": 257,
+    "ages": [
+      58,
+      71,
+      78,
+      41,
+      6
+    ]
+  },
+  {
+    "name": "Kuninjku",
+    "label": "Kuninjku",
+    "group": "Arnhem & Daly",
+    "users": 422,
+    "ages": [
+      117,
+      82,
+      149,
+      66,
+      4
+    ]
+  },
+  {
+    "name": "Kunwinjku",
+    "label": "Kunwinjku",
+    "group": "Arnhem & Daly",
+    "users": 1484,
+    "ages": [
+      377,
+      287,
+      509,
+      268,
+      44
+    ]
+  },
+  {
+    "name": "Mayali",
+    "label": "Mayali",
+    "group": "Arnhem & Daly",
+    "users": 64,
+    "ages": [
+      14,
+      7,
+      25,
+      9,
+      6
+    ]
+  },
+  {
+    "name": "Burarra",
+    "label": "Burarra",
+    "group": "Arnhem & Daly",
+    "users": 1225,
+    "ages": [
+      302,
+      253,
+      415,
+      222,
+      25
+    ]
+  },
+  {
+    "name": "Gun-nartpa",
+    "label": "Gun-nartpa",
+    "group": "Arnhem & Daly",
+    "users": 50,
+    "ages": [
+      12,
+      9,
+      21,
+      10,
+      0
+    ]
+  },
+  {
+    "name": "Gurr-goni",
+    "label": "Gurr-goni",
+    "group": "Arnhem & Daly",
+    "users": 40,
+    "ages": [
+      5,
+      15,
+      15,
+      4,
+      0
+    ]
+  },
+  {
+    "name": "Galpu",
+    "label": "Galpu",
+    "group": "Yolngu Matha",
+    "users": 130,
+    "ages": [
+      34,
+      31,
+      34,
+      25,
+      0
+    ]
+  },
+  {
+    "name": "Golumala",
+    "label": "Golumala",
+    "group": "Yolngu Matha",
+    "users": 6,
+    "ages": [
+      0,
+      0,
+      0,
+      3,
+      0
+    ]
+  },
+  {
+    "name": "Wangurri",
+    "label": "Wangurri",
+    "group": "Yolngu Matha",
+    "users": 27,
+    "ages": [
+      8,
+      7,
+      3,
+      7,
+      0
+    ]
+  },
+  {
+    "name": "Dhalwangu",
+    "label": "Dhalwangu",
+    "group": "Yolngu Matha",
+    "users": 13,
+    "ages": [
+      0,
+      5,
+      7,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Djarrwark",
+    "label": "Djarrwark",
+    "group": "Yolngu Matha",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Djambarrpuyngu",
+    "label": "Djambarrpuyngu",
+    "group": "Yolngu Matha",
+    "users": 3839,
+    "ages": [
+      1014,
+      878,
+      1191,
+      652,
+      115
+    ]
+  },
+  {
+    "name": "Djapu",
+    "label": "Djapu",
+    "group": "Yolngu Matha",
+    "users": 28,
+    "ages": [
+      3,
+      6,
+      9,
+      11,
+      3
+    ]
+  },
+  {
+    "name": "Daatiwuy",
+    "label": "Daatiwuy",
+    "group": "Yolngu Matha",
+    "users": 15,
+    "ages": [
+      0,
+      0,
+      4,
+      10,
+      3
+    ]
+  },
+  {
+    "name": "Marrangu",
+    "label": "Marrangu",
+    "group": "Yolngu Matha",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Liyagalawumirr",
+    "label": "Liyagalawumirr",
+    "group": "Yolngu Matha",
+    "users": 12,
+    "ages": [
+      3,
+      4,
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Liyagawumirr",
+    "label": "Liyagawumirr",
+    "group": "Yolngu Matha",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Gumatj",
+    "label": "Gumatj",
+    "group": "Yolngu Matha",
+    "users": 98,
+    "ages": [
+      13,
+      20,
+      24,
+      26,
+      11
+    ]
+  },
+  {
+    "name": "Gupapuyngu",
+    "label": "Gupapuyngu",
+    "group": "Yolngu Matha",
+    "users": 109,
+    "ages": [
+      18,
+      31,
+      31,
+      24,
+      8
+    ]
+  },
+  {
+    "name": "Guyamirrilili",
+    "label": "Guyamirrilili",
+    "group": "Yolngu Matha",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Manggalili",
+    "label": "Manggalili",
+    "group": "Yolngu Matha",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Wubulkarra",
+    "label": "Wubulkarra",
+    "group": "Yolngu Matha",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Wurlaki",
+    "label": "Wurlaki",
+    "group": "Yolngu Matha",
+    "users": 33,
+    "ages": [
+      14,
+      0,
+      15,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Ganalbingu",
+    "label": "Ganalbingu",
+    "group": "Yolngu Matha",
+    "users": 37,
+    "ages": [
+      7,
+      3,
+      15,
+      3,
+      7
+    ]
+  },
+  {
+    "name": "Djinba",
+    "label": "Djinba",
+    "group": "Yolngu Matha",
+    "users": 15,
+    "ages": [
+      3,
+      3,
+      6,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Manyjalpingu",
+    "label": "Manyjalpingu",
+    "group": "Yolngu Matha",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Ritharrngu",
+    "label": "Ritharrngu",
+    "group": "Yolngu Matha",
+    "users": 12,
+    "ages": [
+      0,
+      0,
+      0,
+      5,
+      0
+    ]
+  },
+  {
+    "name": "Wagilak",
+    "label": "Wagilak",
+    "group": "Yolngu Matha",
+    "users": 9,
+    "ages": [
+      0,
+      0,
+      7,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Nhangu",
+    "label": "Nhangu",
+    "group": "Yolngu Matha",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Yan-nhangu",
+    "label": "Yan-nhangu",
+    "group": "Yolngu Matha",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Dhuwaya",
+    "label": "Dhuwaya",
+    "group": "Yolngu Matha",
+    "users": 144,
+    "ages": [
+      31,
+      35,
+      44,
+      25,
+      9
+    ]
+  },
+  {
+    "name": "Djangu",
+    "label": "Djangu",
+    "group": "Yolngu Matha",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Madarrpa",
+    "label": "Madarrpa",
+    "group": "Yolngu Matha",
+    "users": 6,
+    "ages": [
+      7,
+      0,
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Warramiri",
+    "label": "Warramiri",
+    "group": "Yolngu Matha",
+    "users": 21,
+    "ages": [
+      3,
+      3,
+      0,
+      9,
+      0
+    ]
+  },
+  {
+    "name": "Rirratjingu",
+    "label": "Rirratjingu",
+    "group": "Yolngu Matha",
+    "users": 9,
+    "ages": [
+      7,
+      4,
+      6,
+      4,
+      0
+    ]
+  },
+  {
+    "name": "Kuku Yalanji",
+    "label": "Kuku Yalanji",
+    "group": "Cape York",
+    "users": 370,
+    "ages": [
+      99,
+      60,
+      96,
+      87,
+      24
+    ]
+  },
+  {
+    "name": "Guugu Yimidhirr",
+    "label": "Guugu Yimidhirr",
+    "group": "Cape York",
+    "users": 791,
+    "ages": [
+      248,
+      119,
+      202,
+      163,
+      54
+    ]
+  },
+  {
+    "name": "Kuuku-Ya'u",
+    "label": "Kuuku-Ya'u",
+    "group": "Cape York",
+    "users": 33,
+    "ages": [
+      10,
+      3,
+      11,
+      9,
+      6
+    ]
+  },
+  {
+    "name": "Wik Mungkan",
+    "label": "Wik Mungkan",
+    "group": "Cape York",
+    "users": 953,
+    "ages": [
+      258,
+      167,
+      276,
+      199,
+      54
+    ]
+  },
+  {
+    "name": "Djabugay",
+    "label": "Djabugay",
+    "group": "Cape York",
+    "users": 80,
+    "ages": [
+      11,
+      28,
+      18,
+      15,
+      0
+    ]
+  },
+  {
+    "name": "Dyirbal",
+    "label": "Dyirbal",
+    "group": "Cape York",
+    "users": 30,
+    "ages": [
+      6,
+      3,
+      8,
+      9,
+      0
+    ]
+  },
+  {
+    "name": "Girramay",
+    "label": "Girramay",
+    "group": "Cape York",
+    "users": 49,
+    "ages": [
+      18,
+      4,
+      13,
+      14,
+      9
+    ]
+  },
+  {
+    "name": "Koko-Bera",
+    "label": "Koko-Bera",
+    "group": "Cape York",
+    "users": 18,
+    "ages": [
+      5,
+      0,
+      6,
+      0,
+      8
+    ]
+  },
+  {
+    "name": "Kuuk Thayorre",
+    "label": "Kuuk Thayorre",
+    "group": "Cape York",
+    "users": 174,
+    "ages": [
+      25,
+      27,
+      49,
+      64,
+      12
+    ]
+  },
+  {
+    "name": "Lamalama",
+    "label": "Lamalama",
+    "group": "Cape York",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Yidiny",
+    "label": "Yidiny",
+    "group": "Cape York",
+    "users": 53,
+    "ages": [
+      18,
+      8,
+      12,
+      15,
+      4
+    ]
+  },
+  {
+    "name": "Wik Ngathan",
+    "label": "Wik Ngathan",
+    "group": "Cape York",
+    "users": 3,
+    "ages": [
+      0,
+      0,
+      0,
+      3,
+      0
+    ]
+  },
+  {
+    "name": "Alngith",
+    "label": "Alngith",
+    "group": "Cape York",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Kugu Muminh",
+    "label": "Kugu Muminh",
+    "group": "Cape York",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Morrobalama",
+    "label": "Morrobalama",
+    "group": "Cape York",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Thaynakwith",
+    "label": "Thaynakwith",
+    "group": "Cape York",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Yupangathi",
+    "label": "Yupangathi",
+    "group": "Cape York",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Tjungundji",
+    "label": "Tjungundji",
+    "group": "Cape York",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Kalaw Kawaw Ya/Kalaw Lagaw Ya",
+    "label": "Kalaw Kawaw Ya/Kalaw Lagaw Ya",
+    "group": "Torres Strait",
+    "users": 875,
+    "ages": [
+      188,
+      126,
+      238,
+      230,
+      91
+    ]
+  },
+  {
+    "name": "Meriam Mir",
+    "label": "Meriam Mir",
+    "group": "Torres Strait",
+    "users": 256,
+    "ages": [
+      46,
+      29,
+      75,
+      52,
+      58
+    ]
+  },
+  {
+    "name": "Yumplatok (Torres Strait Creole)",
+    "label": "Yumplatok",
+    "group": "Torres Strait",
+    "users": 7596,
+    "ages": [
+      2494,
+      1321,
+      2109,
+      1278,
+      392
+    ]
+  },
+  {
+    "name": "Bilinarra",
+    "label": "Bilinarra",
+    "group": "Northern Desert Fringe",
+    "users": 79,
+    "ages": [
+      34,
+      16,
+      19,
+      9,
+      0
+    ]
+  },
+  {
+    "name": "Gurindji",
+    "label": "Gurindji",
+    "group": "Northern Desert Fringe",
+    "users": 618,
+    "ages": [
+      178,
+      117,
+      186,
+      112,
+      26
+    ]
+  },
+  {
+    "name": "Gurindji Kriol",
+    "label": "Gurindji Kriol",
+    "group": "Northern Desert Fringe",
+    "users": 25,
+    "ages": [
+      11,
+      0,
+      9,
+      4,
+      0
+    ]
+  },
+  {
+    "name": "Jaru",
+    "label": "Jaru",
+    "group": "Northern Desert Fringe",
+    "users": 551,
+    "ages": [
+      142,
+      109,
+      154,
+      96,
+      46
+    ]
+  },
+  {
+    "name": "Light Warlpiri",
+    "label": "Light Warlpiri",
+    "group": "Northern Desert Fringe",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Malngin",
+    "label": "Malngin",
+    "group": "Northern Desert Fringe",
+    "users": 16,
+    "ages": [
+      3,
+      3,
+      0,
+      3,
+      0
+    ]
+  },
+  {
+    "name": "Mudburra",
+    "label": "Mudburra",
+    "group": "Northern Desert Fringe",
+    "users": 125,
+    "ages": [
+      35,
+      14,
+      42,
+      26,
+      8
+    ]
+  },
+  {
+    "name": "Ngardi",
+    "label": "Ngardi",
+    "group": "Northern Desert Fringe",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Ngarinyman",
+    "label": "Ngarinyman",
+    "group": "Northern Desert Fringe",
+    "users": 313,
+    "ages": [
+      101,
+      60,
+      85,
+      45,
+      25
+    ]
+  },
+  {
+    "name": "Walmajarri",
+    "label": "Walmajarri",
+    "group": "Northern Desert Fringe",
+    "users": 291,
+    "ages": [
+      47,
+      40,
+      66,
+      99,
+      45
+    ]
+  },
+  {
+    "name": "Wanyjirra",
+    "label": "Wanyjirra",
+    "group": "Northern Desert Fringe",
+    "users": 5,
+    "ages": [
+      0,
+      0,
+      0,
+      5,
+      0
+    ]
+  },
+  {
+    "name": "Warlmanpa",
+    "label": "Warlmanpa",
+    "group": "Northern Desert Fringe",
+    "users": 37,
+    "ages": [
+      3,
+      6,
+      9,
+      13,
+      3
+    ]
+  },
+  {
+    "name": "Warlpiri",
+    "label": "Warlpiri",
+    "group": "Northern Desert Fringe",
+    "users": 2592,
+    "ages": [
+      799,
+      448,
+      737,
+      460,
+      142
+    ]
+  },
+  {
+    "name": "Warumungu",
+    "label": "Warumungu",
+    "group": "Northern Desert Fringe",
+    "users": 415,
+    "ages": [
+      107,
+      69,
+      129,
+      92,
+      26
+    ]
+  },
+  {
+    "name": "Alyawarr",
+    "label": "Alyawarr",
+    "group": "Arandic",
+    "users": 1942,
+    "ages": [
+      608,
+      334,
+      611,
+      291,
+      96
+    ]
+  },
+  {
+    "name": "Kaytetye",
+    "label": "Kaytetye",
+    "group": "Arandic",
+    "users": 110,
+    "ages": [
+      34,
+      21,
+      28,
+      20,
+      9
+    ]
+  },
+  {
+    "name": "Antekerrepenh",
+    "label": "Antekerrepenh",
+    "group": "Arandic",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Central Anmatyerr",
+    "label": "Central Anmatyerr",
+    "group": "Arandic",
+    "users": 487,
+    "ages": [
+      128,
+      89,
+      148,
+      81,
+      40
+    ]
+  },
+  {
+    "name": "Eastern Anmatyerr",
+    "label": "Eastern Anmatyerr",
+    "group": "Arandic",
+    "users": 137,
+    "ages": [
+      29,
+      38,
+      40,
+      26,
+      12
+    ]
+  },
+  {
+    "name": "Eastern Arrernte",
+    "label": "Eastern Arrernte",
+    "group": "Arandic",
+    "users": 477,
+    "ages": [
+      138,
+      72,
+      164,
+      83,
+      26
+    ]
+  },
+  {
+    "name": "Western Arrarnta",
+    "label": "Western Arrarnta",
+    "group": "Arandic",
+    "users": 895,
+    "ages": [
+      255,
+      166,
+      261,
+      192,
+      31
+    ]
+  },
+  {
+    "name": "Antikarinya",
+    "label": "Antikarinya",
+    "group": "Western Desert",
+    "users": 7,
+    "ages": [
+      0,
+      0,
+      0,
+      4,
+      0
+    ]
+  },
+  {
+    "name": "Kartujarra",
+    "label": "Kartujarra",
+    "group": "Western Desert",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Kukatha",
+    "label": "Kukatha",
+    "group": "Western Desert",
+    "users": 89,
+    "ages": [
+      17,
+      8,
+      24,
+      23,
+      10
+    ]
+  },
+  {
+    "name": "Kukatja",
+    "label": "Kukatja",
+    "group": "Western Desert",
+    "users": 457,
+    "ages": [
+      125,
+      89,
+      147,
+      78,
+      18
+    ]
+  },
+  {
+    "name": "Luritja",
+    "label": "Luritja",
+    "group": "Western Desert",
+    "users": 1285,
+    "ages": [
+      340,
+      223,
+      398,
+      253,
+      76
+    ]
+  },
+  {
+    "name": "Manyjilyjarra",
+    "label": "Manyjilyjarra",
+    "group": "Western Desert",
+    "users": 65,
+    "ages": [
+      7,
+      14,
+      19,
+      15,
+      11
+    ]
+  },
+  {
+    "name": "Martu Wangka",
+    "label": "Martu Wangka",
+    "group": "Western Desert",
+    "users": 791,
+    "ages": [
+      246,
+      148,
+      250,
+      117,
+      42
+    ]
+  },
+  {
+    "name": "Ngaanyatjarra",
+    "label": "Ngaanyatjarra",
+    "group": "Western Desert",
+    "users": 1046,
+    "ages": [
+      253,
+      211,
+      334,
+      185,
+      56
+    ]
+  },
+  {
+    "name": "Pintupi",
+    "label": "Pintupi",
+    "group": "Western Desert",
+    "users": 260,
+    "ages": [
+      47,
+      50,
+      87,
+      50,
+      23
+    ]
+  },
+  {
+    "name": "Pitjantjatjara",
+    "label": "Pitjantjatjara",
+    "group": "Western Desert",
+    "users": 3399,
+    "ages": [
+      847,
+      584,
+      1096,
+      679,
+      196
+    ]
+  },
+  {
+    "name": "Wangkajunga",
+    "label": "Wangkajunga",
+    "group": "Western Desert",
+    "users": 6,
+    "ages": [
+      0,
+      0,
+      7,
+      5,
+      0
+    ]
+  },
+  {
+    "name": "Wangkatha",
+    "label": "Wangkatha",
+    "group": "Western Desert",
+    "users": 347,
+    "ages": [
+      102,
+      50,
+      99,
+      77,
+      20
+    ]
+  },
+  {
+    "name": "Warnman",
+    "label": "Warnman",
+    "group": "Western Desert",
+    "users": 9,
+    "ages": [
+      0,
+      4,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Yankunytjatjara",
+    "label": "Yankunytjatjara",
+    "group": "Western Desert",
+    "users": 594,
+    "ages": [
+      162,
+      110,
+      182,
+      106,
+      30
+    ]
+  },
+  {
+    "name": "Yulparija",
+    "label": "Yulparija",
+    "group": "Western Desert",
+    "users": 33,
+    "ages": [
+      10,
+      7,
+      10,
+      9,
+      3
+    ]
+  },
+  {
+    "name": "Tjupany",
+    "label": "Tjupany",
+    "group": "Western Desert",
+    "users": 24,
+    "ages": [
+      0,
+      4,
+      5,
+      8,
+      3
+    ]
+  },
+  {
+    "name": "Bardi",
+    "label": "Bardi",
+    "group": "Kimberley",
+    "users": 281,
+    "ages": [
+      83,
+      52,
+      71,
+      61,
+      22
+    ]
+  },
+  {
+    "name": "Bunuba",
+    "label": "Bunuba",
+    "group": "Kimberley",
+    "users": 142,
+    "ages": [
+      31,
+      18,
+      45,
+      39,
+      5
+    ]
+  },
+  {
+    "name": "Gooniyandi",
+    "label": "Gooniyandi",
+    "group": "Kimberley",
+    "users": 201,
+    "ages": [
+      61,
+      26,
+      62,
+      35,
+      12
+    ]
+  },
+  {
+    "name": "Miriwoong",
+    "label": "Miriwoong",
+    "group": "Kimberley",
+    "users": 168,
+    "ages": [
+      38,
+      30,
+      57,
+      32,
+      14
+    ]
+  },
+  {
+    "name": "Ngarinyin",
+    "label": "Ngarinyin",
+    "group": "Kimberley",
+    "users": 59,
+    "ages": [
+      17,
+      9,
+      15,
+      9,
+      0
+    ]
+  },
+  {
+    "name": "Nyikina",
+    "label": "Nyikina",
+    "group": "Kimberley",
+    "users": 46,
+    "ages": [
+      6,
+      8,
+      10,
+      11,
+      11
+    ]
+  },
+  {
+    "name": "Worla",
+    "label": "Worla",
+    "group": "Kimberley",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Worrorra",
+    "label": "Worrorra",
+    "group": "Kimberley",
+    "users": 4,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Wunambal",
+    "label": "Wunambal",
+    "group": "Kimberley",
+    "users": 4,
+    "ages": [
+      0,
+      3,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Yawuru",
+    "label": "Yawuru",
+    "group": "Kimberley",
+    "users": 145,
+    "ages": [
+      60,
+      18,
+      43,
+      23,
+      6
+    ]
+  },
+  {
+    "name": "Gambera",
+    "label": "Gambera",
+    "group": "Kimberley",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Jawi",
+    "label": "Jawi",
+    "group": "Kimberley",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Kija",
+    "label": "Kija",
+    "group": "Kimberley",
+    "users": 258,
+    "ages": [
+      52,
+      49,
+      74,
+      56,
+      25
+    ]
+  },
+  {
+    "name": "Adnymathanha",
+    "label": "Adnymathanha",
+    "group": "Other ABS categories",
+    "users": 254,
+    "ages": [
+      75,
+      33,
+      63,
+      66,
+      19
+    ]
+  },
+  {
+    "name": "Arabana",
+    "label": "Arabana",
+    "group": "Other ABS categories",
+    "users": 30,
+    "ages": [
+      7,
+      5,
+      9,
+      4,
+      6
+    ]
+  },
+  {
+    "name": "Bandjalang",
+    "label": "Bandjalang",
+    "group": "Other ABS categories",
+    "users": 443,
+    "ages": [
+      154,
+      70,
+      110,
+      101,
+      14
+    ]
+  },
+  {
+    "name": "Banyjima",
+    "label": "Banyjima",
+    "group": "Other ABS categories",
+    "users": 132,
+    "ages": [
+      41,
+      14,
+      37,
+      31,
+      11
+    ]
+  },
+  {
+    "name": "Batjala",
+    "label": "Batjala",
+    "group": "Other ABS categories",
+    "users": 83,
+    "ages": [
+      31,
+      8,
+      26,
+      13,
+      0
+    ]
+  },
+  {
+    "name": "Bidjara",
+    "label": "Bidjara",
+    "group": "Other ABS categories",
+    "users": 62,
+    "ages": [
+      21,
+      5,
+      17,
+      16,
+      5
+    ]
+  },
+  {
+    "name": "Dhanggatti",
+    "label": "Dhanggatti",
+    "group": "Other ABS categories",
+    "users": 137,
+    "ages": [
+      49,
+      17,
+      41,
+      20,
+      8
+    ]
+  },
+  {
+    "name": "Diyari",
+    "label": "Diyari",
+    "group": "Other ABS categories",
+    "users": 28,
+    "ages": [
+      8,
+      6,
+      8,
+      4,
+      5
+    ]
+  },
+  {
+    "name": "Gamilaraay",
+    "label": "Gamilaraay",
+    "group": "Other ABS categories",
+    "users": 1039,
+    "ages": [
+      363,
+      139,
+      335,
+      174,
+      34
+    ]
+  },
+  {
+    "name": "Garuwali",
+    "label": "Garuwali",
+    "group": "Other ABS categories",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Githabul",
+    "label": "Githabul",
+    "group": "Other ABS categories",
+    "users": 28,
+    "ages": [
+      11,
+      4,
+      5,
+      6,
+      0
+    ]
+  },
+  {
+    "name": "Gumbaynggir",
+    "label": "Gumbaynggir",
+    "group": "Other ABS categories",
+    "users": 289,
+    "ages": [
+      106,
+      31,
+      89,
+      56,
+      7
+    ]
+  },
+  {
+    "name": "Kanai",
+    "label": "Kanai",
+    "group": "Other ABS categories",
+    "users": 22,
+    "ages": [
+      3,
+      3,
+      8,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Karajarri",
+    "label": "Karajarri",
+    "group": "Other ABS categories",
+    "users": 52,
+    "ages": [
+      12,
+      7,
+      19,
+      10,
+      3
+    ]
+  },
+  {
+    "name": "Kariyarra",
+    "label": "Kariyarra",
+    "group": "Other ABS categories",
+    "users": 29,
+    "ages": [
+      7,
+      3,
+      10,
+      8,
+      5
+    ]
+  },
+  {
+    "name": "Kaurna",
+    "label": "Kaurna",
+    "group": "Other ABS categories",
+    "users": 107,
+    "ages": [
+      35,
+      9,
+      31,
+      30,
+      0
+    ]
+  },
+  {
+    "name": "Kayardild",
+    "label": "Kayardild",
+    "group": "Other ABS categories",
+    "users": 43,
+    "ages": [
+      12,
+      0,
+      14,
+      13,
+      6
+    ]
+  },
+  {
+    "name": "Kriol",
+    "label": "Kriol",
+    "group": "Other ABS categories",
+    "users": 7403,
+    "ages": [
+      2145,
+      1489,
+      2334,
+      1194,
+      234
+    ]
+  },
+  {
+    "name": "Lardil",
+    "label": "Lardil",
+    "group": "Other ABS categories",
+    "users": 301,
+    "ages": [
+      88,
+      55,
+      85,
+      58,
+      17
+    ]
+  },
+  {
+    "name": "Mangala",
+    "label": "Mangala",
+    "group": "Other ABS categories",
+    "users": 33,
+    "ages": [
+      4,
+      3,
+      10,
+      9,
+      0
+    ]
+  },
+  {
+    "name": "Muruwari",
+    "label": "Muruwari",
+    "group": "Other ABS categories",
+    "users": 24,
+    "ages": [
+      11,
+      5,
+      8,
+      7,
+      0
+    ]
+  },
+  {
+    "name": "Narungga",
+    "label": "Narungga",
+    "group": "Other ABS categories",
+    "users": 94,
+    "ages": [
+      28,
+      17,
+      28,
+      18,
+      0
+    ]
+  },
+  {
+    "name": "Ngarluma",
+    "label": "Ngarluma",
+    "group": "Other ABS categories",
+    "users": 78,
+    "ages": [
+      15,
+      11,
+      26,
+      20,
+      6
+    ]
+  },
+  {
+    "name": "Ngarrindjeri",
+    "label": "Ngarrindjeri",
+    "group": "Other ABS categories",
+    "users": 451,
+    "ages": [
+      133,
+      79,
+      124,
+      95,
+      22
+    ]
+  },
+  {
+    "name": "Nyamal",
+    "label": "Nyamal",
+    "group": "Other ABS categories",
+    "users": 45,
+    "ages": [
+      8,
+      5,
+      21,
+      9,
+      4
+    ]
+  },
+  {
+    "name": "Nyangumarta",
+    "label": "Nyangumarta",
+    "group": "Other ABS categories",
+    "users": 237,
+    "ages": [
+      67,
+      41,
+      73,
+      40,
+      17
+    ]
+  },
+  {
+    "name": "Nyungar",
+    "label": "Nyungar",
+    "group": "Other ABS categories",
+    "users": 1441,
+    "ages": [
+      489,
+      209,
+      417,
+      277,
+      57
+    ]
+  },
+  {
+    "name": "Paakantyi",
+    "label": "Paakantyi",
+    "group": "Other ABS categories",
+    "users": 103,
+    "ages": [
+      44,
+      8,
+      27,
+      15,
+      9
+    ]
+  },
+  {
+    "name": "Palyku/Nyiyaparli",
+    "label": "Palyku/Nyiyaparli",
+    "group": "Other ABS categories",
+    "users": 12,
+    "ages": [
+      0,
+      0,
+      3,
+      5,
+      0
+    ]
+  },
+  {
+    "name": "Wajarri",
+    "label": "Wajarri",
+    "group": "Other ABS categories",
+    "users": 289,
+    "ages": [
+      71,
+      52,
+      77,
+      76,
+      16
+    ]
+  },
+  {
+    "name": "Wiradjuri",
+    "label": "Wiradjuri",
+    "group": "Other ABS categories",
+    "users": 1479,
+    "ages": [
+      479,
+      207,
+      432,
+      298,
+      64
+    ]
+  },
+  {
+    "name": "Yindjibarndi",
+    "label": "Yindjibarndi",
+    "group": "Other ABS categories",
+    "users": 373,
+    "ages": [
+      66,
+      68,
+      107,
+      99,
+      29
+    ]
+  },
+  {
+    "name": "Yinhawangka",
+    "label": "Yinhawangka",
+    "group": "Other ABS categories",
+    "users": 12,
+    "ages": [
+      3,
+      0,
+      4,
+      4,
+      0
+    ]
+  },
+  {
+    "name": "Yorta Yorta",
+    "label": "Yorta Yorta",
+    "group": "Other ABS categories",
+    "users": 144,
+    "ages": [
+      40,
+      24,
+      41,
+      35,
+      6
+    ]
+  },
+  {
+    "name": "Baanbay",
+    "label": "Baanbay",
+    "group": "Other ABS categories",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Badimaya",
+    "label": "Badimaya",
+    "group": "Other ABS categories",
+    "users": 16,
+    "ages": [
+      4,
+      0,
+      3,
+      3,
+      0
+    ]
+  },
+  {
+    "name": "Barababaraba",
+    "label": "Barababaraba",
+    "group": "Other ABS categories",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Dadi Dadi",
+    "label": "Dadi Dadi",
+    "group": "Other ABS categories",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Dharawal",
+    "label": "Dharawal",
+    "group": "Other ABS categories",
+    "users": 100,
+    "ages": [
+      44,
+      11,
+      27,
+      21,
+      0
+    ]
+  },
+  {
+    "name": "Djabwurrung",
+    "label": "Djabwurrung",
+    "group": "Other ABS categories",
+    "users": 21,
+    "ages": [
+      10,
+      0,
+      5,
+      3,
+      0
+    ]
+  },
+  {
+    "name": "Gudjal",
+    "label": "Gudjal",
+    "group": "Other ABS categories",
+    "users": 4,
+    "ages": [
+      0,
+      0,
+      4,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Keerray-Woorroong",
+    "label": "Keerray-Woorroong",
+    "group": "Other ABS categories",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Ladji Ladji",
+    "label": "Ladji Ladji",
+    "group": "Other ABS categories",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Mirning",
+    "label": "Mirning",
+    "group": "Other ABS categories",
+    "users": 13,
+    "ages": [
+      7,
+      0,
+      0,
+      3,
+      4
+    ]
+  },
+  {
+    "name": "Ngatjumaya",
+    "label": "Ngatjumaya",
+    "group": "Other ABS categories",
+    "users": 20,
+    "ages": [
+      6,
+      0,
+      7,
+      3,
+      0
+    ]
+  },
+  {
+    "name": "Waluwarra",
+    "label": "Waluwarra",
+    "group": "Other ABS categories",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Wangkangurru",
+    "label": "Wangkangurru",
+    "group": "Other ABS categories",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Wargamay",
+    "label": "Wargamay",
+    "group": "Other ABS categories",
+    "users": 0,
+    "ages": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Wergaia",
+    "label": "Wergaia",
+    "group": "Other ABS categories",
+    "users": 16,
+    "ages": [
+      8,
+      0,
+      4,
+      6,
+      0
+    ]
+  },
+  {
+    "name": "Yugambeh",
+    "label": "Yugambeh",
+    "group": "Other ABS categories",
+    "users": 173,
+    "ages": [
+      66,
+      29,
+      50,
+      25,
+      5
+    ]
+  },
+  {
+    "name": "Aboriginal English, so described",
+    "label": "Aboriginal English, so described",
+    "group": "Other ABS categories",
+    "users": 1371,
+    "ages": [
+      402,
+      257,
+      391,
+      260,
+      53
+    ]
+  }
+]

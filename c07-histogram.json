@@ -1,0 +1,115 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 600,
+  "height": 270,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "config": {
+    "background": "#fbfaf6",
+    "font": "Source Sans 3",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Source Sans 3",
+      "titleFont": "Source Sans 3",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": 500,
+      "titleColor": "#233c32",
+      "labelColor": "#52645b",
+      "domain": false,
+      "tickColor": "#cfcfc1",
+      "gridColor": "#e5e5dc",
+      "gridOpacity": 0.75,
+      "titlePadding": 12,
+      "labelPadding": 7
+    },
+    "legend": {
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": 500,
+      "orient": "bottom",
+      "labelColor": "#233c32",
+      "titleColor": "#233c32",
+      "padding": 5,
+      "offset": 12
+    },
+    "title": {
+      "fontSize": 14,
+      "anchor": "start",
+      "fontWeight": 500,
+      "color": "#233c32"
+    }
+  },
+  "description": "Equal-width 500-person bins for 159 named Census categories with positive home-use counts. Not an endangered-language count.",
+  "data": {
+    "url": "histogram.json"
+  },
+  "mark": {
+    "type": "bar",
+    "color": "#236652",
+    "stroke": "#fbfaf6",
+    "strokeWidth": 0.6
+  },
+  "encoding": {
+    "x": {
+      "field": "lower",
+      "type": "quantitative",
+      "bin": {
+        "binned": true,
+        "step": 500
+      },
+      "scale": {
+        "domain": [
+          0,
+          8000
+        ]
+      },
+      "axis": {
+        "title": "Recorded home users per named category",
+        "values": [
+          0,
+          2000,
+          4000,
+          6000,
+          8000
+        ],
+        "format": ",d"
+      }
+    },
+    "x2": {
+      "field": "upper"
+    },
+    "y": {
+      "field": "categories",
+      "type": "quantitative",
+      "axis": {
+        "title": "Number of named categories",
+        "tickMinStep": 1
+      }
+    },
+    "tooltip": [
+      {
+        "field": "lower",
+        "type": "quantitative",
+        "title": "From (inclusive)",
+        "format": ",d"
+      },
+      {
+        "field": "upper",
+        "type": "quantitative",
+        "title": "To (exclusive)",
+        "format": ",d"
+      },
+      {
+        "field": "categories",
+        "type": "quantitative",
+        "title": "Named categories",
+        "format": "d"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "c01",
+    "file": "c01-trends.json",
+    "idiom": "line",
+    "advanced": false
+  },
+  {
+    "id": "c02",
+    "file": "c02-choropleth.json",
+    "idiom": "choropleth map",
+    "advanced": true
+  },
+  {
+    "id": "c03",
+    "file": "c03-symbol-map.json",
+    "idiom": "proportional symbol map",
+    "advanced": true
+  },
+  {
+    "id": "c04",
+    "file": "c04-slope.json",
+    "idiom": "slope",
+    "advanced": true
+  },
+  {
+    "id": "c05",
+    "file": "c05-treemap.json",
+    "idiom": "treemap",
+    "advanced": true
+  },
+  {
+    "id": "c06",
+    "file": "c06-bump.json",
+    "idiom": "bump",
+    "advanced": true
+  },
+  {
+    "id": "c07",
+    "file": "c07-histogram.json",
+    "idiom": "histogram",
+    "advanced": true
+  },
+  {
+    "id": "c08",
+    "file": "c08-heatmap.json",
+    "idiom": "heatmap",
+    "advanced": true
+  },
+  {
+    "id": "c09",
+    "file": "c09-age-stacks.json",
+    "idiom": "100% stacked bar",
+    "advanced": false
+  },
+  {
+    "id": "c10",
+    "file": "c10-waffle.json",
+    "idiom": "waffle",
+    "advanced": true
+  },
+  {
+    "id": "c11",
+    "file": "c11-revival-bars.json",
+    "idiom": "bar",
+    "advanced": false
+  },
+  {
+    "id": "c12",
+    "file": "c12-dot-map.json",
+    "idiom": "dot map",
+    "advanced": true
+  }
+]

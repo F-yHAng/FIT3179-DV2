@@ -1,0 +1,44 @@
+[
+  {
+    "year": 1991,
+    "users": 43499,
+    "population": 265459,
+    "percent": 16.4
+  },
+  {
+    "year": 1996,
+    "users": 46814,
+    "population": 352970,
+    "percent": 13.3
+  },
+  {
+    "year": 2001,
+    "users": 49764,
+    "population": 410003,
+    "percent": 12.1
+  },
+  {
+    "year": 2006,
+    "users": 51993,
+    "population": 455028,
+    "percent": 11.4
+  },
+  {
+    "year": 2011,
+    "users": 60550,
+    "population": 548368,
+    "percent": 11
+  },
+  {
+    "year": 2016,
+    "users": 63754,
+    "population": 649171,
+    "percent": 9.8
+  },
+  {
+    "year": 2021,
+    "users": 76978,
+    "population": 812728,
+    "percent": 9.5
+  }
+]

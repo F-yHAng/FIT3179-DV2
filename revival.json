@@ -1,0 +1,42 @@
+[
+  {
+    "state": "New South Wales",
+    "short": "NSW",
+    "languages": 21
+  },
+  {
+    "state": "Victoria",
+    "short": "VIC",
+    "languages": 10
+  },
+  {
+    "state": "Queensland",
+    "short": "QLD",
+    "languages": 37
+  },
+  {
+    "state": "Western Australia",
+    "short": "WA",
+    "languages": 26
+  },
+  {
+    "state": "South Australia",
+    "short": "SA",
+    "languages": 7
+  },
+  {
+    "state": "Tasmania",
+    "short": "TAS",
+    "languages": 2
+  },
+  {
+    "state": "Australian Capital Territory",
+    "short": "ACT",
+    "languages": 1
+  },
+  {
+    "state": "Northern Territory",
+    "short": "NT",
+    "languages": 21
+  }
+]

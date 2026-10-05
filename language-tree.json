@@ -1,0 +1,1344 @@
+[
+  {
+    "id": "root",
+    "parent": null,
+    "label": "Named categories",
+    "group": "",
+    "value": 0
+  },
+  {
+    "id": "g:Arnhem & Daly",
+    "parent": "root",
+    "label": "Arnhem & Daly",
+    "group": "Arnhem & Daly",
+    "value": 0
+  },
+  {
+    "id": "g:Yolngu Matha",
+    "parent": "root",
+    "label": "Yolngu Matha",
+    "group": "Yolngu Matha",
+    "value": 0
+  },
+  {
+    "id": "g:Cape York",
+    "parent": "root",
+    "label": "Cape York",
+    "group": "Cape York",
+    "value": 0
+  },
+  {
+    "id": "g:Torres Strait",
+    "parent": "root",
+    "label": "Torres Strait",
+    "group": "Torres Strait",
+    "value": 0
+  },
+  {
+    "id": "g:Northern Desert Fringe",
+    "parent": "root",
+    "label": "Northern Desert Fringe",
+    "group": "Northern Desert Fringe",
+    "value": 0
+  },
+  {
+    "id": "g:Arandic",
+    "parent": "root",
+    "label": "Arandic",
+    "group": "Arandic",
+    "value": 0
+  },
+  {
+    "id": "g:Western Desert",
+    "parent": "root",
+    "label": "Western Desert",
+    "group": "Western Desert",
+    "value": 0
+  },
+  {
+    "id": "g:Kimberley",
+    "parent": "root",
+    "label": "Kimberley",
+    "group": "Kimberley",
+    "value": 0
+  },
+  {
+    "id": "g:Other ABS categories",
+    "parent": "root",
+    "label": "Other ABS categories",
+    "group": "Other ABS categories",
+    "value": 0
+  },
+  {
+    "id": "l:Yumplatok (Torres Strait Creole)",
+    "parent": "g:Torres Strait",
+    "label": "Yumplatok",
+    "name": "Yumplatok (Torres Strait Creole)",
+    "group": "Torres Strait",
+    "value": 7596
+  },
+  {
+    "id": "l:Kriol",
+    "parent": "g:Other ABS categories",
+    "label": "Kriol",
+    "name": "Kriol",
+    "group": "Other ABS categories",
+    "value": 7403
+  },
+  {
+    "id": "l:Djambarrpuyngu",
+    "parent": "g:Yolngu Matha",
+    "label": "Djambarrpuyngu",
+    "name": "Djambarrpuyngu",
+    "group": "Yolngu Matha",
+    "value": 3839
+  },
+  {
+    "id": "l:Pitjantjatjara",
+    "parent": "g:Western Desert",
+    "label": "Pitjantjatjara",
+    "name": "Pitjantjatjara",
+    "group": "Western Desert",
+    "value": 3399
+  },
+  {
+    "id": "l:Warlpiri",
+    "parent": "g:Northern Desert Fringe",
+    "label": "Warlpiri",
+    "name": "Warlpiri",
+    "group": "Northern Desert Fringe",
+    "value": 2592
+  },
+  {
+    "id": "l:Murrinh Patha",
+    "parent": "g:Arnhem & Daly",
+    "label": "Murrinh Patha",
+    "name": "Murrinh Patha",
+    "group": "Arnhem & Daly",
+    "value": 2063
+  },
+  {
+    "id": "l:Tiwi",
+    "parent": "g:Arnhem & Daly",
+    "label": "Tiwi",
+    "name": "Tiwi",
+    "group": "Arnhem & Daly",
+    "value": 2053
+  },
+  {
+    "id": "l:Alyawarr",
+    "parent": "g:Arandic",
+    "label": "Alyawarr",
+    "name": "Alyawarr",
+    "group": "Arandic",
+    "value": 1942
+  },
+  {
+    "id": "l:Anindilyakwa",
+    "parent": "g:Arnhem & Daly",
+    "label": "Anindilyakwa",
+    "name": "Anindilyakwa",
+    "group": "Arnhem & Daly",
+    "value": 1510
+  },
+  {
+    "id": "l:Kunwinjku",
+    "parent": "g:Arnhem & Daly",
+    "label": "Kunwinjku",
+    "name": "Kunwinjku",
+    "group": "Arnhem & Daly",
+    "value": 1484
+  },
+  {
+    "id": "l:Wiradjuri",
+    "parent": "g:Other ABS categories",
+    "label": "Wiradjuri",
+    "name": "Wiradjuri",
+    "group": "Other ABS categories",
+    "value": 1479
+  },
+  {
+    "id": "l:Nyungar",
+    "parent": "g:Other ABS categories",
+    "label": "Nyungar",
+    "name": "Nyungar",
+    "group": "Other ABS categories",
+    "value": 1441
+  },
+  {
+    "id": "l:Aboriginal English, so described",
+    "parent": "g:Other ABS categories",
+    "label": "Aboriginal English, so described",
+    "name": "Aboriginal English, so described",
+    "group": "Other ABS categories",
+    "value": 1371
+  },
+  {
+    "id": "l:Luritja",
+    "parent": "g:Western Desert",
+    "label": "Luritja",
+    "name": "Luritja",
+    "group": "Western Desert",
+    "value": 1285
+  },
+  {
+    "id": "l:Burarra",
+    "parent": "g:Arnhem & Daly",
+    "label": "Burarra",
+    "name": "Burarra",
+    "group": "Arnhem & Daly",
+    "value": 1225
+  },
+  {
+    "id": "l:Ngaanyatjarra",
+    "parent": "g:Western Desert",
+    "label": "Ngaanyatjarra",
+    "name": "Ngaanyatjarra",
+    "group": "Western Desert",
+    "value": 1046
+  },
+  {
+    "id": "l:Gamilaraay",
+    "parent": "g:Other ABS categories",
+    "label": "Gamilaraay",
+    "name": "Gamilaraay",
+    "group": "Other ABS categories",
+    "value": 1039
+  },
+  {
+    "id": "l:Wik Mungkan",
+    "parent": "g:Cape York",
+    "label": "Wik Mungkan",
+    "name": "Wik Mungkan",
+    "group": "Cape York",
+    "value": 953
+  },
+  {
+    "id": "l:Western Arrarnta",
+    "parent": "g:Arandic",
+    "label": "Western Arrarnta",
+    "name": "Western Arrarnta",
+    "group": "Arandic",
+    "value": 895
+  },
+  {
+    "id": "l:Kalaw Kawaw Ya/Kalaw Lagaw Ya",
+    "parent": "g:Torres Strait",
+    "label": "Kalaw Kawaw Ya/Kalaw Lagaw Ya",
+    "name": "Kalaw Kawaw Ya/Kalaw Lagaw Ya",
+    "group": "Torres Strait",
+    "value": 875
+  },
+  {
+    "id": "l:Guugu Yimidhirr",
+    "parent": "g:Cape York",
+    "label": "Guugu Yimidhirr",
+    "name": "Guugu Yimidhirr",
+    "group": "Cape York",
+    "value": 791
+  },
+  {
+    "id": "l:Martu Wangka",
+    "parent": "g:Western Desert",
+    "label": "Martu Wangka",
+    "name": "Martu Wangka",
+    "group": "Western Desert",
+    "value": 791
+  },
+  {
+    "id": "l:Gurindji",
+    "parent": "g:Northern Desert Fringe",
+    "label": "Gurindji",
+    "name": "Gurindji",
+    "group": "Northern Desert Fringe",
+    "value": 618
+  },
+  {
+    "id": "l:Yankunytjatjara",
+    "parent": "g:Western Desert",
+    "label": "Yankunytjatjara",
+    "name": "Yankunytjatjara",
+    "group": "Western Desert",
+    "value": 594
+  },
+  {
+    "id": "l:Jaru",
+    "parent": "g:Northern Desert Fringe",
+    "label": "Jaru",
+    "name": "Jaru",
+    "group": "Northern Desert Fringe",
+    "value": 551
+  },
+  {
+    "id": "l:Central Anmatyerr",
+    "parent": "g:Arandic",
+    "label": "Central Anmatyerr",
+    "name": "Central Anmatyerr",
+    "group": "Arandic",
+    "value": 487
+  },
+  {
+    "id": "l:Eastern Arrernte",
+    "parent": "g:Arandic",
+    "label": "Eastern Arrernte",
+    "name": "Eastern Arrernte",
+    "group": "Arandic",
+    "value": 477
+  },
+  {
+    "id": "l:Kukatja",
+    "parent": "g:Western Desert",
+    "label": "Kukatja",
+    "name": "Kukatja",
+    "group": "Western Desert",
+    "value": 457
+  },
+  {
+    "id": "l:Ngarrindjeri",
+    "parent": "g:Other ABS categories",
+    "label": "Ngarrindjeri",
+    "name": "Ngarrindjeri",
+    "group": "Other ABS categories",
+    "value": 451
+  },
+  {
+    "id": "l:Bandjalang",
+    "parent": "g:Other ABS categories",
+    "label": "Bandjalang",
+    "name": "Bandjalang",
+    "group": "Other ABS categories",
+    "value": 443
+  },
+  {
+    "id": "l:Kuninjku",
+    "parent": "g:Arnhem & Daly",
+    "label": "Kuninjku",
+    "name": "Kuninjku",
+    "group": "Arnhem & Daly",
+    "value": 422
+  },
+  {
+    "id": "l:Warumungu",
+    "parent": "g:Northern Desert Fringe",
+    "label": "Warumungu",
+    "name": "Warumungu",
+    "group": "Northern Desert Fringe",
+    "value": 415
+  },
+  {
+    "id": "l:Yindjibarndi",
+    "parent": "g:Other ABS categories",
+    "label": "Yindjibarndi",
+    "name": "Yindjibarndi",
+    "group": "Other ABS categories",
+    "value": 373
+  },
+  {
+    "id": "l:Kuku Yalanji",
+    "parent": "g:Cape York",
+    "label": "Kuku Yalanji",
+    "name": "Kuku Yalanji",
+    "group": "Cape York",
+    "value": 370
+  },
+  {
+    "id": "l:Ndjebbana (Gunavidji)",
+    "parent": "g:Arnhem & Daly",
+    "label": "Ndjebbana (Gunavidji)",
+    "name": "Ndjebbana (Gunavidji)",
+    "group": "Arnhem & Daly",
+    "value": 367
+  },
+  {
+    "id": "l:Maung",
+    "parent": "g:Arnhem & Daly",
+    "label": "Maung",
+    "name": "Maung",
+    "group": "Arnhem & Daly",
+    "value": 360
+  },
+  {
+    "id": "l:Wangkatha",
+    "parent": "g:Western Desert",
+    "label": "Wangkatha",
+    "name": "Wangkatha",
+    "group": "Western Desert",
+    "value": 347
+  },
+  {
+    "id": "l:Ngarinyman",
+    "parent": "g:Northern Desert Fringe",
+    "label": "Ngarinyman",
+    "name": "Ngarinyman",
+    "group": "Northern Desert Fringe",
+    "value": 313
+  },
+  {
+    "id": "l:Lardil",
+    "parent": "g:Other ABS categories",
+    "label": "Lardil",
+    "name": "Lardil",
+    "group": "Other ABS categories",
+    "value": 301
+  },
+  {
+    "id": "l:Walmajarri",
+    "parent": "g:Northern Desert Fringe",
+    "label": "Walmajarri",
+    "name": "Walmajarri",
+    "group": "Northern Desert Fringe",
+    "value": 291
+  },
+  {
+    "id": "l:Gumbaynggir",
+    "parent": "g:Other ABS categories",
+    "label": "Gumbaynggir",
+    "name": "Gumbaynggir",
+    "group": "Other ABS categories",
+    "value": 289
+  },
+  {
+    "id": "l:Wajarri",
+    "parent": "g:Other ABS categories",
+    "label": "Wajarri",
+    "name": "Wajarri",
+    "group": "Other ABS categories",
+    "value": 289
+  },
+  {
+    "id": "l:Nunggubuyu",
+    "parent": "g:Arnhem & Daly",
+    "label": "Nunggubuyu",
+    "name": "Nunggubuyu",
+    "group": "Arnhem & Daly",
+    "value": 283
+  },
+  {
+    "id": "l:Bardi",
+    "parent": "g:Kimberley",
+    "label": "Bardi",
+    "name": "Bardi",
+    "group": "Kimberley",
+    "value": 281
+  },
+  {
+    "id": "l:Pintupi",
+    "parent": "g:Western Desert",
+    "label": "Pintupi",
+    "name": "Pintupi",
+    "group": "Western Desert",
+    "value": 260
+  },
+  {
+    "id": "l:Kija",
+    "parent": "g:Kimberley",
+    "label": "Kija",
+    "name": "Kija",
+    "group": "Kimberley",
+    "value": 258
+  },
+  {
+    "id": "l:Kune",
+    "parent": "g:Arnhem & Daly",
+    "label": "Kune",
+    "name": "Kune",
+    "group": "Arnhem & Daly",
+    "value": 257
+  },
+  {
+    "id": "l:Meriam Mir",
+    "parent": "g:Torres Strait",
+    "label": "Meriam Mir",
+    "name": "Meriam Mir",
+    "group": "Torres Strait",
+    "value": 256
+  },
+  {
+    "id": "l:Adnymathanha",
+    "parent": "g:Other ABS categories",
+    "label": "Adnymathanha",
+    "name": "Adnymathanha",
+    "group": "Other ABS categories",
+    "value": 254
+  },
+  {
+    "id": "l:Nyangumarta",
+    "parent": "g:Other ABS categories",
+    "label": "Nyangumarta",
+    "name": "Nyangumarta",
+    "group": "Other ABS categories",
+    "value": 237
+  },
+  {
+    "id": "l:Gooniyandi",
+    "parent": "g:Kimberley",
+    "label": "Gooniyandi",
+    "name": "Gooniyandi",
+    "group": "Kimberley",
+    "value": 201
+  },
+  {
+    "id": "l:Kuuk Thayorre",
+    "parent": "g:Cape York",
+    "label": "Kuuk Thayorre",
+    "name": "Kuuk Thayorre",
+    "group": "Cape York",
+    "value": 174
+  },
+  {
+    "id": "l:Yugambeh",
+    "parent": "g:Other ABS categories",
+    "label": "Yugambeh",
+    "name": "Yugambeh",
+    "group": "Other ABS categories",
+    "value": 173
+  },
+  {
+    "id": "l:Miriwoong",
+    "parent": "g:Kimberley",
+    "label": "Miriwoong",
+    "name": "Miriwoong",
+    "group": "Kimberley",
+    "value": 168
+  },
+  {
+    "id": "l:Iwaidja",
+    "parent": "g:Arnhem & Daly",
+    "label": "Iwaidja",
+    "name": "Iwaidja",
+    "group": "Arnhem & Daly",
+    "value": 154
+  },
+  {
+    "id": "l:Yawuru",
+    "parent": "g:Kimberley",
+    "label": "Yawuru",
+    "name": "Yawuru",
+    "group": "Kimberley",
+    "value": 145
+  },
+  {
+    "id": "l:Dhuwaya",
+    "parent": "g:Yolngu Matha",
+    "label": "Dhuwaya",
+    "name": "Dhuwaya",
+    "group": "Yolngu Matha",
+    "value": 144
+  },
+  {
+    "id": "l:Yorta Yorta",
+    "parent": "g:Other ABS categories",
+    "label": "Yorta Yorta",
+    "name": "Yorta Yorta",
+    "group": "Other ABS categories",
+    "value": 144
+  },
+  {
+    "id": "l:Bunuba",
+    "parent": "g:Kimberley",
+    "label": "Bunuba",
+    "name": "Bunuba",
+    "group": "Kimberley",
+    "value": 142
+  },
+  {
+    "id": "l:Garrwa",
+    "parent": "g:Arnhem & Daly",
+    "label": "Garrwa",
+    "name": "Garrwa",
+    "group": "Arnhem & Daly",
+    "value": 139
+  },
+  {
+    "id": "l:Eastern Anmatyerr",
+    "parent": "g:Arandic",
+    "label": "Eastern Anmatyerr",
+    "name": "Eastern Anmatyerr",
+    "group": "Arandic",
+    "value": 137
+  },
+  {
+    "id": "l:Dhanggatti",
+    "parent": "g:Other ABS categories",
+    "label": "Dhanggatti",
+    "name": "Dhanggatti",
+    "group": "Other ABS categories",
+    "value": 137
+  },
+  {
+    "id": "l:Banyjima",
+    "parent": "g:Other ABS categories",
+    "label": "Banyjima",
+    "name": "Banyjima",
+    "group": "Other ABS categories",
+    "value": 132
+  },
+  {
+    "id": "l:Galpu",
+    "parent": "g:Yolngu Matha",
+    "label": "Galpu",
+    "name": "Galpu",
+    "group": "Yolngu Matha",
+    "value": 130
+  },
+  {
+    "id": "l:Mudburra",
+    "parent": "g:Northern Desert Fringe",
+    "label": "Mudburra",
+    "name": "Mudburra",
+    "group": "Northern Desert Fringe",
+    "value": 125
+  },
+  {
+    "id": "l:Kaytetye",
+    "parent": "g:Arandic",
+    "label": "Kaytetye",
+    "name": "Kaytetye",
+    "group": "Arandic",
+    "value": 110
+  },
+  {
+    "id": "l:Gupapuyngu",
+    "parent": "g:Yolngu Matha",
+    "label": "Gupapuyngu",
+    "name": "Gupapuyngu",
+    "group": "Yolngu Matha",
+    "value": 109
+  },
+  {
+    "id": "l:Kaurna",
+    "parent": "g:Other ABS categories",
+    "label": "Kaurna",
+    "name": "Kaurna",
+    "group": "Other ABS categories",
+    "value": 107
+  },
+  {
+    "id": "l:Paakantyi",
+    "parent": "g:Other ABS categories",
+    "label": "Paakantyi",
+    "name": "Paakantyi",
+    "group": "Other ABS categories",
+    "value": 103
+  },
+  {
+    "id": "l:Ngan'gikurunggurr",
+    "parent": "g:Arnhem & Daly",
+    "label": "Ngan'gikurunggurr",
+    "name": "Ngan'gikurunggurr",
+    "group": "Arnhem & Daly",
+    "value": 100
+  },
+  {
+    "id": "l:Dharawal",
+    "parent": "g:Other ABS categories",
+    "label": "Dharawal",
+    "name": "Dharawal",
+    "group": "Other ABS categories",
+    "value": 100
+  },
+  {
+    "id": "l:Gumatj",
+    "parent": "g:Yolngu Matha",
+    "label": "Gumatj",
+    "name": "Gumatj",
+    "group": "Yolngu Matha",
+    "value": 98
+  },
+  {
+    "id": "l:Narungga",
+    "parent": "g:Other ABS categories",
+    "label": "Narungga",
+    "name": "Narungga",
+    "group": "Other ABS categories",
+    "value": 94
+  },
+  {
+    "id": "l:Ngaliwurru",
+    "parent": "g:Arnhem & Daly",
+    "label": "Ngaliwurru",
+    "name": "Ngaliwurru",
+    "group": "Arnhem & Daly",
+    "value": 90
+  },
+  {
+    "id": "l:Kukatha",
+    "parent": "g:Western Desert",
+    "label": "Kukatha",
+    "name": "Kukatha",
+    "group": "Western Desert",
+    "value": 89
+  },
+  {
+    "id": "l:Batjala",
+    "parent": "g:Other ABS categories",
+    "label": "Batjala",
+    "name": "Batjala",
+    "group": "Other ABS categories",
+    "value": 83
+  },
+  {
+    "id": "l:Djabugay",
+    "parent": "g:Cape York",
+    "label": "Djabugay",
+    "name": "Djabugay",
+    "group": "Cape York",
+    "value": 80
+  },
+  {
+    "id": "l:Bilinarra",
+    "parent": "g:Northern Desert Fringe",
+    "label": "Bilinarra",
+    "name": "Bilinarra",
+    "group": "Northern Desert Fringe",
+    "value": 79
+  },
+  {
+    "id": "l:Ngarluma",
+    "parent": "g:Other ABS categories",
+    "label": "Ngarluma",
+    "name": "Ngarluma",
+    "group": "Other ABS categories",
+    "value": 78
+  },
+  {
+    "id": "l:Manyjilyjarra",
+    "parent": "g:Western Desert",
+    "label": "Manyjilyjarra",
+    "name": "Manyjilyjarra",
+    "group": "Western Desert",
+    "value": 65
+  },
+  {
+    "id": "l:Mayali",
+    "parent": "g:Arnhem & Daly",
+    "label": "Mayali",
+    "name": "Mayali",
+    "group": "Arnhem & Daly",
+    "value": 64
+  },
+  {
+    "id": "l:Bidjara",
+    "parent": "g:Other ABS categories",
+    "label": "Bidjara",
+    "name": "Bidjara",
+    "group": "Other ABS categories",
+    "value": 62
+  },
+  {
+    "id": "l:Ngarinyin",
+    "parent": "g:Kimberley",
+    "label": "Ngarinyin",
+    "name": "Ngarinyin",
+    "group": "Kimberley",
+    "value": 59
+  },
+  {
+    "id": "l:Yidiny",
+    "parent": "g:Cape York",
+    "label": "Yidiny",
+    "name": "Yidiny",
+    "group": "Cape York",
+    "value": 53
+  },
+  {
+    "id": "l:Karajarri",
+    "parent": "g:Other ABS categories",
+    "label": "Karajarri",
+    "name": "Karajarri",
+    "group": "Other ABS categories",
+    "value": 52
+  },
+  {
+    "id": "l:Rembarrnga",
+    "parent": "g:Arnhem & Daly",
+    "label": "Rembarrnga",
+    "name": "Rembarrnga",
+    "group": "Arnhem & Daly",
+    "value": 51
+  },
+  {
+    "id": "l:Gun-nartpa",
+    "parent": "g:Arnhem & Daly",
+    "label": "Gun-nartpa",
+    "name": "Gun-nartpa",
+    "group": "Arnhem & Daly",
+    "value": 50
+  },
+  {
+    "id": "l:Girramay",
+    "parent": "g:Cape York",
+    "label": "Girramay",
+    "name": "Girramay",
+    "group": "Cape York",
+    "value": 49
+  },
+  {
+    "id": "l:Na-kara",
+    "parent": "g:Arnhem & Daly",
+    "label": "Na-kara",
+    "name": "Na-kara",
+    "group": "Arnhem & Daly",
+    "value": 48
+  },
+  {
+    "id": "l:Nyikina",
+    "parent": "g:Kimberley",
+    "label": "Nyikina",
+    "name": "Nyikina",
+    "group": "Kimberley",
+    "value": 46
+  },
+  {
+    "id": "l:Nyamal",
+    "parent": "g:Other ABS categories",
+    "label": "Nyamal",
+    "name": "Nyamal",
+    "group": "Other ABS categories",
+    "value": 45
+  },
+  {
+    "id": "l:Yanyuwa",
+    "parent": "g:Arnhem & Daly",
+    "label": "Yanyuwa",
+    "name": "Yanyuwa",
+    "group": "Arnhem & Daly",
+    "value": 43
+  },
+  {
+    "id": "l:Kayardild",
+    "parent": "g:Other ABS categories",
+    "label": "Kayardild",
+    "name": "Kayardild",
+    "group": "Other ABS categories",
+    "value": 43
+  },
+  {
+    "id": "l:Larrakiya",
+    "parent": "g:Arnhem & Daly",
+    "label": "Larrakiya",
+    "name": "Larrakiya",
+    "group": "Arnhem & Daly",
+    "value": 41
+  },
+  {
+    "id": "l:Jingulu",
+    "parent": "g:Arnhem & Daly",
+    "label": "Jingulu",
+    "name": "Jingulu",
+    "group": "Arnhem & Daly",
+    "value": 40
+  },
+  {
+    "id": "l:Gurr-goni",
+    "parent": "g:Arnhem & Daly",
+    "label": "Gurr-goni",
+    "name": "Gurr-goni",
+    "group": "Arnhem & Daly",
+    "value": 40
+  },
+  {
+    "id": "l:Ganalbingu",
+    "parent": "g:Yolngu Matha",
+    "label": "Ganalbingu",
+    "name": "Ganalbingu",
+    "group": "Yolngu Matha",
+    "value": 37
+  },
+  {
+    "id": "l:Warlmanpa",
+    "parent": "g:Northern Desert Fringe",
+    "label": "Warlmanpa",
+    "name": "Warlmanpa",
+    "group": "Northern Desert Fringe",
+    "value": 37
+  },
+  {
+    "id": "l:Wurlaki",
+    "parent": "g:Yolngu Matha",
+    "label": "Wurlaki",
+    "name": "Wurlaki",
+    "group": "Yolngu Matha",
+    "value": 33
+  },
+  {
+    "id": "l:Kuuku-Ya'u",
+    "parent": "g:Cape York",
+    "label": "Kuuku-Ya'u",
+    "name": "Kuuku-Ya'u",
+    "group": "Cape York",
+    "value": 33
+  },
+  {
+    "id": "l:Yulparija",
+    "parent": "g:Western Desert",
+    "label": "Yulparija",
+    "name": "Yulparija",
+    "group": "Western Desert",
+    "value": 33
+  },
+  {
+    "id": "l:Mangala",
+    "parent": "g:Other ABS categories",
+    "label": "Mangala",
+    "name": "Mangala",
+    "group": "Other ABS categories",
+    "value": 33
+  },
+  {
+    "id": "l:Dyirbal",
+    "parent": "g:Cape York",
+    "label": "Dyirbal",
+    "name": "Dyirbal",
+    "group": "Cape York",
+    "value": 30
+  },
+  {
+    "id": "l:Arabana",
+    "parent": "g:Other ABS categories",
+    "label": "Arabana",
+    "name": "Arabana",
+    "group": "Other ABS categories",
+    "value": 30
+  },
+  {
+    "id": "l:Marra",
+    "parent": "g:Arnhem & Daly",
+    "label": "Marra",
+    "name": "Marra",
+    "group": "Arnhem & Daly",
+    "value": 29
+  },
+  {
+    "id": "l:Wagiman",
+    "parent": "g:Arnhem & Daly",
+    "label": "Wagiman",
+    "name": "Wagiman",
+    "group": "Arnhem & Daly",
+    "value": 29
+  },
+  {
+    "id": "l:Kariyarra",
+    "parent": "g:Other ABS categories",
+    "label": "Kariyarra",
+    "name": "Kariyarra",
+    "group": "Other ABS categories",
+    "value": 29
+  },
+  {
+    "id": "l:Dalabon",
+    "parent": "g:Arnhem & Daly",
+    "label": "Dalabon",
+    "name": "Dalabon",
+    "group": "Arnhem & Daly",
+    "value": 28
+  },
+  {
+    "id": "l:Djapu",
+    "parent": "g:Yolngu Matha",
+    "label": "Djapu",
+    "name": "Djapu",
+    "group": "Yolngu Matha",
+    "value": 28
+  },
+  {
+    "id": "l:Diyari",
+    "parent": "g:Other ABS categories",
+    "label": "Diyari",
+    "name": "Diyari",
+    "group": "Other ABS categories",
+    "value": 28
+  },
+  {
+    "id": "l:Githabul",
+    "parent": "g:Other ABS categories",
+    "label": "Githabul",
+    "name": "Githabul",
+    "group": "Other ABS categories",
+    "value": 28
+  },
+  {
+    "id": "l:Wangurri",
+    "parent": "g:Yolngu Matha",
+    "label": "Wangurri",
+    "name": "Wangurri",
+    "group": "Yolngu Matha",
+    "value": 27
+  },
+  {
+    "id": "l:Waanyi",
+    "parent": "g:Arnhem & Daly",
+    "label": "Waanyi",
+    "name": "Waanyi",
+    "group": "Arnhem & Daly",
+    "value": 26
+  },
+  {
+    "id": "l:Wambaya",
+    "parent": "g:Arnhem & Daly",
+    "label": "Wambaya",
+    "name": "Wambaya",
+    "group": "Arnhem & Daly",
+    "value": 25
+  },
+  {
+    "id": "l:Gurindji Kriol",
+    "parent": "g:Northern Desert Fringe",
+    "label": "Gurindji Kriol",
+    "name": "Gurindji Kriol",
+    "group": "Northern Desert Fringe",
+    "value": 25
+  },
+  {
+    "id": "l:Tjupany",
+    "parent": "g:Western Desert",
+    "label": "Tjupany",
+    "name": "Tjupany",
+    "group": "Western Desert",
+    "value": 24
+  },
+  {
+    "id": "l:Muruwari",
+    "parent": "g:Other ABS categories",
+    "label": "Muruwari",
+    "name": "Muruwari",
+    "group": "Other ABS categories",
+    "value": 24
+  },
+  {
+    "id": "l:Kanai",
+    "parent": "g:Other ABS categories",
+    "label": "Kanai",
+    "name": "Kanai",
+    "group": "Other ABS categories",
+    "value": 22
+  },
+  {
+    "id": "l:Warramiri",
+    "parent": "g:Yolngu Matha",
+    "label": "Warramiri",
+    "name": "Warramiri",
+    "group": "Yolngu Matha",
+    "value": 21
+  },
+  {
+    "id": "l:Djabwurrung",
+    "parent": "g:Other ABS categories",
+    "label": "Djabwurrung",
+    "name": "Djabwurrung",
+    "group": "Other ABS categories",
+    "value": 21
+  },
+  {
+    "id": "l:Ngatjumaya",
+    "parent": "g:Other ABS categories",
+    "label": "Ngatjumaya",
+    "name": "Ngatjumaya",
+    "group": "Other ABS categories",
+    "value": 20
+  },
+  {
+    "id": "l:Gudanji",
+    "parent": "g:Arnhem & Daly",
+    "label": "Gudanji",
+    "name": "Gudanji",
+    "group": "Arnhem & Daly",
+    "value": 19
+  },
+  {
+    "id": "l:Koko-Bera",
+    "parent": "g:Cape York",
+    "label": "Koko-Bera",
+    "name": "Koko-Bera",
+    "group": "Cape York",
+    "value": 18
+  },
+  {
+    "id": "l:Malngin",
+    "parent": "g:Northern Desert Fringe",
+    "label": "Malngin",
+    "name": "Malngin",
+    "group": "Northern Desert Fringe",
+    "value": 16
+  },
+  {
+    "id": "l:Badimaya",
+    "parent": "g:Other ABS categories",
+    "label": "Badimaya",
+    "name": "Badimaya",
+    "group": "Other ABS categories",
+    "value": 16
+  },
+  {
+    "id": "l:Wergaia",
+    "parent": "g:Other ABS categories",
+    "label": "Wergaia",
+    "name": "Wergaia",
+    "group": "Other ABS categories",
+    "value": 16
+  },
+  {
+    "id": "l:Wardaman",
+    "parent": "g:Arnhem & Daly",
+    "label": "Wardaman",
+    "name": "Wardaman",
+    "group": "Arnhem & Daly",
+    "value": 15
+  },
+  {
+    "id": "l:Daatiwuy",
+    "parent": "g:Yolngu Matha",
+    "label": "Daatiwuy",
+    "name": "Daatiwuy",
+    "group": "Yolngu Matha",
+    "value": 15
+  },
+  {
+    "id": "l:Djinba",
+    "parent": "g:Yolngu Matha",
+    "label": "Djinba",
+    "name": "Djinba",
+    "group": "Yolngu Matha",
+    "value": 15
+  },
+  {
+    "id": "l:Jawoyn",
+    "parent": "g:Arnhem & Daly",
+    "label": "Jawoyn",
+    "name": "Jawoyn",
+    "group": "Arnhem & Daly",
+    "value": 13
+  },
+  {
+    "id": "l:Marrithiyel",
+    "parent": "g:Arnhem & Daly",
+    "label": "Marrithiyel",
+    "name": "Marrithiyel",
+    "group": "Arnhem & Daly",
+    "value": 13
+  },
+  {
+    "id": "l:Dhalwangu",
+    "parent": "g:Yolngu Matha",
+    "label": "Dhalwangu",
+    "name": "Dhalwangu",
+    "group": "Yolngu Matha",
+    "value": 13
+  },
+  {
+    "id": "l:Mirning",
+    "parent": "g:Other ABS categories",
+    "label": "Mirning",
+    "name": "Mirning",
+    "group": "Other ABS categories",
+    "value": 13
+  },
+  {
+    "id": "l:Gundjeihmi",
+    "parent": "g:Arnhem & Daly",
+    "label": "Gundjeihmi",
+    "name": "Gundjeihmi",
+    "group": "Arnhem & Daly",
+    "value": 12
+  },
+  {
+    "id": "l:Liyagalawumirr",
+    "parent": "g:Yolngu Matha",
+    "label": "Liyagalawumirr",
+    "name": "Liyagalawumirr",
+    "group": "Yolngu Matha",
+    "value": 12
+  },
+  {
+    "id": "l:Ritharrngu",
+    "parent": "g:Yolngu Matha",
+    "label": "Ritharrngu",
+    "name": "Ritharrngu",
+    "group": "Yolngu Matha",
+    "value": 12
+  },
+  {
+    "id": "l:Palyku/Nyiyaparli",
+    "parent": "g:Other ABS categories",
+    "label": "Palyku/Nyiyaparli",
+    "name": "Palyku/Nyiyaparli",
+    "group": "Other ABS categories",
+    "value": 12
+  },
+  {
+    "id": "l:Yinhawangka",
+    "parent": "g:Other ABS categories",
+    "label": "Yinhawangka",
+    "name": "Yinhawangka",
+    "group": "Other ABS categories",
+    "value": 12
+  },
+  {
+    "id": "l:Mangarrayi",
+    "parent": "g:Arnhem & Daly",
+    "label": "Mangarrayi",
+    "name": "Mangarrayi",
+    "group": "Arnhem & Daly",
+    "value": 10
+  },
+  {
+    "id": "l:Wagilak",
+    "parent": "g:Yolngu Matha",
+    "label": "Wagilak",
+    "name": "Wagilak",
+    "group": "Yolngu Matha",
+    "value": 9
+  },
+  {
+    "id": "l:Rirratjingu",
+    "parent": "g:Yolngu Matha",
+    "label": "Rirratjingu",
+    "name": "Rirratjingu",
+    "group": "Yolngu Matha",
+    "value": 9
+  },
+  {
+    "id": "l:Warnman",
+    "parent": "g:Western Desert",
+    "label": "Warnman",
+    "name": "Warnman",
+    "group": "Western Desert",
+    "value": 9
+  },
+  {
+    "id": "l:Maringarr",
+    "parent": "g:Arnhem & Daly",
+    "label": "Maringarr",
+    "name": "Maringarr",
+    "group": "Arnhem & Daly",
+    "value": 8
+  },
+  {
+    "id": "l:Nungali",
+    "parent": "g:Arnhem & Daly",
+    "label": "Nungali",
+    "name": "Nungali",
+    "group": "Arnhem & Daly",
+    "value": 8
+  },
+  {
+    "id": "l:Antikarinya",
+    "parent": "g:Western Desert",
+    "label": "Antikarinya",
+    "name": "Antikarinya",
+    "group": "Western Desert",
+    "value": 7
+  },
+  {
+    "id": "l:Jaminjung",
+    "parent": "g:Arnhem & Daly",
+    "label": "Jaminjung",
+    "name": "Jaminjung",
+    "group": "Arnhem & Daly",
+    "value": 6
+  },
+  {
+    "id": "l:Ngandi",
+    "parent": "g:Arnhem & Daly",
+    "label": "Ngandi",
+    "name": "Ngandi",
+    "group": "Arnhem & Daly",
+    "value": 6
+  },
+  {
+    "id": "l:Golumala",
+    "parent": "g:Yolngu Matha",
+    "label": "Golumala",
+    "name": "Golumala",
+    "group": "Yolngu Matha",
+    "value": 6
+  },
+  {
+    "id": "l:Madarrpa",
+    "parent": "g:Yolngu Matha",
+    "label": "Madarrpa",
+    "name": "Madarrpa",
+    "group": "Yolngu Matha",
+    "value": 6
+  },
+  {
+    "id": "l:Wangkajunga",
+    "parent": "g:Western Desert",
+    "label": "Wangkajunga",
+    "name": "Wangkajunga",
+    "group": "Western Desert",
+    "value": 6
+  },
+  {
+    "id": "l:Alawa",
+    "parent": "g:Arnhem & Daly",
+    "label": "Alawa",
+    "name": "Alawa",
+    "group": "Arnhem & Daly",
+    "value": 5
+  },
+  {
+    "id": "l:Kunbarlang",
+    "parent": "g:Arnhem & Daly",
+    "label": "Kunbarlang",
+    "name": "Kunbarlang",
+    "group": "Arnhem & Daly",
+    "value": 5
+  },
+  {
+    "id": "l:Marridan (Maridan)",
+    "parent": "g:Arnhem & Daly",
+    "label": "Marridan (Maridan)",
+    "name": "Marridan (Maridan)",
+    "group": "Arnhem & Daly",
+    "value": 5
+  },
+  {
+    "id": "l:Wanyjirra",
+    "parent": "g:Northern Desert Fringe",
+    "label": "Wanyjirra",
+    "name": "Wanyjirra",
+    "group": "Northern Desert Fringe",
+    "value": 5
+  },
+  {
+    "id": "l:Malak Malak",
+    "parent": "g:Arnhem & Daly",
+    "label": "Malak Malak",
+    "name": "Malak Malak",
+    "group": "Arnhem & Daly",
+    "value": 4
+  },
+  {
+    "id": "l:Worrorra",
+    "parent": "g:Kimberley",
+    "label": "Worrorra",
+    "name": "Worrorra",
+    "group": "Kimberley",
+    "value": 4
+  },
+  {
+    "id": "l:Wunambal",
+    "parent": "g:Kimberley",
+    "label": "Wunambal",
+    "name": "Wunambal",
+    "group": "Kimberley",
+    "value": 4
+  },
+  {
+    "id": "l:Gudjal",
+    "parent": "g:Other ABS categories",
+    "label": "Gudjal",
+    "name": "Gudjal",
+    "group": "Other ABS categories",
+    "value": 4
+  },
+  {
+    "id": "l:Wik Ngathan",
+    "parent": "g:Cape York",
+    "label": "Wik Ngathan",
+    "name": "Wik Ngathan",
+    "group": "Cape York",
+    "value": 3
+  }
+]

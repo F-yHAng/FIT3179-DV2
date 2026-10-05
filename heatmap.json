@@ -1,0 +1,482 @@
+[
+  {
+    "name": "Yumplatok (Torres Strait Creole)",
+    "label": "Yumplatok",
+    "age": "0–14",
+    "users": 2494,
+    "age_sum": 7594,
+    "percent": 32.841717145114565
+  },
+  {
+    "name": "Yumplatok (Torres Strait Creole)",
+    "label": "Yumplatok",
+    "age": "15–24",
+    "users": 1321,
+    "age_sum": 7594,
+    "percent": 17.395312088490915
+  },
+  {
+    "name": "Yumplatok (Torres Strait Creole)",
+    "label": "Yumplatok",
+    "age": "25–44",
+    "users": 2109,
+    "age_sum": 7594,
+    "percent": 27.771925204108506
+  },
+  {
+    "name": "Yumplatok (Torres Strait Creole)",
+    "label": "Yumplatok",
+    "age": "45–64",
+    "users": 1278,
+    "age_sum": 7594,
+    "percent": 16.82907558598894
+  },
+  {
+    "name": "Yumplatok (Torres Strait Creole)",
+    "label": "Yumplatok",
+    "age": "65+",
+    "users": 392,
+    "age_sum": 7594,
+    "percent": 5.161969976297077
+  },
+  {
+    "name": "Kriol",
+    "label": "Kriol",
+    "age": "0–14",
+    "users": 2145,
+    "age_sum": 7396,
+    "percent": 29.002163331530557
+  },
+  {
+    "name": "Kriol",
+    "label": "Kriol",
+    "age": "15–24",
+    "users": 1489,
+    "age_sum": 7396,
+    "percent": 20.13250405624662
+  },
+  {
+    "name": "Kriol",
+    "label": "Kriol",
+    "age": "25–44",
+    "users": 2334,
+    "age_sum": 7396,
+    "percent": 31.55759870200108
+  },
+  {
+    "name": "Kriol",
+    "label": "Kriol",
+    "age": "45–64",
+    "users": 1194,
+    "age_sum": 7396,
+    "percent": 16.143861546782045
+  },
+  {
+    "name": "Kriol",
+    "label": "Kriol",
+    "age": "65+",
+    "users": 234,
+    "age_sum": 7396,
+    "percent": 3.163872363439697
+  },
+  {
+    "name": "Djambarrpuyngu",
+    "label": "Djambarrpuyngu",
+    "age": "0–14",
+    "users": 1014,
+    "age_sum": 3850,
+    "percent": 26.337662337662337
+  },
+  {
+    "name": "Djambarrpuyngu",
+    "label": "Djambarrpuyngu",
+    "age": "15–24",
+    "users": 878,
+    "age_sum": 3850,
+    "percent": 22.805194805194805
+  },
+  {
+    "name": "Djambarrpuyngu",
+    "label": "Djambarrpuyngu",
+    "age": "25–44",
+    "users": 1191,
+    "age_sum": 3850,
+    "percent": 30.935064935064936
+  },
+  {
+    "name": "Djambarrpuyngu",
+    "label": "Djambarrpuyngu",
+    "age": "45–64",
+    "users": 652,
+    "age_sum": 3850,
+    "percent": 16.935064935064936
+  },
+  {
+    "name": "Djambarrpuyngu",
+    "label": "Djambarrpuyngu",
+    "age": "65+",
+    "users": 115,
+    "age_sum": 3850,
+    "percent": 2.987012987012987
+  },
+  {
+    "name": "Pitjantjatjara",
+    "label": "Pitjantjatjara",
+    "age": "0–14",
+    "users": 847,
+    "age_sum": 3402,
+    "percent": 24.897119341563787
+  },
+  {
+    "name": "Pitjantjatjara",
+    "label": "Pitjantjatjara",
+    "age": "15–24",
+    "users": 584,
+    "age_sum": 3402,
+    "percent": 17.166372721928276
+  },
+  {
+    "name": "Pitjantjatjara",
+    "label": "Pitjantjatjara",
+    "age": "25–44",
+    "users": 1096,
+    "age_sum": 3402,
+    "percent": 32.21634332745444
+  },
+  {
+    "name": "Pitjantjatjara",
+    "label": "Pitjantjatjara",
+    "age": "45–64",
+    "users": 679,
+    "age_sum": 3402,
+    "percent": 19.958847736625515
+  },
+  {
+    "name": "Pitjantjatjara",
+    "label": "Pitjantjatjara",
+    "age": "65+",
+    "users": 196,
+    "age_sum": 3402,
+    "percent": 5.761316872427984
+  },
+  {
+    "name": "Warlpiri",
+    "label": "Warlpiri",
+    "age": "0–14",
+    "users": 799,
+    "age_sum": 2586,
+    "percent": 30.897138437741685
+  },
+  {
+    "name": "Warlpiri",
+    "label": "Warlpiri",
+    "age": "15–24",
+    "users": 448,
+    "age_sum": 2586,
+    "percent": 17.324052590873936
+  },
+  {
+    "name": "Warlpiri",
+    "label": "Warlpiri",
+    "age": "25–44",
+    "users": 737,
+    "age_sum": 2586,
+    "percent": 28.499613302397524
+  },
+  {
+    "name": "Warlpiri",
+    "label": "Warlpiri",
+    "age": "45–64",
+    "users": 460,
+    "age_sum": 2586,
+    "percent": 17.788089713843775
+  },
+  {
+    "name": "Warlpiri",
+    "label": "Warlpiri",
+    "age": "65+",
+    "users": 142,
+    "age_sum": 2586,
+    "percent": 5.4911059551430785
+  },
+  {
+    "name": "Murrinh Patha",
+    "label": "Murrinh Patha",
+    "age": "0–14",
+    "users": 601,
+    "age_sum": 2055,
+    "percent": 29.24574209245742
+  },
+  {
+    "name": "Murrinh Patha",
+    "label": "Murrinh Patha",
+    "age": "15–24",
+    "users": 452,
+    "age_sum": 2055,
+    "percent": 21.995133819951338
+  },
+  {
+    "name": "Murrinh Patha",
+    "label": "Murrinh Patha",
+    "age": "25–44",
+    "users": 647,
+    "age_sum": 2055,
+    "percent": 31.484184914841848
+  },
+  {
+    "name": "Murrinh Patha",
+    "label": "Murrinh Patha",
+    "age": "45–64",
+    "users": 287,
+    "age_sum": 2055,
+    "percent": 13.965936739659368
+  },
+  {
+    "name": "Murrinh Patha",
+    "label": "Murrinh Patha",
+    "age": "65+",
+    "users": 68,
+    "age_sum": 2055,
+    "percent": 3.3090024330900243
+  },
+  {
+    "name": "Tiwi",
+    "label": "Tiwi",
+    "age": "0–14",
+    "users": 506,
+    "age_sum": 2057,
+    "percent": 24.59893048128342
+  },
+  {
+    "name": "Tiwi",
+    "label": "Tiwi",
+    "age": "15–24",
+    "users": 381,
+    "age_sum": 2057,
+    "percent": 18.522119591638308
+  },
+  {
+    "name": "Tiwi",
+    "label": "Tiwi",
+    "age": "25–44",
+    "users": 652,
+    "age_sum": 2057,
+    "percent": 31.696645600388916
+  },
+  {
+    "name": "Tiwi",
+    "label": "Tiwi",
+    "age": "45–64",
+    "users": 447,
+    "age_sum": 2057,
+    "percent": 21.730675741370927
+  },
+  {
+    "name": "Tiwi",
+    "label": "Tiwi",
+    "age": "65+",
+    "users": 71,
+    "age_sum": 2057,
+    "percent": 3.4516285853184248
+  },
+  {
+    "name": "Alyawarr",
+    "label": "Alyawarr",
+    "age": "0–14",
+    "users": 608,
+    "age_sum": 1940,
+    "percent": 31.34020618556701
+  },
+  {
+    "name": "Alyawarr",
+    "label": "Alyawarr",
+    "age": "15–24",
+    "users": 334,
+    "age_sum": 1940,
+    "percent": 17.216494845360824
+  },
+  {
+    "name": "Alyawarr",
+    "label": "Alyawarr",
+    "age": "25–44",
+    "users": 611,
+    "age_sum": 1940,
+    "percent": 31.49484536082474
+  },
+  {
+    "name": "Alyawarr",
+    "label": "Alyawarr",
+    "age": "45–64",
+    "users": 291,
+    "age_sum": 1940,
+    "percent": 15.0
+  },
+  {
+    "name": "Alyawarr",
+    "label": "Alyawarr",
+    "age": "65+",
+    "users": 96,
+    "age_sum": 1940,
+    "percent": 4.948453608247423
+  },
+  {
+    "name": "Anindilyakwa",
+    "label": "Anindilyakwa",
+    "age": "0–14",
+    "users": 314,
+    "age_sum": 1508,
+    "percent": 20.822281167108752
+  },
+  {
+    "name": "Anindilyakwa",
+    "label": "Anindilyakwa",
+    "age": "15–24",
+    "users": 367,
+    "age_sum": 1508,
+    "percent": 24.336870026525197
+  },
+  {
+    "name": "Anindilyakwa",
+    "label": "Anindilyakwa",
+    "age": "25–44",
+    "users": 512,
+    "age_sum": 1508,
+    "percent": 33.95225464190982
+  },
+  {
+    "name": "Anindilyakwa",
+    "label": "Anindilyakwa",
+    "age": "45–64",
+    "users": 272,
+    "age_sum": 1508,
+    "percent": 18.03713527851459
+  },
+  {
+    "name": "Anindilyakwa",
+    "label": "Anindilyakwa",
+    "age": "65+",
+    "users": 43,
+    "age_sum": 1508,
+    "percent": 2.8514588859416445
+  },
+  {
+    "name": "Kunwinjku",
+    "label": "Kunwinjku",
+    "age": "0–14",
+    "users": 377,
+    "age_sum": 1485,
+    "percent": 25.387205387205388
+  },
+  {
+    "name": "Kunwinjku",
+    "label": "Kunwinjku",
+    "age": "15–24",
+    "users": 287,
+    "age_sum": 1485,
+    "percent": 19.326599326599325
+  },
+  {
+    "name": "Kunwinjku",
+    "label": "Kunwinjku",
+    "age": "25–44",
+    "users": 509,
+    "age_sum": 1485,
+    "percent": 34.27609427609428
+  },
+  {
+    "name": "Kunwinjku",
+    "label": "Kunwinjku",
+    "age": "45–64",
+    "users": 268,
+    "age_sum": 1485,
+    "percent": 18.04713804713805
+  },
+  {
+    "name": "Kunwinjku",
+    "label": "Kunwinjku",
+    "age": "65+",
+    "users": 44,
+    "age_sum": 1485,
+    "percent": 2.962962962962963
+  },
+  {
+    "name": "Wiradjuri",
+    "label": "Wiradjuri",
+    "age": "0–14",
+    "users": 479,
+    "age_sum": 1480,
+    "percent": 32.36486486486486
+  },
+  {
+    "name": "Wiradjuri",
+    "label": "Wiradjuri",
+    "age": "15–24",
+    "users": 207,
+    "age_sum": 1480,
+    "percent": 13.986486486486486
+  },
+  {
+    "name": "Wiradjuri",
+    "label": "Wiradjuri",
+    "age": "25–44",
+    "users": 432,
+    "age_sum": 1480,
+    "percent": 29.18918918918919
+  },
+  {
+    "name": "Wiradjuri",
+    "label": "Wiradjuri",
+    "age": "45–64",
+    "users": 298,
+    "age_sum": 1480,
+    "percent": 20.135135135135137
+  },
+  {
+    "name": "Wiradjuri",
+    "label": "Wiradjuri",
+    "age": "65+",
+    "users": 64,
+    "age_sum": 1480,
+    "percent": 4.324324324324325
+  },
+  {
+    "name": "Nyungar",
+    "label": "Nyungar",
+    "age": "0–14",
+    "users": 489,
+    "age_sum": 1449,
+    "percent": 33.74741200828157
+  },
+  {
+    "name": "Nyungar",
+    "label": "Nyungar",
+    "age": "15–24",
+    "users": 209,
+    "age_sum": 1449,
+    "percent": 14.423740510697032
+  },
+  {
+    "name": "Nyungar",
+    "label": "Nyungar",
+    "age": "25–44",
+    "users": 417,
+    "age_sum": 1449,
+    "percent": 28.77846790890269
+  },
+  {
+    "name": "Nyungar",
+    "label": "Nyungar",
+    "age": "45–64",
+    "users": 277,
+    "age_sum": 1449,
+    "percent": 19.11663216011042
+  },
+  {
+    "name": "Nyungar",
+    "label": "Nyungar",
+    "age": "65+",
+    "users": 57,
+    "age_sum": 1449,
+    "percent": 3.9337474120082816
+  }
+]

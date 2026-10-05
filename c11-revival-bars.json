@@ -1,0 +1,131 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 600,
+  "height": 300,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "config": {
+    "background": "#fbfaf6",
+    "font": "Source Sans 3",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Source Sans 3",
+      "titleFont": "Source Sans 3",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": 500,
+      "titleColor": "#233c32",
+      "labelColor": "#52645b",
+      "domain": false,
+      "tickColor": "#cfcfc1",
+      "gridColor": "#e5e5dc",
+      "gridOpacity": 0.75,
+      "titlePadding": 12,
+      "labelPadding": 7
+    },
+    "legend": {
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": 500,
+      "orient": "bottom",
+      "labelColor": "#233c32",
+      "titleColor": "#233c32",
+      "padding": 5,
+      "offset": 12
+    },
+    "title": {
+      "fontSize": 14,
+      "anchor": "start",
+      "fontWeight": 500,
+      "color": "#233c32"
+    }
+  },
+  "padding": {
+    "left": 18,
+    "right": 5,
+    "top": 5,
+    "bottom": 5
+  },
+  "description": "Languages with reported revival activity, by geographic state association. Values are non-additive across states; national count is 113.",
+  "data": {
+    "url": "revival.json"
+  },
+  "encoding": {
+    "y": {
+      "field": "state",
+      "type": "nominal",
+      "sort": "-x",
+      "axis": {
+        "title": null,
+        "labelLimit": 170,
+        "labelExpr": "datum.label === 'Australian Capital Territory' ? 'ACT' : datum.label",
+        "ticks": false
+      }
+    },
+    "x": {
+      "field": "languages",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          0,
+          44
+        ]
+      },
+      "axis": {
+        "title": "Languages with revival activity",
+        "tickMinStep": 1,
+        "values": [
+          0,
+          10,
+          20,
+          30,
+          40
+        ]
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "color": "#236652",
+        "height": 21
+      },
+      "encoding": {
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "State / territory"
+          },
+          {
+            "field": "languages",
+            "type": "quantitative",
+            "title": "Associated revival languages",
+            "format": "d"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 6,
+        "fontSize": 13,
+        "color": "#233c32"
+      },
+      "encoding": {
+        "text": {
+          "field": "languages",
+          "type": "quantitative",
+          "format": "d"
+        }
+      }
+    }
+  ]
+}
