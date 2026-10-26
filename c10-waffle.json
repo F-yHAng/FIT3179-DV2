@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 400,
+  "width": "container",
   "height": 275,
   "autosize": {
     "type": "fit",
@@ -44,7 +44,7 @@
       "color": "#233c32"
     }
   },
-  "description": "177 graphical count units from CtG16A.1, of which 45 represent strong languages. No language identity is assigned to a square.",
+  "description": "One square represents one language counted by the National Indigenous Languages Survey. Of 177 languages, 45 were assessed as strong.",
   "data": {
     "values": [
       {
@@ -940,7 +940,8 @@
     "filled": true,
     "size": 240,
     "stroke": "#fbfaf6",
-    "strokeWidth": 1
+    "strokeWidth": 1,
+    "opacity": 1
   },
   "encoding": {
     "x": {
@@ -994,18 +995,18 @@
         ],
         "range": [
           "#236652",
-          "#dcded2"
+          "#83917e"
         ]
       },
       "legend": {
-        "title": "One square = one language count unit"
+        "title": "One square = one language"
       }
     },
     "tooltip": [
       {
         "field": "status",
         "type": "nominal",
-        "title": "NILS4 count group"
+        "title": "Survey assessment"
       }
     ]
   }

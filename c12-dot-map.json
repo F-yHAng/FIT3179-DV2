@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 600,
+  "width": "container",
   "height": 430,
   "autosize": {
     "type": "fit",
@@ -60,7 +60,7 @@
       -28
     ]
   },
-  "description": "Fixed-size dots for 245 recorded service locations linked to 25 centre labels. Geometry snapshot last edited 18 November 2024, retrieved 5 October 2026.",
+  "description": "Equal-sized dots show 245 recorded service locations linked to 25 centre names. Select a centre to highlight its locations. The location records were last edited in November 2024.",
   "params": [
     {
       "name": "centre_pick",

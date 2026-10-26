@@ -3,15 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="data:,">
   <meta name="description" content="Explore Australia's Aboriginal and Torres Strait Islander languages through recorded home use, generations and community revival. A FIT3179 data visualisation by Yuhang Fei.">
   <title>Keeping Languages Alive · Australian Indigenous Languages</title>
   <link rel="preload" href="fraunces.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="source-sans-3.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="style.css?v=2">
+  <link rel="stylesheet" href="style.css?v=20261027">
   <script src="vega.min.js" defer></script>
   <script src="vega-lite.min.js" defer></script>
   <script src="vega-embed.min.js" defer></script>
-  <script src="app.js?v=2" defer></script>
+  <script src="app.js?v=20261027" defer></script>
+<html><head><script src="linked-states.js?v=20261027" defer></script></head></html>
 </head>
 <body>
 <a class="skip" href="#story">Skip to the story</a>
@@ -20,167 +22,227 @@
   <div class="hero">
     <div>
       <p class="eyebrow">Home use · Generations · Community revival</p>
-      <h1>Keeping<br>languages <em>alive.</em></h1>
+      <h1>Keeping<br>languages <em>alive.</em>
+</h1>
       <p class="subtitle">More recorded home users. A smaller population share. Many different paths forward.</p>
     </div>
     <div class="intro">
-      <p>Australia's First Nations include <strong>Aboriginal peoples</strong> and <strong>Torres Strait Islander peoples</strong>—diverse communities with many languages.</p>
-      <p>For readers in multilingual Malaysia, the distinction matters: knowing a language, using it at home and learning it are different things.</p>
-      <p>This story follows recorded home use, looks across generations, and turns to communities working to sustain their languages.</p>
-    </div>
-  </div>
+<p>Australia’s First Nations include <strong>Aboriginal peoples</strong> and <strong>Torres Strait Islander peoples</strong>, with many different languages.</p>
+<p>Think of a multilingual home in Malaysia: someone may know several languages but use one most often at home. They may also be learning another language. Knowing, using at home and learning describe different things.</p>
+<p>The <strong>National Indigenous Languages Survey (NILS4)</strong> asks communities about language use, strength and revival.</p>
+</div>
+</div>
   <div class="metrics" aria-label="Three statistics with their reference periods">
-    <div class="metric"><div class="number">76,978</div><div><p>Indigenous people using an Indigenous language at home</p><span class="period">Census · 2021</span></div></div>
-    <div class="metric"><div class="number">9.5%</div><div><p>of all Aboriginal and Torres Strait Islander residents</p><span class="period">Census · 2021</span></div></div>
-    <div class="metric"><div class="number">113</div><div><p>languages with reported revival activity</p><span class="period">NILS4 survey · 2025–26</span></div></div>
+    <div class="metric">
+<div class="number">76,978</div>
+<div>
+<p>Indigenous people using an Indigenous language at home</p>
+<span class="period">Census · 2021</span>
+</div>
+</div>
+    <div class="metric">
+<div class="number">9.5%</div>
+<div>
+<p>of all Aboriginal and Torres Strait Islander residents</p>
+<span class="period">Census · 2021</span>
+</div>
+</div>
+    <div class="metric">
+<div class="number">113</div>
+<div>
+<p>languages with reported revival activity</p>
+<span class="period">National Indigenous Languages Survey (NILS4) · 2025–26</span>
+</div>
+</div>
   </div>
   <p id="load-note" role="status" hidden></p>
   <noscript><p>This story requires JavaScript to display its Vega charts. Data files and source links remain available below.</p></noscript>
 
   <main id="story">
     <section class="chapter" id="change" aria-labelledby="change-title">
-      <div class="section-heading"><span class="section-number">01</span><div><h2 id="change-title">More users, a smaller share</h2><p>Between 1991 and 2021, the Census recorded more Indigenous-language home users. The Indigenous population grew faster, so the share using these languages at home declined.</p></div></div>
-      <div class="lead-row">
+      <div class="section-heading">
+<span class="section-number">01</span><div>
+<h2 id="change-title">More users, a smaller share</h2>
+<p>Between 1991 and 2021, more Indigenous people used an Indigenous language at home. Their share of the Indigenous population fell.</p>
+</div>
+</div>
+      <div class="single-chart">
         <figure class="figure" aria-labelledby="title-c01">
-          <div class="figure-head"><h3 id="title-c01">Two measures, different directions</h3><span class="tag">1991–2021</span></div>
-          <p class="deck">Separate scales show people and population share. Hover over a point for its Census figures.</p>
-          <div id="c01" class="chart" data-spec="c01-trends.json" aria-label="Home users increased from 43,499 to 76,978 while their Indigenous population share declined from 16.4% to 9.5%."></div>
-          <figcaption><strong>76,978 people does not mean 76,978 fluent speakers.</strong> The Census asks about the language used at home; it does not measure every language a person knows.</figcaption>
-          <p class="source">Source: <a href="https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/2021">ABS, Language Statistics 2021, Table 1.1</a> · <a class="spec-link" href="c01-trends.json">Chart JSON</a> · <a href="national.json">Data</a></p>
-        </figure>
-        <aside class="insight"><span class="big">+77%</span><p>Recorded home users increased by about 77%, while their population share fell by <strong>6.9 percentage points</strong>.</p><small>These figures describe Census records. Population growth, identification, classification and question changes can influence the trend. In 2021, “speak” became “use”, including sign-language users.</small></aside>
-      </div>
-    </section>
+          <div class="figure-head">
+<h3 id="title-c01">Two measures, different directions</h3>
+<span class="tag">1991–2021</span>
+</div>
+          <div id="c01" class="chart" data-spec="c01-trends.json" aria-label="Home use, 1991–2021: people increased from 43,499 to 76,978; their share of Indigenous residents fell from 16.4% to 9.5%. Each panel has its own scale." role="group" aria-describedby="takeaway-c01"></div>
+          <figcaption id="takeaway-c01"><strong>Home users rose by about 77%, while their share of Indigenous residents fell by 6.9 percentage points.</strong></figcaption><details class="method-note"><summary>Method note</summary><p>The Census records language use at home, not fluency or every language a person knows. Each panel uses its own scale. Population growth, changes in identification and changes to questions can affect the trend. In 2021, “use” replaced “speak” to include sign-language users.</p></details><p class="source">Source: <a href="https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/2021">Australian Bureau of Statistics</a> · <a href="c01-trends.json">Chart JSON</a> · <a href="national.json">Data</a></p></figure>
+        </div>
+    <p class="transition">Now look beyond the national total: where people live changes the picture.</p></section>
 
     <section class="chapter" id="geography" aria-labelledby="geography-title">
-      <div class="section-heading"><span class="section-number">02</span><div><h2 id="geography-title">Geography changes the picture</h2><p>A high local share and a large number of home users answer different questions. Compare the same eight states and territories through both lenses.</p></div></div>
-      <div class="two-up">
+      <div class="section-heading">
+<span class="section-number">02</span><div>
+<h2 id="geography-title">Geography changes the picture</h2>
+<p>The national picture hides local differences. Compare the share of Indigenous residents using a language at home with the number of people doing so.</p>
+</div>
+</div>
+      <div class="linked-controls">
+<label for="state-highlight">Highlight a state:</label><select id="state-highlight"><option value="">All states</option>
+<option value="NSW">New South Wales</option>
+<option value="VIC">Victoria</option>
+<option value="QLD">Queensland</option>
+<option value="SA">South Australia</option>
+<option value="WA">Western Australia</option>
+<option value="TAS">Tasmania</option>
+<option value="NT">Northern Territory</option>
+<option value="ACT">Australian Capital Territory</option></select><span>Hover or tap a state in any of the three charts. Tap again or press Escape to clear.</span><span id="state-status" class="sr-only" role="status" aria-live="polite"></span>
+</div>
+<div class="two-up">
         <figure class="figure" aria-labelledby="title-c02">
-          <div class="figure-head"><h3 id="title-c02">How widespread is home use?</h3><span class="tag">Census · 2021</span></div>
-          <p class="deck">Darker fill means a higher share of that state's Indigenous residents.</p>
-          <div id="c02" class="chart" data-spec="c02-choropleth.json" aria-label="Choropleth map of Indigenous home-use share. Northern Territory: 58.5%; Western Australia: 12.6%; South Australia: 10.1%; Queensland: 8.0%."></div>
-          <figcaption><strong>Northern Territory (NT): 58.5%.</strong> The denominator is Indigenous residents, rather than all residents of the territory.</figcaption>
-          <p class="source">ABS, Table 1.5 · <a href="https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs/edition-3-july-2021-june-2026/access-and-downloads/digital-boundary-files">ASGS 2021 boundaries</a> · <a class="spec-link" href="c02-choropleth.json">Chart JSON</a></p>
-        </figure>
+          <div class="figure-head">
+<h3 id="title-c02">How widespread is home use?</h3>
+<span class="tag">Census · 2021</span>
+</div>
+          <div id="c02" class="chart" data-spec="c02-choropleth.json" aria-label="Home-use share in 2021, grouped into five colour bands. Northern Territory: 58.5%, far above every other state and territory. Hover or tap a state to highlight it in all three linked charts." role="group" aria-describedby="takeaway-c02"></div>
+          <figcaption id="takeaway-c02"><strong>At 58.5%, the Northern Territory has a much higher home-use share than any other state or territory.</strong></figcaption><details class="method-note"><summary>Method note</summary><p>Each percentage compares home users with Indigenous residents of that state, including those who gave no language answer. The bands are 0 to below 2%, 2 to below 5%, 5 to below 10%, 10 to below 20%, and 50% or more. No state falls between 20% and 50% in these data. State borders do not show traditional language areas.</p></details><p class="source">Source: <a href="https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/2021">Australian Bureau of Statistics</a> · <a href="c02-choropleth.json">Chart JSON</a> · <a href="states-2021.json">Data</a></p></figure>
         <figure class="figure" aria-labelledby="title-c03">
-          <div class="figure-head"><h3 id="title-c03">Where do home users live?</h3><span class="tag">Census · 2021</span></div>
-          <p class="deck">Circle area represents people. Each circle summarises a whole state or territory.</p>
-          <div id="c03" class="chart" data-spec="c03-symbol-map.json" aria-label="Proportional symbol map of home-user counts. Northern Territory: 35,782; Queensland: 19,018; Western Australia: 11,213."></div>
-          <figcaption><strong>NT recorded 35,782 home users</strong>—about 46.5% of the national count. Queensland recorded 19,018, despite its much lower local share.</figcaption>
-          <p class="source">ABS, Table 1.5 · <a class="spec-link" href="c03-symbol-map.json">Chart JSON</a> · <a href="states-2021.json">State data</a></p>
-        </figure>
+          <div class="figure-head">
+<h3 id="title-c03">Where do home users live?</h3>
+<span class="tag">Census · 2021</span>
+</div>
+          <div id="c03" class="chart" data-spec="c03-symbol-map.json" aria-label="Circle area shows people using an Indigenous language at home in 2021. Northern Territory: 35,782; Queensland: 19,018. Hover or tap to highlight the same state in the other two charts." role="group" aria-describedby="takeaway-c03"></div>
+          <figcaption id="takeaway-c03"><strong>The Northern Territory recorded 35,782 home users, about 46.5% of the national count; Queensland recorded 19,018.</strong></figcaption><details class="method-note"><summary>Method note</summary><p>Circle area shows people, not the percentage of residents. A circle summarises a whole state; its position does not show anyone’s home. The maps leave out Other Territories, which remain in the national count.</p></details><p class="source">Source: <a href="https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/2021">Australian Bureau of Statistics</a> · <a href="c03-symbol-map.json">Chart JSON</a> · <a href="states-2021.json">Data</a></p></figure>
       </div>
-      <p class="reading-note"><span class="mini-label">Reading Australia:</span> NSW = New South Wales; VIC = Victoria; QLD = Queensland; SA = South Australia; WA = Western Australia; TAS = Tasmania; NT = Northern Territory; ACT = Australian Capital Territory. These are <strong>administrative boundaries, not traditional language territories</strong>. Other Territories are omitted from the maps but retained in the published national total.</p>
-      <div class="lead-row">
+      <div class="single-chart">
         <figure class="figure" aria-labelledby="title-c04">
-          <div class="figure-head"><h3 id="title-c04">Local shares have taken different paths</h3><span class="tag">2006 → 2021</span></div>
-          <p class="deck">A slope connects each state's recorded share. Fine leader lines separate nearby labels.</p>
-          <div id="c04" class="chart" data-spec="c04-slope.json" aria-label="Slope chart of 2006 and 2021 Indigenous home-use shares. NT rose from 54.0 to 58.5%; NSW rose from 0.6 to 1.9%; WA fell from 13.0 to 12.6%."></div>
-          <figcaption>These are changes in <strong>home-use share</strong>. They do not isolate language revival, changes in fluency or policy effects.</figcaption>
-          <p class="source">ABS, Table 1.5 · <a class="spec-link" href="c04-slope.json">Chart JSON</a> · <a href="states.json">Data</a></p>
-        </figure>
-        <aside class="insight"><p>The national pattern does not describe every state.</p><p>NT's share rose from <strong>54.0% to 58.5%</strong>. NSW's share rose from <strong>0.6% to 1.9%</strong>, while WA's share edged down.</p><small>Both endpoints include all Indigenous residents in their denominators. The 2021 question used “use” in place of “speak”.</small></aside>
-      </div>
-    </section>
+          <div class="figure-head">
+<h3 id="title-c04">Local shares have taken different paths</h3>
+<span class="tag">2006 → 2021</span>
+</div>
+          <div id="c04" class="chart" data-spec="c04-slope.json" aria-label="Each line connects one state’s home-use share in 2006 and 2021. Northern Territory rose from 54.0% to 58.5%. Hover or tap a state to highlight it across the linked charts." role="group" aria-describedby="takeaway-c04"></div>
+          <figcaption id="takeaway-c04"><strong>The Northern Territory rose from 54.0% to 58.5%; New South Wales rose from 0.6% to 1.9%, while Western Australia edged down.</strong></figcaption><p class="how"><strong>How to read this chart:</strong> Each line joins one state’s share in 2006 and 2021; higher points mean a larger share.</p>
+<details class="method-note"><summary>Method note</summary><p>Lines show home-use percentages, not changes in fluency or the effects of a policy. Fine guide lines move labels away from each other; the data points keep their true values. The Census changed “speak” to “use” in 2021.</p></details><p class="source">Source: <a href="https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/2021">Australian Bureau of Statistics</a> · <a href="c04-slope.json">Chart JSON</a> · <a href="slope.json">Data</a></p></figure>
+        </div>
+    <p class="transition">Across these places, different languages follow different paths.</p>
+<details class="method-note state-key"><summary>Australian state names</summary><p>NSW: New South Wales; VIC: Victoria; QLD: Queensland; SA: South Australia; WA: Western Australia; TAS: Tasmania; NT: Northern Territory; ACT: Australian Capital Territory.</p></details></section>
 
     <section class="chapter" id="diversity" aria-labelledby="diversity-title">
-      <div class="section-heading"><span class="section-number">03</span><div><h2 id="diversity-title">Many languages, different paths</h2><p>The national count combines many named categories. Some have thousands of recorded home users; many have only a few. Creoles, including Yumplatok and Kriol, are part of this statistical landscape.</p></div></div>
+      <div class="section-heading">
+<span class="section-number">03</span><div>
+<h2 id="diversity-title">Many languages, different paths</h2>
+<p>Places tell only part of the story. Some languages have thousands of home users; many have only a few. The Census includes creoles such as Yumplatok and Kriol.</p>
+</div>
+</div>
       <figure class="figure full" aria-labelledby="title-c05">
-        <div class="figure-head"><h3 id="title-c05">Groups contain many named categories</h3><span class="tag">Census · 2021</span></div>
-        <p class="deck">Each rectangle represents a named category with positive home use. Its area shows people; larger groups contain their categories. Hover for a full name and count.</p>
-        <div id="c05" class="chart" data-spec="c05-treemap.json" aria-label="Treemap with nine ABS classification groups containing 159 named categories with positive home use. Yumplatok has 7,596 users and Kriol 7,403."></div>
-        <figcaption><strong>Yumplatok: 7,596. Kriol: 7,403.</strong> These are the largest named home-use categories. The grouping is the ABS classification, <strong>not a genealogical language-family tree</strong>.</figcaption>
-        <p class="source">ABS, Table 1.3.4 · Named positive categories only; unspecified and residual categories omitted · <a class="spec-link" href="c05-treemap.json">Chart JSON</a> · <a href="language-tree.json">Hierarchy data</a></p>
-      </figure>
+        <div class="figure-head">
+<h3 id="title-c05">Many languages, different numbers</h3>
+<span class="tag">Census · 2021</span>
+</div>
+        <div id="c05" class="chart" data-spec="c05-treemap.json" aria-label="Larger rectangles mean more home users in 2021. Rectangles sit inside Australian Bureau of Statistics groups. Yumplatok: 7,596; Kriol: 7,403. These groups do not show language ancestry." role="group" aria-describedby="takeaway-c05"></div>
+        <figcaption id="takeaway-c05"><strong>Yumplatok (7,596) and Kriol (7,403) had the most recorded home users in 2021.</strong></figcaption><p class="how"><strong>How to read this chart:</strong> Larger rectangles mean more home users; small boxes sit inside broader Census groups.</p>
+<details class="method-note"><summary>Method note</summary><p>The view includes 159 language names with at least one recorded home user. Census language names can refer to languages, dialects or creoles. Records that do not identify a particular language stay in the national total but do not appear here. The larger boxes follow Australian Bureau of Statistics groups, not language ancestry.</p></details><p class="source">Source: <a href="https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/2021">Australian Bureau of Statistics</a> · <a href="c05-treemap.json">Chart JSON</a> · <a href="language-tree.json">Data</a></p></figure>
       <div class="two-up">
         <figure class="figure" aria-labelledby="title-c06">
-          <div class="figure-head"><h3 id="title-c06">The largest categories change rank</h3><span class="tag">2011–2021</span></div>
-          <p class="deck">Follow the 2021 top eight. Ranks are calculated within 196 labels present in all three Censuses; hover to highlight a path.</p>
-          <div id="c06" class="chart" data-spec="c06-bump.json" aria-label="Bump chart showing 2011, 2016 and 2021 ranks for the 2021 top eight named categories. Yumplatok moved above Kriol by 2021."></div>
-          <figcaption><strong>A change in rank is not a growth rate.</strong> A category can move relative to others even when its own count declines.</figcaption>
-          <p class="source">ABS, Tables 1.3.2–1.3.4 · Fixed common-label universe · <a class="spec-link" href="c06-bump.json">Chart JSON</a> · <a href="ranks.json">Data</a></p>
-        </figure>
+          <div class="figure-head">
+<h3 id="title-c06">The leading languages change places</h3>
+<span class="tag">2011–2021</span>
+</div>
+          <div id="c06" class="chart" data-spec="c06-bump.json" aria-label="Eight languages with the most home users in 2021, ranked in 2011, 2016 and 2021. A higher line means a higher place. Yumplatok moved ahead of Kriol by 2021." role="group" aria-describedby="takeaway-c06"></div>
+          <figcaption id="takeaway-c06"><strong>Yumplatok moved ahead of Kriol by 2021.</strong></figcaption><p class="how"><strong>How to read this chart:</strong> Follow a language’s line across the years; a higher position means more home users than those below it.</p>
+<details class="method-note"><summary>Method note</summary><p>The ranking compares the same 196 language names in all three Census years, then shows the eight with the most home users in 2021. Moving ahead of another language does not always mean gaining users. Small privacy adjustments can cause slight differences between Census tables.</p></details><p class="source">Source: <a href="https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/2021">Australian Bureau of Statistics</a> · <a href="c06-bump.json">Chart JSON</a> · <a href="ranks.json">Data</a></p></figure>
         <figure class="figure" aria-labelledby="title-c07">
-          <div class="figure-head"><h3 id="title-c07">Small home-use counts are common</h3><span class="tag">Census · 2021</span></div>
-          <p class="deck">The distribution uses equal-width, 500-person intervals. It includes 159 named categories with positive recorded home use.</p>
-          <div id="c07" class="chart" data-spec="c07-histogram.json" aria-label="Histogram of 159 positive named categories in 500-person intervals. Seventy-three categories have only 1–50 recorded Indigenous home users."></div>
-          <figcaption><strong>73 of the 159 categories recorded only 1–50 home users.</strong> This detail sits inside the first, wider interval; the chart is not an endangered-language tally.</figcaption>
-          <p class="source">ABS, Table 1.3.4 · 38 zero-use named categories excluded, without inferring extinction · <a class="spec-link" href="c07-histogram.json">Chart JSON</a></p>
-        </figure>
+          <div class="figure-head">
+<h3 id="title-c07">Many languages have few home users</h3>
+<span class="tag">Census · 2021</span>
+</div>
+          <div id="c07" class="chart" data-spec="c07-histogram.json" aria-label="Languages grouped by home-user counts in steps of 500 people. Of the 159 language names shown, 73 had only 1–50 home users in 2021." role="group" aria-describedby="takeaway-c07"></div>
+          <figcaption id="takeaway-c07"><strong>Of the 159 language names shown, 73 had only 1–50 home users.</strong></figcaption><details class="method-note"><summary>Method note</summary><p>Each bar covers a range of 500 people. The 73 languages with 1–50 users sit inside the first bar. This view omits 38 language names with no recorded home users; that does not mean those languages have disappeared. The 159 names are not a complete list of Australia’s languages.</p></details><p class="source">Source: <a href="https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/2021">Australian Bureau of Statistics</a> · <a href="c07-histogram.json">Chart JSON</a> · <a href="histogram.json">Data</a></p></figure>
       </div>
-      <p class="reading-note">“Named categories” are ABS statistical labels: they may represent languages, dialects or creoles. <em>Not further defined</em> and <em>not elsewhere classified</em> records are excluded here because they do not identify a single named category. The 159 figure is therefore <strong>not a count of all Australian languages</strong>.</p>
-    </section>
+      <p class="transition">Counts tell us how many; age patterns tell us more about who.</p></section>
 
     <section class="chapter" id="generations" aria-labelledby="generations-title">
-      <div class="section-heading"><span class="section-number">04</span><div><h2 id="generations-title">Who is using these languages?</h2><p>Home-use counts also have an age profile. Compare the largest named categories, then step back to the national age mix.</p></div></div>
+      <div class="section-heading">
+<span class="section-number">04</span><div>
+<h2 id="generations-title">Who is using these languages?</h2>
+<p>The next question is who uses these languages. Start with age patterns within languages, then look at the changing national age mix.</p>
+</div>
+</div>
       <div class="two-up">
         <figure class="figure" aria-labelledby="title-c08">
-          <div class="figure-head"><h3 id="title-c08">The age mix differs by category</h3><span class="tag">Census · 2021</span></div>
-          <p class="deck">The 12 largest named categories. Each cell is that age group's share within the category; darker means a larger share.</p>
-          <div id="c08" class="chart" data-spec="c08-heatmap.json" aria-label="Heatmap of five age groups within the twelve largest named home-use categories. Each row is normalised using its five age-cell counts."></div>
-          <figcaption>Numbers are percentages. The denominator is <strong>that category's age-cell sum</strong>, not the population of everyone in the age group.</figcaption>
-          <p class="source">ABS, Table 1.3.4 · Minor Census confidentiality adjustments can affect cell sums · <a class="spec-link" href="c08-heatmap.json">Chart JSON</a></p>
-        </figure>
+          <div class="figure-head">
+<h3 id="title-c08">The age mix differs by language</h3>
+<span class="tag">Census · 2021</span>
+</div>
+          <div id="c08" class="chart" data-spec="c08-heatmap.json" aria-label="Five age groups for the 12 languages with the most home users in 2021. Darker cells show a larger percentage of that language’s users in the age group." role="group" aria-describedby="takeaway-c08"></div>
+          <figcaption id="takeaway-c08"><strong>Age patterns vary across the 12 languages with the most home users.</strong></figcaption><p class="how"><strong>How to read this chart:</strong> Each row is a language and each column an age group; darker cells mean a larger share of that language’s users.</p>
+<details class="method-note"><summary>Method note</summary><p>Each row shows the ages of users of one language. A cell compares that age group with users across the row’s five age groups. Census privacy adjustments can make these added counts differ slightly from a separately published total.</p></details><p class="source">Source: <a href="https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/2021">Australian Bureau of Statistics</a> · <a href="c08-heatmap.json">Chart JSON</a> · <a href="heatmap.json">Data</a></p></figure>
         <figure class="figure" aria-labelledby="title-c09">
-          <div class="figure-head"><h3 id="title-c09">Children form a smaller share</h3><span class="tag">2006–2021</span></div>
-          <p class="deck">All recorded Indigenous-language home users. Each bar shows the age composition of one Census year.</p>
-          <div id="c09" class="chart" data-spec="c09-age-stacks.json" aria-label="100% stacked age-composition bars. Children aged 0–14 accounted for 32.6% in 2006 and 28.0% in 2021."></div>
-          <figcaption><strong>32.6% → 28.0%</strong> for children aged 0–14. Their recorded number nevertheless rose from <strong>16,958 to 21,592</strong>.</figcaption>
-          <p class="reading-note">The changing mix does not, by itself, establish a rate of language transmission between generations.</p>
-          <p class="source">ABS, Table 1.4 · Rounded published percentages normalised for bar widths; original values in tooltips · <a class="spec-link" href="c09-age-stacks.json">Chart JSON</a></p>
-        </figure>
+          <div class="figure-head">
+<h3 id="title-c09">Children form a smaller share</h3>
+<span class="tag">2006–2021</span>
+</div>
+          <div id="c09" class="chart" data-spec="c09-age-stacks.json" aria-label="Each bar shows the ages of home users in one Census year. Children aged 0–14 fell from 32.6% in 2006 to 28.0% in 2021." role="group" aria-describedby="takeaway-c09"></div>
+          <figcaption id="takeaway-c09"><strong>Children’s share fell from 32.6% to 28.0%, even as their number rose from 16,958 to 21,592.</strong></figcaption><details class="method-note"><summary>Method note</summary><p>Each full bar represents all home users in one Census year. The chart fits the published, rounded percentages into equal-length bars; tooltips show the published values. These are different Census populations, not the same people followed over time. The chart alone cannot show how often families pass a language to children.</p></details><p class="source">Source: <a href="https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/2021">Australian Bureau of Statistics</a> · <a href="c09-age-stacks.json">Chart JSON</a> · <a href="age-profile.json">Data</a></p></figure>
       </div>
-    </section>
+    <p class="transition">The Census shows home use; community surveys add another view of language life.</p></section>
 
     <section class="chapter" id="revival" aria-labelledby="revival-title">
-      <div class="section-heading"><span class="section-number">05</span><div><h2 id="revival-title">Communities are keeping languages in use</h2><p>The fourth National Indigenous Languages Survey (NILS4), conducted in 2025–26, offers a new view of current language strength and revival. Its definitions and coverage differ from earlier surveys.</p></div></div>
+      <div class="section-heading">
+<span class="section-number">05</span><div>
+<h2 id="revival-title">Communities are keeping languages in use</h2>
+<p>Home use is one view of language life. The 2025–26 survey adds community reports of language strength and revival, alongside recorded service locations.</p>
+</div>
+</div>
       <div class="two-up">
         <figure class="figure" aria-labelledby="title-c10">
-          <div class="figure-head"><h3 id="title-c10">45 of 177 are categorised as strong</h3><span class="tag">NILS4 · 2025–26</span></div>
-          <p class="deck">One square represents one language count unit. The green squares show the 45 categorised as strong—about 25.4% of the recorded 177.</p>
-          <div id="c10" class="chart" data-spec="c10-waffle.json" aria-label="Waffle chart with exactly 177 equal units, 45 green for strong and 132 grey for not categorised as strong."></div>
-          <figcaption><strong>“Strong” is a survey assessment</strong> involving use across generations, communities and daily settings. The grey group is not uniformly labelled endangered.</figcaption>
-          <p class="source">AIATSIS NILS4, published by PC, CtG16A.1 Actual · <a class="spec-link" href="c10-waffle.json">Chart JSON</a> · <a href="nils4-summary.json">Data</a></p>
-        </figure>
+          <div class="figure-head">
+<h3 id="title-c10">45 of 177 are assessed as strong</h3>
+<span class="tag">NILS4 · 2025–26</span>
+</div>
+          <div id="c10" class="chart" data-spec="c10-waffle.json" aria-label="One square represents one language counted by the National Indigenous Languages Survey. Of 177 languages, 45 were assessed as strong." role="group" aria-describedby="takeaway-c10"></div>
+          <figcaption id="takeaway-c10"><strong>The survey assessed 45 of 177 languages as strong, about one in four (25.4%).</strong></figcaption><p class="how"><strong>How to read this chart:</strong> Each square = one language. Green = assessed as strong.</p>
+<details class="method-note"><summary>Method note</summary><p>Each square is a count unit, not an identified language. “Strong” reflects the survey’s assessment of everyday use across generations and communities. The other 132 languages do not all have the same situation. A language can be strong and also have revival activity.</p></details><p class="source">Source: <a href="https://www.pc.gov.au/closing-the-gap-data/dashboard/outcome-area/culture-and-languages/">AIATSIS / Productivity Commission</a> · <a href="c10-waffle.json">Chart JSON</a> · <a href="nils4-summary.json">Data</a></p></figure>
         <figure class="figure" aria-labelledby="title-c11">
-          <div class="figure-head"><h3 id="title-c11">Revival is recorded across states</h3><span class="tag">NILS4 · 2025–26</span></div>
-          <p class="deck">Languages with reported revival, revitalisation or reawakening, associated with each state or territory.</p>
-          <div id="c11" class="chart" data-spec="c11-revival-bars.json" aria-label="Revival languages by state association: Queensland 37, Western Australia 26, NSW 21, NT 21, Victoria 10, SA 7, Tasmania 2, ACT 1."></div>
-          <figcaption><strong>113 nationally; state counts are not additive.</strong> A language can be associated with more than one state. Revival activity does not mean revival is complete.</figcaption>
-          <p class="source">AIATSIS NILS4, PC CtG16A.1 Actual · <a class="spec-link" href="c11-revival-bars.json">Chart JSON</a> · <a href="revival.json">Data</a></p>
-        </figure>
+          <div class="figure-head">
+<h3 id="title-c11">Revival across states and territories</h3>
+<span class="tag">NILS4 · 2025–26</span>
+</div>
+          <div id="c11" class="chart" data-spec="c11-tile-map.json" aria-label="Eight equal-sized state tiles show languages with revival activity in the 2025–26 survey. Queensland: 37; Western Australia: 26. The national count is 113; a language may appear in several states." role="group" aria-describedby="takeaway-c11"></div>
+          <figcaption id="takeaway-c11"><strong>There are 113 nationally; don’t add the state counts, because a language can appear in more than one state.</strong></figcaption><details class="method-note"><summary>Method note</summary><p>Equal-sized tiles sit in roughly geographic positions; tile area does not show land area or language counts. Darker tiles and larger numbers mean more languages with revival activity. A language may link to several states, so the state counts add to 125 while the national count is 113. Activity does not mean revival is complete.</p></details><p class="source">Source: <a href="https://www.pc.gov.au/closing-the-gap-data/dashboard/outcome-area/culture-and-languages/">AIATSIS / Productivity Commission</a> · <a href="c11-tile-map.json">Chart JSON</a> · <a href="revival.json">Data</a></p></figure>
       </div>
-      <p class="reading-note"><span class="mini-label">A new baseline:</span> NILS4 changes in definitions, response coverage and strength assessment prevent a simple growth-rate comparison with NILS3. The 45 strong languages and 113 revival languages are <strong>not mutually exclusive categories</strong>.</p>
       <figure class="figure full" aria-labelledby="title-c12">
-        <div class="figure-head"><h3 id="title-c12">A recorded network of language-service locations</h3><span class="tag">Spatial snapshot · Nov 2024</span></div>
-        <p class="deck">Fixed-size dots show 245 official location records associated with 25 centre labels. Select a centre to highlight its recorded locations.</p>
-        <div id="c12" class="chart" data-spec="c12-dot-map.json" aria-label="Dot map of 245 indicative service location records linked to 25 Indigenous Language Centre labels. Last edited 18 November 2024; dots do not represent separate centres."></div>
-        <figcaption><strong>A dot is a recorded location, not a separate language centre.</strong> The official layer is indicative and may be incomplete or outdated. Blank areas do not establish an absence of language activity or community support.</figcaption>
-        <p class="source"><a href="https://www.arts.gov.au/funding-and-support/indigenous-languages-and-arts-program">Office for the Arts / Department spatial data</a> · Layer last edited 18 Nov 2024; retrieved 5 Oct 2026 · <a class="spec-link" href="c12-dot-map.json">Chart JSON</a> · <a href="locations.json">Data</a></p>
-      </figure>
-      <p class="closing">Keeping a language alive involves its use in everyday life, its place across generations, and the communities sustaining and rebuilding it.</p>
-      <p class="reading-note">No single count captures all of these. The Census and language surveys offer different views—useful together, provided their differences remain visible.</p>
-    </section>
+        <div class="figure-head">
+<h3 id="title-c12">A network of language-service locations</h3>
+<span class="tag">Spatial snapshot · Nov 2024</span>
+</div>
+        <div id="c12" class="chart" data-spec="c12-dot-map.json" aria-label="Equal-sized dots show 245 recorded service locations linked to 25 centre names. Select a centre to highlight its locations. The location records were last edited in November 2024." role="group" aria-describedby="takeaway-c12"></div>
+        <figcaption id="takeaway-c12"><strong>The official map records 245 locations linked to 25 centre names; each dot is a location, not a separate centre.</strong></figcaption><details class="method-note"><summary>Method note</summary><p>The layer was last edited on 18 November 2024; we retrieved it on 5 October 2026. It may be incomplete or out of date. Blank areas do not show an absence of community activity. The plotted points use the map’s recorded locations, because separate coordinate fields did not consistently match them.</p></details><p class="source">Source: <a href="https://spatial.infrastructure.gov.au/server/rest/services/Hosted/Indigenous_Languages_Centres/FeatureServer/15">Office for the Arts</a> · <a href="c12-dot-map.json">Chart JSON</a> · <a href="locations.json">Data</a></p></figure>
+      <aside class="remember" aria-labelledby="remember-title"><h3 id="remember-title">What to remember</h3>
+<ul>
+<li>More people can use a language at home even while their share of the population falls.</li>
+<li>Home use varies widely across Australia, and a high local share differs from a large number of users.</li>
+<li>The Census, community survey and service map offer different, complementary views of language life.</li>
+</ul></aside></section>
   </main>
 
-  <section class="sources" id="sources" aria-labelledby="sources-title">
-    <h2 id="sources-title">Data, definitions and sources</h2>
-    <ol>
-      <li><strong>Australian Bureau of Statistics.</strong> <a href="https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/2021">Language Statistics for Aboriginal and Torres Strait Islander Peoples, 2021</a>. Released 25 October 2022. Tables 1.1, 1.3.2–1.3.4, 1.4 and 1.5. Latest available complete Census language release checked 5 October 2026.</li>
-      <li><strong>AIATSIS / Productivity Commission.</strong> <a href="https://www.pc.gov.au/closing-the-gap-data/dashboard/outcome-area/culture-and-languages/">Closing the Gap Outcome 16 data, July 2026</a>. Table CtG16A.1, Actual observations, 2025–26. <a href="https://aiatsis.gov.au/research/languages/national-indigenous-languages-surveys">NILS methodology</a> and <a href="https://aiatsis.gov.au/publication/118823">September 2026 joint communiqué</a>. Future target trajectories are excluded.</li>
-      <li><strong>Department of Infrastructure, Transport, Regional Development, Communications, Sport and the Arts.</strong> <a href="https://spatial.infrastructure.gov.au/server/rest/services/Hosted/Indigenous_Languages_Centres/FeatureServer/15">Indigenous Languages Centres, public spatial layer</a>. Point geometry used; layer last edited 18 November 2024. The fields named latitude/longitude were inconsistent with the geometry and are not used for plotting.</li>
-      <li><strong>ABS.</strong> <a href="https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs/edition-3-july-2021-june-2026/access-and-downloads/digital-boundary-files">ASGS Edition 3, States and Territories 2021</a>. Boundaries simplified with Mapshaper. State anchors locate aggregate symbols rather than individual people.</li>
-    </ol>
-    <h3>How to read these measures</h3>
-    <p><strong>Home use:</strong> Indigenous people reporting an Indigenous language at home, based on usual residence and excluding overseas visitors. The population-share denominator includes people whose language response was not stated. This differs from knowing a language, using it outside home or fluency.</p>
-    <p><strong>Statistical categories:</strong> named labels can include languages, dialects and creoles. Unspecified/residual categories are excluded from the named-category views but remain in national totals. Census confidentiality adjustments can cause small discrepancies between cell sums and totals. Ranking comparisons retain the same 196 labels in 2011, 2016 and 2021.</p>
-    <p><strong>Survey status:</strong> NILS4 records survey-covered language varieties, not an exhaustive count of all languages. State associations can overlap. Language strength is not derived from Census home-user thresholds.</p>
-    <h3>Authorship and reuse</h3>
-    <p>Visualisation, design and data preparation: <strong>Yuhang Fei</strong>, FIT3179, Monash University Malaysia. Created 5 October 2026. Based on ABS and Productivity Commission data; original providers are credited above. ABS and PC publish material under CC BY 4.0 with stated exceptions. The department's spatial item identifies CC BY 4.0. © Commonwealth of Australia. Fonts: Fraunces and Source Sans 3, SIL Open Font License. Libraries: Vega 5.30.0, Vega-Lite 5.20.1 and Vega-Embed 6.26.0, BSD-3-Clause.</p>
-    <p><strong>AI acknowledgement:</strong> OpenAI Codex assisted with source research, data preparation, code, layout and writing. The author is responsible for reviewing the data, design and explanation.</p>
-    <p><a href="source-catalogue.json">Detailed source and transformation records</a> · <a href="chart-manifest.json">All 12 chart specifications</a> · <a href="THIRD-PARTY-NOTICES.md">Library and font licences</a></p>
-  </section>
-  <footer class="footer"><span>Yuhang Fei · FIT3179 Data Visualisation 2</span><span>Australian Indigenous Languages · 5 October 2026</span></footer>
+  <section class="sources" id="sources" aria-labelledby="sources-title"><h2 id="sources-title">Data, definitions and sources</h2>
+<ol>
+<li>
+<strong>Australian Bureau of Statistics.</strong> <a href="https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/2021">Language statistics, 2021</a>. Census home use, 1991–2021; released 25 October 2022.</li>
+<li>
+<strong>AIATSIS / Productivity Commission.</strong> <a href="https://www.pc.gov.au/closing-the-gap-data/dashboard/outcome-area/culture-and-languages/">National Indigenous Languages Survey results</a>, 2025–26. <a href="https://aiatsis.gov.au/research/languages/national-indigenous-languages-surveys">About the survey</a> · <a href="https://aiatsis.gov.au/publication/118823">September 2026 joint communiqué</a>.</li>
+<li>
+<strong>Office for the Arts / Department of Infrastructure, Transport, Regional Development, Communications, Sport and the Arts.</strong> <a href="https://spatial.infrastructure.gov.au/server/rest/services/Hosted/Indigenous_Languages_Centres/FeatureServer/15">Indigenous Languages Centres location records</a>; last edited 18 November 2024, retrieved 5 October 2026.</li>
+<li>
+<strong>Australian Bureau of Statistics.</strong> <a href="https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs/edition-3-july-2021-june-2026/access-and-downloads/digital-boundary-files">State and territory boundaries, 2021</a>.</li>
+</ol>
+<details class="method-note"><summary>What the measures cover</summary><p><strong>Home use:</strong> The Census counts Indigenous usual residents who report using an Indigenous language at home, excluding overseas visitors. This differs from fluency, knowing a language or using it elsewhere. National and state percentages compare home users with Indigenous residents, including people who gave no language answer.</p>
+<p><strong>Language names:</strong> Census entries may describe languages, dialects or creoles. Views of individual languages leave out answers that do not identify a particular language; national totals retain them. Privacy adjustments can make added counts differ slightly from published totals.</p>
+<p><strong>Community survey:</strong> NILS4 covers the language varieties reported to the survey, not every Australian language. Its questions, coverage and strength assessment differ from earlier surveys, so differences in totals do not directly show improvement. We use reported results, not future policy targets.</p>
+<p><strong>Maps:</strong> We simplified boundary shapes to reduce downloads. State borders are administrative areas, not traditional language areas. Circles summarise states; service dots show recorded locations. Neither identifies individual people.</p></details><h3>Authorship and reuse</h3>
+<p>Visualisation, design and data preparation: <strong>Yuhang Fei</strong>, FIT3179, Monash University Malaysia. <span>Created 5 October 2026 · Last updated 27 October 2026</span>.</p>
+<p>Based on Australian Bureau of Statistics and Productivity Commission data, with AIATSIS as the original survey provider. Both publishers use CC BY 4.0 with stated exceptions. The department’s spatial data also identify CC BY 4.0. © Commonwealth of Australia. Fonts: Fraunces and Source Sans 3, SIL Open Font License. Libraries: Vega 5.30.0, Vega-Lite 5.20.1 and Vega-Embed 6.26.0, BSD-3-Clause.</p>
+<p><strong>AI acknowledgement:</strong> OpenAI Codex assisted with source research, data preparation, code, layout and writing. The author is responsible for reviewing the data, design and explanation.</p>
+<p><a href="source-catalogue.json">Detailed data sources</a> · <a href="chart-manifest.json">All 12 chart specifications</a> · <a href="THIRD-PARTY-NOTICES.md">Library and font licences</a></p>
+<p class="acknowledgement"><strong>Acknowledgement:</strong> We acknowledge Aboriginal and Torres Strait Islander communities and their continuing care for their languages.</p></section><footer class="footer"><span>Yuhang Fei · FIT3179 Data Visualisation 2</span><span>Created 5 October 2026 · Last updated 27 October 2026</span></footer>
 </div>
 </body>
 </html>

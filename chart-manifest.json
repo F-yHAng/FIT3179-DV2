@@ -61,9 +61,9 @@
   },
   {
     "id": "c11",
-    "file": "c11-revival-bars.json",
-    "idiom": "bar",
-    "advanced": false
+    "file": "c11-tile-map.json",
+    "idiom": "tile-grid cartogram",
+    "advanced": true
   },
   {
     "id": "c12",

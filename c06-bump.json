@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 600,
+  "width": "container",
   "height": 330,
   "autosize": {
     "type": "fit",
@@ -44,7 +44,7 @@
       "color": "#233c32"
     }
   },
-  "description": "Ranks among 196 common named labels, showing the 2021 top eight. Ranking universe is fixed before display filtering.",
+  "description": "Eight languages with the most home users in 2021, ranked in 2011, 2016 and 2021. A higher line means a higher place. Yumplatok moved ahead of Kriol by 2021.",
   "data": {
     "url": "ranks.json"
   },
@@ -81,7 +81,7 @@
         "zero": false
       },
       "axis": {
-        "title": "Rank in the same 196 labels",
+        "title": "Place by home-user count",
         "tickMinStep": 1,
         "grid": true
       }
@@ -158,7 +158,7 @@
           {
             "field": "name",
             "type": "nominal",
-            "title": "Named category"
+            "title": "Language"
           },
           {
             "field": "year",

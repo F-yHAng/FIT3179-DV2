@@ -11,3 +11,7 @@ Fraunces and Source Sans 3 are distributed under the SIL Open Font License. See 
 ## Official data
 
 Source: based on Australian Bureau of Statistics data; based on Productivity Commission data, with AIATSIS credited as the original NILS4 provider. Department spatial data: © Commonwealth of Australia. Source periods, transformations and reuse conditions are linked in the page footer and recorded in `source-catalogue.json`. Data attribution must not imply institutional endorsement. Logos, coats of arms, third-party artwork and existing published charts are not included.
+
+## Presentation update · 27 October 2026
+
+The revival view now uses an original Vega-Lite tile-grid cartogram (`c11-tile-map.json`) with the unchanged `revival.json` observations. Tile positions are schematic layout coordinates. No external cartogram artwork or Indigenous artwork is included. Data and software licences above remain unchanged.

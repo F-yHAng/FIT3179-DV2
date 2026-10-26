@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 600,
+  "width": "container",
   "height": 350,
   "autosize": {
     "type": "fit",
@@ -44,7 +44,7 @@
       "color": "#233c32"
     }
   },
-  "description": "2006–2021 changes in Census home-use share. Leader lines move labels only; actual points retain true percentages.",
+  "description": "Each line connects one state’s home-use share in 2006 and 2021. Northern Territory rose from 54.0% to 58.5%. Hover or tap a state to highlight it across the linked charts.",
   "data": {
     "url": "slope.json"
   },
@@ -106,6 +106,20 @@
             "value": "#236652"
           },
           "value": "#9daca0"
+        },
+        "opacity": {
+          "condition": {
+            "test": "!highlightState || datum.short === highlightState",
+            "value": 1
+          },
+          "value": 0.2
+        },
+        "strokeWidth": {
+          "condition": {
+            "test": "datum.short === highlightState",
+            "value": 4
+          },
+          "value": 2
         }
       }
     },
@@ -141,7 +155,14 @@
             "title": "Indigenous residents (%)",
             "format": ".1f"
           }
-        ]
+        ],
+        "opacity": {
+          "condition": {
+            "test": "!highlightState || datum.short === highlightState",
+            "value": 1
+          },
+          "value": 0.2
+        }
       }
     },
     {
@@ -162,6 +183,13 @@
         },
         "y2": {
           "field": "label_percent"
+        },
+        "opacity": {
+          "condition": {
+            "test": "!highlightState || datum.short === highlightState",
+            "value": 1
+          },
+          "value": 0.2
         }
       }
     },
@@ -189,6 +217,13 @@
         "text": {
           "field": "label",
           "type": "nominal"
+        },
+        "opacity": {
+          "condition": {
+            "test": "!highlightState || datum.short === highlightState",
+            "value": 1
+          },
+          "value": 0.2
         }
       }
     },
@@ -216,8 +251,21 @@
         "text": {
           "field": "label",
           "type": "nominal"
+        },
+        "opacity": {
+          "condition": {
+            "test": "!highlightState || datum.short === highlightState",
+            "value": 1
+          },
+          "value": 0.2
         }
       }
+    }
+  ],
+  "params": [
+    {
+      "name": "highlightState",
+      "value": ""
     }
   ]
 }

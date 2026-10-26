@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 600,
+  "width": "container",
   "height": 390,
   "autosize": {
     "type": "fit",
@@ -50,7 +50,7 @@
     "top": 5,
     "bottom": 5
   },
-  "description": "Age composition of the 12 largest named categories in Census 2021. Denominator: sum of five age cells within each category.",
+  "description": "Five age groups for the 12 languages with the most home users in 2021. Darker cells show a larger percentage of that language’s users in the age group.",
   "data": {
     "url": "heatmap.json"
   },
@@ -118,7 +118,7 @@
             ]
           },
           "legend": {
-            "title": "Within-category share (%)",
+            "title": "Users in each age group (%)",
             "gradientLength": 220
           }
         },
@@ -126,7 +126,7 @@
           {
             "field": "name",
             "type": "nominal",
-            "title": "Named category"
+            "title": "Language"
           },
           {
             "field": "age",
@@ -136,19 +136,19 @@
           {
             "field": "users",
             "type": "quantitative",
-            "title": "Age-cell home users",
+            "title": "Home users in this age group",
             "format": ",.0f"
           },
           {
             "field": "age_sum",
             "type": "quantitative",
-            "title": "Sum of age cells",
+            "title": "Users across all age groups",
             "format": ",.0f"
           },
           {
             "field": "percent",
             "type": "quantitative",
-            "title": "Share of age cells (%)",
+            "title": "Users in this age group (%)",
             "format": ".1f"
           }
         ]
@@ -166,11 +166,7 @@
           "format": ".0f"
         },
         "color": {
-          "condition": {
-            "test": "datum.percent > 34",
-            "value": "white"
-          },
-          "value": "#233c32"
+          "value": "#0b2016"
         }
       }
     }

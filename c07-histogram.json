@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 600,
+  "width": "container",
   "height": 270,
   "autosize": {
     "type": "fit",
@@ -44,7 +44,7 @@
       "color": "#233c32"
     }
   },
-  "description": "Equal-width 500-person bins for 159 named Census categories with positive home-use counts. Not an endangered-language count.",
+  "description": "Languages grouped by home-user counts in steps of 500 people. Of the 159 language names shown, 73 had only 1–50 home users in 2021.",
   "data": {
     "url": "histogram.json"
   },
@@ -69,7 +69,7 @@
         ]
       },
       "axis": {
-        "title": "Recorded home users per named category",
+        "title": "Home users per language",
         "values": [
           0,
           2000,
@@ -87,7 +87,7 @@
       "field": "categories",
       "type": "quantitative",
       "axis": {
-        "title": "Number of named categories",
+        "title": "Number of languages",
         "tickMinStep": 1
       }
     },
@@ -107,7 +107,7 @@
       {
         "field": "categories",
         "type": "quantitative",
-        "title": "Named categories",
+        "title": "Languages",
         "format": "d"
       }
     ]

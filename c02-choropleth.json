@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 600,
+  "width": "container",
   "height": 380,
   "autosize": {
     "type": "fit",
@@ -60,7 +60,7 @@
       -28
     ]
   },
-  "description": "2021 Census Indigenous home-use share by state or territory. Administrative boundaries, not language territories.",
+  "description": "Home-use share in 2021, grouped into five colour bands. Northern Territory: 58.5%, far above every other state and territory. Hover or tap a state to highlight it in all three linked charts.",
   "layer": [
     {
       "data": {
@@ -86,6 +86,10 @@
               "population"
             ]
           }
+        },
+        {
+          "calculate": "datum.percent < 2 ? '0–2%' : datum.percent < 5 ? '2–5%' : datum.percent < 10 ? '5–10%' : datum.percent < 20 ? '10–20%' : '50%+'",
+          "as": "share_band"
         }
       ],
       "mark": {
@@ -95,21 +99,32 @@
       },
       "encoding": {
         "color": {
-          "field": "percent",
-          "type": "quantitative",
+          "field": "share_band",
+          "type": "ordinal",
           "scale": {
             "domain": [
-              0,
-              60
+              "0–2%",
+              "2–5%",
+              "5–10%",
+              "10–20%",
+              "50%+"
             ],
             "range": [
-              "#e5eddc",
-              "#236652"
+              "#edf8e9",
+              "#bae4b3",
+              "#74c476",
+              "#31a354",
+              "#00441b"
             ]
           },
           "legend": {
-            "title": "Home-use share (%)",
-            "gradientLength": 250
+            "title": "Home-use share",
+            "orient": "bottom",
+            "direction": "horizontal",
+            "columns": 3,
+            "symbolType": "square",
+            "symbolSize": 150,
+            "labelLimit": 90
           }
         },
         "tooltip": [
@@ -136,7 +151,28 @@
             "title": "Indigenous residents",
             "format": ",.0f"
           }
-        ]
+        ],
+        "opacity": {
+          "condition": {
+            "test": "!highlightState || datum.short === highlightState",
+            "value": 1
+          },
+          "value": 0.3
+        },
+        "stroke": {
+          "condition": {
+            "test": "datum.short === highlightState",
+            "value": "#233c32"
+          },
+          "value": "#fbfaf6"
+        },
+        "strokeWidth": {
+          "condition": {
+            "test": "datum.short === highlightState",
+            "value": 3
+          },
+          "value": 1.3
+        }
       }
     },
     {
@@ -271,7 +307,14 @@
             "test": "datum.short === 'NT'",
             "value": "white"
           },
-          "value": "#233c32"
+          "value": "#10251b"
+        },
+        "opacity": {
+          "condition": {
+            "test": "!highlightState || datum.short === highlightState",
+            "value": 1
+          },
+          "value": 0.3
         }
       }
     },
@@ -312,8 +355,47 @@
         },
         "latitude2": {
           "field": "label_lat"
+        },
+        "opacity": {
+          "condition": {
+            "test": "!highlightState || datum.short === highlightState",
+            "value": 1
+          },
+          "value": 0.3
         }
       }
+    },
+    {
+      "data": {
+        "values": [
+          {}
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "top",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "color": "#233c32"
+      },
+      "encoding": {
+        "x": {
+          "value": 5
+        },
+        "y": {
+          "value": 3
+        },
+        "text": {
+          "value": "NT: 58.5% — far above the rest"
+        }
+      }
+    }
+  ],
+  "params": [
+    {
+      "name": "highlightState",
+      "value": ""
     }
   ]
 }

@@ -7,3 +7,25 @@
 @media print{.shell{max-width:none;padding:0 12mm}.masthead{padding-top:0}.hero{padding-top:20px}h1{font-size:44px}.chapter{break-inside:avoid;padding-top:24px}.two-up,.lead-row{display:block}.figure{break-inside:avoid}.spec-link,.vega-bindings,.masthead a{display:none}.chart{min-height:0}.sources{font-size:11px}body{font-size:12px}}
 
 .vega-bind label{display:flex;flex-wrap:wrap;align-items:center;gap:8px;max-width:100%;min-width:0}.vega-bind select{width:min(400px,100%)}
+
+/* Concise chart cards and optional notes keep the main reading path short. */
+:root{--rust:#984631;--muted:#526357}
+.shell,.hero>div,.metric,.section-heading>div{min-width:0}
+.figure .tag{white-space:normal;text-align:right;flex-shrink:0;max-width:38%}
+.single-chart{max-width:920px}
+.single-chart .chart{max-width:100%}
+.how{font-size:14px;line-height:1.5;margin:9px 0;color:var(--ink)}
+.method-note{font-size:14px;line-height:1.6;margin:10px 0}
+.method-note summary{width:fit-content;cursor:pointer;color:var(--green);text-decoration:underline;text-underline-offset:3px;padding:4px 0}
+.method-note summary:focus-visible{outline:3px solid var(--rust);outline-offset:4px}
+.method-note p{margin:8px 0;padding:9px 14px;border-left:2px solid #849481;background:var(--soft);overflow-wrap:anywhere}
+.source{overflow-wrap:anywhere}.transition{font:21px/1.5 'Fraunces',Georgia,serif;margin:20px 0 10px;max-width:950px}
+.linked-controls{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:0 0 25px;font-size:15px}
+.linked-controls select{max-width:100%;font:inherit;padding:7px 10px;border:1px solid #657b69;background:var(--paper);color:var(--ink);border-radius:3px}
+.linked-controls>span:not(.sr-only){flex-basis:100%;font-size:14px;color:var(--muted)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.remember{background:var(--soft);border-top:3px solid var(--green);padding:23px 28px;margin:28px 0}
+.remember h3{font-size:28px}.remember ul{margin:14px 0 0;padding-left:22px}.remember li{margin:8px 0}
+.acknowledgement{border-top:1px solid var(--line);padding-top:15px}
+.chart svg:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+@media(max-width:760px){.remember{padding:20px}.figure-head{gap:9px}.figure .tag{max-width:35%}.metric .period{letter-spacing:.02em}.transition{font-size:19px}}

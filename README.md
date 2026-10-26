@@ -2,9 +2,9 @@
 
 Australian Indigenous Languages — FIT3179 Data Visualisation 2, Monash University Malaysia.
 
-Author: Yuhang Fei. Created 5 October 2026.
+Author: Yuhang Fei. Created 5 October 2026 · Last updated 27 October 2026.
 
-A single static page with 12 original Vega/Vega-Lite charts, including three different map idioms. HTML/CSS controls the page; readable `c01`–`c12` JSON files define its charts. No build step or backend is needed to serve the page.
+A single static page with 12 original Vega/Vega-Lite charts, including four different map idioms. HTML/CSS controls the page; readable `c01`–`c12` JSON files define its charts. No build step or backend is needed to serve the page.
 
 ## Open the visualisation
 
@@ -20,7 +20,7 @@ The NILS4 indicators are Actual observations. Future policy trajectories are exc
 
 ## Chart idioms
 
-Line, choropleth map, proportional symbol map, slope, hierarchical treemap, bump, histogram, heatmap, 100% stacked bar, waffle, bar and dot map. See `chart-manifest.json`.
+Line, choropleth map, proportional symbol map, slope, hierarchical treemap, bump, histogram, heatmap, 100% stacked bar, waffle, tile-grid cartogram and dot map. See `chart-manifest.json`.
 
 ## Sketch status
 
@@ -33,3 +33,7 @@ OpenAI Codex assisted with research, data preparation, code, layout and writing.
 ## Third-party software
 
 Pinned local browser builds of Vega 5.30.0, Vega-Lite 5.20.1 and Vega-Embed 6.26.0 (BSD-3-Clause). Fraunces and Source Sans 3 are provided under SIL OFL. See `THIRD-PARTY-NOTICES.md` and licence text files. Dataset rights remain with their original providers; this README does not relicense those materials.
+
+## October update
+
+Concise English, per-chart Method notes, five-band home-use map, linked state highlighting with mouse/tap/keyboard controls, and a revival tile map. Source observations and geometry are unchanged. The 100% age bars remain pending the student’s tutor discussion.

@@ -10,11 +10,13 @@ function responsiveSpec(original, host) {
   const width = Math.max(250, Math.floor(host.getBoundingClientRect().width));
   if (spec.vconcat) {
     delete spec.width;
-    for (const child of spec.vconcat) child.width = Math.max(200, width - 70);
+    for (const child of spec.vconcat) child.width = Math.max(200, width - 80);
   } else {
     spec.width = width;
     if (host.id === 'c08' && width < 500) spec.height = 425;
     if (host.id === 'c04' && width < 500) spec.encoding.x.scale.domain = [-0.65, 1.65];
+    // The five-by-five tile layout keeps equal square tiles at every page width.
+    if (host.id === 'c11') spec.height = width + 64;
   }
   return spec;
 }
@@ -30,6 +32,12 @@ async function render(host, spec) {
       actions: false, renderer: 'svg', tooltip: {theme: 'light'},
       config: {font: 'Source Sans 3'}
     });
+    const svg = host.querySelector('svg');
+    svg.setAttribute('role', 'img');
+    svg.setAttribute('aria-label', spec.description);
+    svg.setAttribute('tabindex', '0');
+    // Reconnect after responsive redraws; only emphasis changes, never observations.
+    window.linkedStates?.connect(id, charts[id].view);
     host.dataset.state = 'ready';
   } catch (error) {
     console.error('Chart failed:', id, error);

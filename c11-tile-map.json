@@ -1,0 +1,259 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "config": {
+    "background": "#fbfaf6",
+    "font": "Source Sans 3",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Source Sans 3",
+      "titleFont": "Source Sans 3",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": 500,
+      "titleColor": "#233c32",
+      "labelColor": "#52645b",
+      "domain": false,
+      "tickColor": "#cfcfc1",
+      "gridColor": "#e5e5dc",
+      "gridOpacity": 0.75,
+      "titlePadding": 12,
+      "labelPadding": 7
+    },
+    "legend": {
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "titleFontWeight": 500,
+      "orient": "bottom",
+      "labelColor": "#233c32",
+      "titleColor": "#233c32",
+      "padding": 5,
+      "offset": 12
+    },
+    "title": {
+      "fontSize": 14,
+      "anchor": "start",
+      "fontWeight": 500,
+      "color": "#233c32"
+    }
+  },
+  "description": "Eight equal-sized state tiles show languages with revival activity in the 2025–26 survey. Queensland: 37; Western Australia: 26. The national count is 113; a language may appear in several states.",
+  "width": "container",
+  "height": 420,
+  "data": {
+    "url": "revival.json"
+  },
+  "transform": [
+    {
+      "lookup": "short",
+      "from": {
+        "data": {
+          "values": [
+            {
+              "short": "WA",
+              "column": 0,
+              "row": 1
+            },
+            {
+              "short": "NT",
+              "column": 1,
+              "row": 0
+            },
+            {
+              "short": "QLD",
+              "column": 3,
+              "row": 1
+            },
+            {
+              "short": "SA",
+              "column": 1,
+              "row": 2
+            },
+            {
+              "short": "NSW",
+              "column": 3,
+              "row": 2
+            },
+            {
+              "short": "VIC",
+              "column": 3,
+              "row": 3
+            },
+            {
+              "short": "ACT",
+              "column": 4,
+              "row": 3
+            },
+            {
+              "short": "TAS",
+              "column": 3,
+              "row": 4
+            }
+          ]
+        },
+        "key": "short",
+        "fields": [
+          "column",
+          "row"
+        ]
+      }
+    },
+    {
+      "calculate": "datum.column + 1",
+      "as": "right"
+    },
+    {
+      "calculate": "datum.row + 1",
+      "as": "bottom"
+    },
+    {
+      "calculate": "datum.column + 0.5",
+      "as": "cx"
+    },
+    {
+      "calculate": "datum.row + 0.5",
+      "as": "cy"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "column",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          0,
+          5
+        ],
+        "nice": false
+      },
+      "axis": null
+    },
+    "y": {
+      "field": "row",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          0,
+          5
+        ],
+        "reverse": true,
+        "nice": false
+      },
+      "axis": null
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rect",
+        "stroke": "#fbfaf6",
+        "strokeWidth": 4,
+        "cornerRadius": 4
+      },
+      "encoding": {
+        "x2": {
+          "field": "right"
+        },
+        "y2": {
+          "field": "bottom"
+        },
+        "color": {
+          "field": "languages",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              40
+            ],
+            "range": [
+              "#edf8e9",
+              "#00441b"
+            ]
+          },
+          "legend": {
+            "title": "Languages with revival activity",
+            "gradientLength": 190,
+            "values": [
+              0,
+              10,
+              20,
+              30,
+              40
+            ]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "title": "State / territory"
+          },
+          {
+            "field": "languages",
+            "title": "Languages with revival activity"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "dy": -10
+      },
+      "encoding": {
+        "x": {
+          "field": "cx",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "cy",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "short"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.languages >= 26",
+            "value": "white"
+          },
+          "value": "#10251b"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 22,
+        "fontWeight": 600,
+        "dy": 12
+      },
+      "encoding": {
+        "x": {
+          "field": "cx",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "cy",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "languages"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.languages >= 26",
+            "value": "white"
+          },
+          "value": "#10251b"
+        }
+      }
+    }
+  ]
+}

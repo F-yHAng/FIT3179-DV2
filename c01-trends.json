@@ -1,6 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 600,
   "autosize": {
     "type": "pad"
   },
@@ -42,7 +41,7 @@
       "color": "#233c32"
     }
   },
-  "description": "Census home-use count and population share, 1991–2021. Two panels with separate units; one chart.",
+  "description": "Home use, 1991–2021: people increased from 43,499 to 76,978; their share of Indigenous residents fell from 16.4% to 9.5%. Each panel has its own scale.",
   "data": {
     "url": "national.json"
   },

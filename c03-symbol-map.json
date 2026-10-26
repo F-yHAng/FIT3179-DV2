@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 600,
+  "width": "container",
   "height": 380,
   "autosize": {
     "type": "fit",
@@ -60,7 +60,7 @@
       -28
     ]
   },
-  "description": "Circle area represents state-level 2021 Indigenous home-use counts. Interior anchors place aggregate symbols, not individual users.",
+  "description": "Circle area shows people using an Indigenous language at home in 2021. Northern Territory: 35,782; Queensland: 19,018. Hover or tap to highlight the same state in the other two charts.",
   "layer": [
     {
       "data": {
@@ -75,7 +75,45 @@
         "fill": "#e7e7da",
         "stroke": "#fbfaf6",
         "strokeWidth": 1.2
-      }
+      },
+      "encoding": {
+        "opacity": {
+          "condition": {
+            "test": "!highlightState || datum.short === highlightState",
+            "value": 1
+          },
+          "value": 0.3
+        },
+        "stroke": {
+          "condition": {
+            "test": "datum.short === highlightState",
+            "value": "#233c32"
+          },
+          "value": "#fbfaf6"
+        },
+        "strokeWidth": {
+          "condition": {
+            "test": "datum.short === highlightState",
+            "value": 3
+          },
+          "value": 1.3
+        }
+      },
+      "transform": [
+        {
+          "lookup": "properties.STE_CODE21",
+          "from": {
+            "data": {
+              "url": "states-2021.json"
+            },
+            "key": "state_code",
+            "fields": [
+              "state",
+              "short"
+            ]
+          }
+        }
+      ]
     },
     {
       "data": {
@@ -138,7 +176,14 @@
             "title": "Indigenous residents (%)",
             "format": ".1f"
           }
-        ]
+        ],
+        "opacity": {
+          "condition": {
+            "test": "!highlightState || datum.short === highlightState",
+            "value": 1
+          },
+          "value": 0.3
+        }
       }
     },
     {
@@ -269,8 +314,21 @@
         "text": {
           "field": "short",
           "type": "nominal"
+        },
+        "opacity": {
+          "condition": {
+            "test": "!highlightState || datum.short === highlightState",
+            "value": 1
+          },
+          "value": 0.3
         }
       }
+    }
+  ],
+  "params": [
+    {
+      "name": "highlightState",
+      "value": ""
     }
   ]
 }

@@ -27,21 +27,17 @@
         "bytes": 79943,
         "sha256": "50012cfb2ca4648193292cbdcd26e497fe267d1e8cf79c672c9a4bb8ebea14c0"
       }
-    ]
+    ],
+    "presentation_updated": "2026-10-27"
   },
   {
     "id": "PC_CTG16_2026",
     "publisher": "Productivity Commission",
-    "creators_by_table": {
-      "CtG16A.1": "AIATSIS National Indigenous Languages Survey / Report",
-      "SE16d.2–SE16d.3": "ABS NATSIHS 2022–23",
-      "SE16e.1–SE16e.2": "Federal department SmartyGrants"
-    },
     "landing_url": "https://www.pc.gov.au/closing-the-gap-data/dashboard/outcome-area/culture-and-languages/",
     "release_date": "2026-07-29",
     "reference_period": "NILS4 2025–26; NATSIHS 2022–23; centres to June 2025",
     "retrieved_date": "2026-10-05",
-    "licence": "PC material CC BY 4.0; third-party exceptions must retain original attribution",
+    "licence": "Productivity Commission material CC BY 4.0; third-party exceptions must retain original attribution",
     "licence_url": "https://www.pc.gov.au/copyright/",
     "raw_files": [
       {
@@ -56,6 +52,16 @@
         "bytes": 66548,
         "sha256": "ab8cf00fa7e2ccea72d65e4c782aa3e28e7a45031b5a8fd15ff6b7397034a419"
       }
+    ],
+    "creators_by_measure": {
+      "Language strength and revival": "AIATSIS National Indigenous Languages Survey / Report",
+      "Speaking and learning": "Australian Bureau of Statistics health survey, 2022–23",
+      "Funded centres": "Federal department grants records"
+    },
+    "presentation_updated": "2026-10-27",
+    "used_by_charts": [
+      "c10-waffle.json",
+      "c11-tile-map.json"
     ]
   },
   {
@@ -66,7 +72,7 @@
     "retrieved_date": "2026-10-05",
     "licence": "CC BY 4.0, subject to ABS exceptions",
     "licence_url": "https://www.abs.gov.au/website-privacy-copyright-and-disclaimer",
-    "transform": "Mapshaper filter code<9, weighted 1% simplification keep-shapes, clean, GeoJSON precision 0.001; inner anchors",
+    "transform": "State codes 1–8; boundary shapes simplified to reduce downloads; retained small states and territories; interior anchors for state-level symbols.",
     "raw_files": [
       {
         "file": "STE_2021_AUST_SHP_GDA2020.zip",
@@ -74,7 +80,8 @@
         "bytes": 21559880,
         "sha256": "d9b7f735de6085b37414faf011f796dda3c7f768c55e9dce01f96e790f399a21"
       }
-    ]
+    ],
+    "presentation_updated": "2026-10-27"
   },
   {
     "id": "ILA_SPATIAL_LOCATIONS",
@@ -111,6 +118,7 @@
         "bytes": 10019,
         "sha256": "9bc62dba169d490f5d8f26d95f49132bbdd00a2d2d4914ad90e1138275a93e2d"
       }
-    ]
+    ],
+    "presentation_updated": "2026-10-27"
   }
 ]

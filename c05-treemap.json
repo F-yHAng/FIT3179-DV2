@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "description": "ABS classification groups and named categories with positive 2021 home use. A classification hierarchy, not a genealogical tree.",
+  "description": "Larger rectangles mean more home users in 2021. Rectangles sit inside Australian Bureau of Statistics groups. Yumplatok: 7,596; Kriol: 7,403. These groups do not show language ancestry.",
   "width": 600,
   "height": 425,
   "padding": 2,
@@ -120,7 +120,7 @@
             "field": "group"
           },
           "tooltip": {
-            "signal": "{'Named category':datum.name, 'ABS group':datum.group,'Indigenous home users (2021)':format(datum.value, ',')}"
+            "signal": "{'Language':datum.name, 'Census group':datum.group === 'Other ABS categories' ? 'Other Census groups' : datum.group,'Indigenous home users (2021)':format(datum.value, ',')}"
           }
         },
         "update": {
@@ -161,7 +161,7 @@
             "offset": 13
           },
           "text": {
-            "field": "label"
+            "signal": "datum.label === 'Other ABS categories' ? 'Other Census groups' : datum.label"
           },
           "limit": {
             "signal": "datum.x1-datum.x0-7"

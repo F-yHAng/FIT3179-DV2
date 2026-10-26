@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 600,
+  "width": "container",
   "height": 260,
   "autosize": {
     "type": "fit",
@@ -44,7 +44,7 @@
       "color": "#233c32"
     }
   },
-  "description": "Published national age composition of Indigenous-language home users. Segment widths normalise rounded published percentages; tooltip retains original values.",
+  "description": "Each bar shows the ages of home users in one Census year. Children aged 0–14 fell from 32.6% in 2006 to 28.0% in 2021.",
   "data": {
     "url": "age-profile.json"
   },
@@ -128,7 +128,7 @@
       {
         "field": "percent",
         "type": "quantitative",
-        "title": "Published composition (%)",
+        "title": "Home users (%)",
         "format": ".1f"
       },
       {
