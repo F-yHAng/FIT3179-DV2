@@ -24,7 +24,7 @@ Line, choropleth map, proportional symbol map, slope, hierarchical treemap, bump
 
 ## Sketch status
 
-The digital reference is a drawing guide. The assessed A4 sketch must be drawn on paper by the student, photographed/scanned and uploaded as `sketch-handdrawn.pdf`. No digital reference is presented as a completed hand-drawn submission.
+The author's original paper sketch is available as [a one-page PDF](sketch-handdrawn.pdf). The original scan is embedded unchanged. The final page retains the five story sections; the revival bars became a tile map and the final design includes a service-location map. The earlier digital reference remains a drawing guide, rather than the assessed hand drawing.
 
 ## AI acknowledgement
 
